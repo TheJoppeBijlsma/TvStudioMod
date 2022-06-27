@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "tvstudio:red_tv_camera_on_stand",
+    "tvstudio:black_tv_camera_on_stand",
+    "tvstudio:blue_tv_camera_on_stand",
+    "tvstudio:brown_tv_camera_on_stand",
+    "tvstudio:cyan_tv_camera_on_stand",
+    "tvstudio:gray_tv_camera_on_stand",
+    "tvstudio:green_tv_camera_on_stand",
+    "tvstudio:light_blue_tv_camera_on_stand",
+    "tvstudio:light_gray_tv_camera_on_stand",
+    "tvstudio:lime_tv_camera_on_stand",
+    "tvstudio:magenta_tv_camera_on_stand",
+    "tvstudio:orange_tv_camera_on_stand",
+    "tvstudio:pink_tv_camera_on_stand",
+    "tvstudio:purple_tv_camera_on_stand",
+    "tvstudio:yellow_tv_camera_on_stand"
+  ]
+}

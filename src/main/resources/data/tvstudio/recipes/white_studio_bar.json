@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "222",
+    "111",
+    "222"
+  ],
+  "key":
+  {
+    "1":
+    {
+      "item": "tvstudio:iron_stick"
+    },
+    "2":
+    {
+      "item": "minecraft:white_concrete"
+    }
+},
+  "result":
+  {
+    "item": "tvstudio:white_studio_bar",
+    "count": 6
+  }
+}

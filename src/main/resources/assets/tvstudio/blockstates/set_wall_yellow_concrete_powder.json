@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tvstudio:setwall/set_wall_yellow_concrete_powder" },
+    "facing=south": { "model": "tvstudio:setwall/set_wall_yellow_concrete_powder", "y":  180},
+    "facing=west": { "model": "tvstudio:setwall/set_wall_yellow_concrete_powder", "y":  270},
+    "facing=east": { "model": "tvstudio:setwall/set_wall_yellow_concrete_powder", "y":  90}
+  }
+}

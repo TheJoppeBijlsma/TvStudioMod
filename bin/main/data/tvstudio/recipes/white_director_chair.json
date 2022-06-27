@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "121",
+    "222",
+    "1 1"
+  ],
+  "key":
+  {
+    "1":
+    {
+      "item": "minecraft:gray_concrete"
+    },
+    "2":
+    {
+      "item": "minecraft:white_wool"
+    }
+},
+  "result":
+  {
+    "item": "tvstudio:white_director_chair",
+    "count": 1
+  }
+}

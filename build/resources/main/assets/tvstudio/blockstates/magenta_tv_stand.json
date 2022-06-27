@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tvstudio:block/magenta_tv_stand" },
+    "facing=south": { "model": "tvstudio:block/magenta_tv_stand", "y":  180},
+    "facing=west": { "model": "tvstudio:block/magenta_tv_stand", "y":  270},
+    "facing=east": { "model": "tvstudio:block/magenta_tv_stand", "y":  90}
+  }
+}

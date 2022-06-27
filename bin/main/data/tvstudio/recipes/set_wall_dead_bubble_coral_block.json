@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "setwall",
+  "ingredients": [
+    {
+      "item": "tvstudio:set_wall"
+    },
+    {
+      "item": "minecraft:dead_bubble_coral_block"
+    }
+  ],
+  "result": {
+    "item": "tvstudio:set_wall_dead_bubble_coral_block"
+  }
+}

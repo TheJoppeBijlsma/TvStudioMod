@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  3",
+    "111",
+    "21 "
+  ],
+  "key":
+  {
+    "1":
+    {
+      "item": "minecraft:white_concrete"
+    },
+    "2":
+    {
+      "item": "minecraft:sea_lantern"
+    },
+    "3":
+    {
+      "item": "minecraft:light_gray_concrete"
+    }
+},
+  "result":
+  {
+    "item": "tvstudio:white_studio_light",
+    "count": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tvstudio:tv_camera"
+    },
+    {
+      "item": "tvstudio:white_tv_stand"
+    }
+  ],
+  "result":
+  {
+    "item": "tvstudio:white_tv_camera_on_stand",
+    "count": 1
+  }
+}

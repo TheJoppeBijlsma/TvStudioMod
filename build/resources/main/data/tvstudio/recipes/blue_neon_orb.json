@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "neon_orb",
+  "pattern":
+  [
+    " y ",
+    "yxy",
+    " y "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:nether_star"
+    },
+    "y":
+    {
+      "item": "minecraft:blue_stained_glass_pane"
+    }
+  },
+  "result":
+  {
+    "item": "tvstudio:blue_neon_orb",
+    "count": 64
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tvstudio:block/pole" },
+    "facing=south": { "model": "tvstudio:block/pole"},
+    "facing=west": { "model": "tvstudio:block/pole"},
+    "facing=east": { "model": "tvstudio:block/pole"}
+  }
+}

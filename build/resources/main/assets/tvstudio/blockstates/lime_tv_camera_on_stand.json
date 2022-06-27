@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tvstudio:block/lime_tv_camera_on_stand" },
+    "facing=south": { "model": "tvstudio:block/lime_tv_camera_on_stand", "y":  180},
+    "facing=west": { "model": "tvstudio:block/lime_tv_camera_on_stand", "y":  270},
+    "facing=east": { "model": "tvstudio:block/lime_tv_camera_on_stand", "y":  90}
+  }
+}

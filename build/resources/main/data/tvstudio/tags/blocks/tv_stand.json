@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "tvstudio:red_tv_stand",
+    "tvstudio:black_tv_stand",
+    "tvstudio:blue_tv_stand",
+    "tvstudio:brown_tv_stand",
+    "tvstudio:cyan_tv_stand",
+    "tvstudio:gray_tv_stand",
+    "tvstudio:green_tv_stand",
+    "tvstudio:light_blue_tv_stand",
+    "tvstudio:light_gray_tv_stand",
+    "tvstudio:lime_tv_stand",
+    "tvstudio:magenta_tv_stand",
+    "tvstudio:orange_tv_stand",
+    "tvstudio:pink_tv_stand",
+    "tvstudio:purple_tv_stand",
+    "tvstudio:yellow_tv_stand"
+  ]
+}

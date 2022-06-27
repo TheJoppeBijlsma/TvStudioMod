@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "tvstudio:red_studio_bar",
+    "tvstudio:black_studio_bar",
+    "tvstudio:blue_studio_bar",
+    "tvstudio:brown_studio_bar",
+    "tvstudio:cyan_studio_bar",
+    "tvstudio:gray_studio_bar",
+    "tvstudio:green_studio_bar",
+    "tvstudio:light_blue_studio_bar",
+    "tvstudio:light_gray_studio_bar",
+    "tvstudio:lime_studio_bar",
+    "tvstudio:magenta_studio_bar",
+    "tvstudio:orange_studio_bar",
+    "tvstudio:pink_studio_bar",
+    "tvstudio:purple_studio_bar",
+    "tvstudio:white_studio_bar",
+    "tvstudio:yellow_studio_bar"
+  ]
+}

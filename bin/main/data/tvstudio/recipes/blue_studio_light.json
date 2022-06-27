@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "studio_light",
+  "ingredients": [
+    {
+      "item": "tvstudio:white_studio_light"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "result": {
+    "item": "tvstudio:blue_studio_light"
+  }
+}

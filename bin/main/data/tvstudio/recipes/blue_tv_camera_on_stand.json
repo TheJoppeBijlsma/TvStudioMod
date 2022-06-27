@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tv_camera_on_stand",
+  "ingredients": [
+    {
+      "item": "tvstudio:white_tv_camera_on_stand"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "result": {
+    "item": "tvstudio:blue_tv_camera_on_stand"
+  }
+}

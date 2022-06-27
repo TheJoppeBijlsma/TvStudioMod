@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "setwall",
+  "ingredients": [
+    {
+      "item": "tvstudio:set_wall_hay_block_top"
+    }
+  ],
+  "result": {
+    "item": "tvstudio:set_wall_hay_block"
+  }
+}

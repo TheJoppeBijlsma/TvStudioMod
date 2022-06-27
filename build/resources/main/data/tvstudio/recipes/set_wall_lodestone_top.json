@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "setwall",
+  "ingredients": [
+	{
+      "item": "tvstudio:set_wall_lodestone"
+    }
+  ],
+  "result": {
+    "item": "tvstudio:set_wall_lodestone_top"
+  }
+}

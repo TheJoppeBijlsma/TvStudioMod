@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "washing",
+  "ingredients": [
+        {
+            "tag": "tvstudio:tv_stand"
+        },
+    {
+      "item": "tvstudio:washing_towel"
+    }
+  ],
+  "result": {
+    "item": "tvstudio:white_tv_stand"
+  }
+}

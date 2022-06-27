@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tvstudio:setwall/set_wall_lodestone" },
+    "facing=south": { "model": "tvstudio:setwall/set_wall_lodestone", "y":  180},
+    "facing=west": { "model": "tvstudio:setwall/set_wall_lodestone", "y":  270},
+    "facing=east": { "model": "tvstudio:setwall/set_wall_lodestone", "y":  90}
+  }
+}

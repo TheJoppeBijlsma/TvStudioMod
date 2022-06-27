@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "setwall",
+  "ingredients": [
+    {
+      "item": "tvstudio:set_wall"
+    },
+    {
+      "item": "minecraft:diamond_ore"
+    }
+  ],
+  "result": {
+    "item": "tvstudio:set_wall_diamond_ore"
+  }
+}

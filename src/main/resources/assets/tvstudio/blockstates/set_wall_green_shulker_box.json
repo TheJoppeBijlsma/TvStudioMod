@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tvstudio:setwall/set_wall_green_shulker_box" },
+    "facing=south": { "model": "tvstudio:setwall/set_wall_green_shulker_box", "y":  180},
+    "facing=west": { "model": "tvstudio:setwall/set_wall_green_shulker_box", "y":  270},
+    "facing=east": { "model": "tvstudio:setwall/set_wall_green_shulker_box", "y":  90}
+  }
+}

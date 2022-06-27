@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "director_chair",
+  "ingredients": [
+    {
+      "item": "tvstudio:white_director_chair"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
+  ],
+  "result": {
+    "item": "tvstudio:light_blue_director_chair"
+  }
+}

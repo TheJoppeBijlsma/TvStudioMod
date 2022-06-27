@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "screen_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "tvstudio:blue_neon_orb"
+    }
+  ],
+  "result":
+  {
+    "item": "tvstudio:blue_screen_dye",
+    "count": 12
+  }
+}

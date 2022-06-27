@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tvstudio:setwall/set_wall_light_gray_wool" },
+    "facing=south": { "model": "tvstudio:setwall/set_wall_light_gray_wool", "y":  180},
+    "facing=west": { "model": "tvstudio:setwall/set_wall_light_gray_wool", "y":  270},
+    "facing=east": { "model": "tvstudio:setwall/set_wall_light_gray_wool", "y":  90}
+  }
+}

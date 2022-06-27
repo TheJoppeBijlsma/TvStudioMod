@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "tvstudio:red_director_chair",
+    "tvstudio:black_director_chair",
+    "tvstudio:blue_director_chair",
+    "tvstudio:brown_director_chair",
+    "tvstudio:cyan_director_chair",
+    "tvstudio:gray_director_chair",
+    "tvstudio:green_director_chair",
+    "tvstudio:light_blue_director_chair",
+    "tvstudio:light_gray_director_chair",
+    "tvstudio:lime_director_chair",
+    "tvstudio:magenta_director_chair",
+    "tvstudio:orange_director_chair",
+    "tvstudio:pink_director_chair",
+    "tvstudio:purple_director_chair",
+    "tvstudio:yellow_director_chair"
+  ]
+}
