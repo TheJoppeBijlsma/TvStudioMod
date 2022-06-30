@@ -403,6 +403,21 @@ public class ModItems {
 		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_smooth_basalt"), new BlockItem(ModBlocks.SET_WALL_SMOOTH_BASALT, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
 		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_raw_iron_block"), new BlockItem(ModBlocks.SET_WALL_RAW_IRON_BLOCK, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
 		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_raw_copper_block"), new BlockItem(ModBlocks.SET_WALL_RAW_COPPER_BLOCK, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
-		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_raw_gold_block"), new BlockItem(ModBlocks.SET_WALL_RAW_GOLD_BLOCK, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));	
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_raw_gold_block"), new BlockItem(ModBlocks.SET_WALL_RAW_GOLD_BLOCK, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_mangrove_planks"), new BlockItem(ModBlocks.SET_WALL_MANGROVE_PLANKS, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_mangrove_log"), new BlockItem(ModBlocks.SET_WALL_MANGROVE_LOGS, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_stripped_mangrove_log"), new BlockItem(ModBlocks.SET_WALL_STRIPPED_MANGROVE_LOGS, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_mud"), new BlockItem(ModBlocks.SET_WALL_MUD, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_muddy_mangrove_roots"), new BlockItem(ModBlocks.SET_WALL_MUDDY_MANGROVE_ROOTS, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_packed_mud"), new BlockItem(ModBlocks.SET_WALL_PACKED_MUD, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_mud_bricks"), new BlockItem(ModBlocks.SET_WALL_MUD_BRICKS, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_reinforced_deepslate"), new BlockItem(ModBlocks.SET_WALL_REINFORCED_DEEPSLATE, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_sculk"), new BlockItem(ModBlocks.SET_WALL_SCULK, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_sculk_catalyst"), new BlockItem(ModBlocks.SET_WALL_SCULK_CATALYST, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_ochre_froglight"), new BlockItem(ModBlocks.SET_WALL_OCHRE_FROGLIGHT, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_verdant_froglight"), new BlockItem(ModBlocks.SET_WALL_VERDANT_FROGLIGHT, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+		Registry.register(Registry.ITEM, new Identifier("tvstudio", "set_wall_pearlescent_froglight"), new BlockItem(ModBlocks.SET_WALL_PEARLESCENT_FROGLIGHT, new FabricItemSettings().group(TvStudio.SET_WALL_GROUP)));
+
 	}
 }

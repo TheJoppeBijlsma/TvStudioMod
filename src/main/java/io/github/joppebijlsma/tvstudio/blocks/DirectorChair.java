@@ -24,8 +24,7 @@ public class DirectorChair extends Block {
     private static final VoxelShape WEST;
 
 	public DirectorChair() {
-		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
-	         return 2;}));
+		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> 2));
 		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
 		   }
 
@@ -50,7 +49,7 @@ public class DirectorChair extends Block {
 	    }
 	    
 	    private VoxelShape getShape(BlockState state) {
-	        Direction direction = (Direction) state.get(FACING);
+	        Direction direction = state.get(FACING);
 	        if (direction == Direction.NORTH) {
 	            return NORTH;
 	        } else if (direction == Direction.EAST) {

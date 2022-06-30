@@ -397,7 +397,20 @@ public class ModBlocks {
 		public static final Block SET_WALL_RAW_IRON_BLOCK = new SetWall();
 		public static final Block SET_WALL_RAW_COPPER_BLOCK = new SetWall();
 		public static final Block SET_WALL_RAW_GOLD_BLOCK = new SetWall();
-		
+		public static final Block SET_WALL_MANGROVE_PLANKS = new SetWall();
+		public static final Block SET_WALL_MANGROVE_LOGS = new SetWall();
+		public static final Block SET_WALL_STRIPPED_MANGROVE_LOGS = new SetWall();
+		public static final Block SET_WALL_MUD = new SetWall();
+		public static final Block SET_WALL_MUDDY_MANGROVE_ROOTS = new SetWall();
+		public static final Block SET_WALL_PACKED_MUD = new SetWall();
+		public static final Block SET_WALL_MUD_BRICKS = new SetWall();
+		public static final Block SET_WALL_REINFORCED_DEEPSLATE = new SetWall();
+		public static final Block SET_WALL_SCULK = new SetWall();
+		public static final Block SET_WALL_SCULK_CATALYST = new SetWall();
+		public static final Block SET_WALL_OCHRE_FROGLIGHT = new SetWall();
+		public static final Block SET_WALL_VERDANT_FROGLIGHT = new SetWall();
+		public static final Block SET_WALL_PEARLESCENT_FROGLIGHT = new SetWall();
+
 	public static void register() {
 		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "blue_screen_block"), BLUE_SCREEN_BLOCK);
 		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "green_screen_block"), GREEN_SCREEN_BLOCK);
@@ -762,6 +775,19 @@ public class ModBlocks {
 		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_raw_iron_block"), SET_WALL_RAW_IRON_BLOCK);
 		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_raw_copper_block"), SET_WALL_RAW_COPPER_BLOCK);
 		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_raw_gold_block"), SET_WALL_RAW_GOLD_BLOCK);
-		
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_mangrove_planks"), SET_WALL_MANGROVE_PLANKS);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_mangrove_logs"), SET_WALL_MANGROVE_LOGS);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_stripped_mangrove_logs"), SET_WALL_STRIPPED_MANGROVE_LOGS);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_mud"), SET_WALL_MUD);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_muddy_mangrove_roots"), SET_WALL_MUDDY_MANGROVE_ROOTS);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_packed_mud"), SET_WALL_PACKED_MUD);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_mud_bricks"), SET_WALL_MUD_BRICKS);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_reinforced_deepslate"), SET_WALL_REINFORCED_DEEPSLATE);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_sculk"), SET_WALL_SCULK);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_sculk_catalyst"), SET_WALL_SCULK_CATALYST);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_ochre_froglight"), SET_WALL_OCHRE_FROGLIGHT);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_verdant_froglight"), SET_WALL_VERDANT_FROGLIGHT);
+		Registry.register(Registry.BLOCK, new Identifier("tvstudio", "set_wall_pearlescent_froglight"), SET_WALL_PEARLESCENT_FROGLIGHT);
+
 	}
 }
