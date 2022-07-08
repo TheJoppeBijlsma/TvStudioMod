@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Tv Studio",
-  "description": "The Tv Studio 1.18.1 1.13 contains: - Tv Camera - Tv Stand - Tv Camera On A Stand - Studio Bar - Studio Light - Director Chair - Boompole Microphone - Green and Blue Screen Block - Green and Blue Screen Wall - Washing Towel - Set Walls - Microphone Headset",
+  "description": "The Tv Studio 1.19 1.12.0 contains: - Tv Camera - Tv Stand - Tv Camera On A Stand - Studio Bar - Studio Light - Director Chair - Boompole Microphone - Green and Blue Screen Block - Green and Blue Screen Wall - Washing Towel - Set Walls - Microphone Headset",
   "authors": [
     "JoppeBijlsma"
   ],
@@ -14,7 +14,6 @@
   },
 
   "license": "All Rights Reserved",
-  "icon": "",
 
   "environment": "*",
   "entrypoints": {

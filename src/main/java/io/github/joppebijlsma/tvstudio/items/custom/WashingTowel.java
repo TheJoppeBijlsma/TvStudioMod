@@ -1,4 +1,4 @@
-package io.github.joppebijlsma.tvstudio.items;
+package io.github.joppebijlsma.tvstudio.items.custom;
 
 
 import java.util.List;

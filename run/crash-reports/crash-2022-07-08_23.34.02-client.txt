@@ -1,17 +1,18 @@
 ---- Minecraft Crash Report ----
-// I just don't know what went wrong :(
+// Don't be sad. I'll do better next time, I promise!
 
-Time: 28/06/2022, 18:29
+Time: 08/07/2022, 23:34
 Description: Rendering screen
 
-java.lang.ClassCastException: class net.minecraft.text.TranslatableTextContent cannot be cast to class net.minecraft.text.Text (net.minecraft.text.TranslatableTextContent and net.minecraft.text.Text are in unnamed module of loader net.fabricmc.loader.impl.launch.knot.KnotClassLoader @3abbfa04)
-	at io.github.joppebijlsma.tvstudio.items.WashingTowel.appendTooltip(WashingTowel.java:29)
-	at net.minecraft.item.ItemStack.getTooltip(ItemStack.java:699)
-	at net.minecraft.client.gui.screen.Screen.getTooltipFromItem(Screen.java:182)
-	at net.minecraft.client.gui.screen.Screen.renderTooltip(Screen.java:169)
-	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.renderTooltip(CreativeInventoryScreen.java:731)
-	at net.minecraft.client.gui.screen.ingame.HandledScreen.drawMouseoverTooltip(HandledScreen.java:189)
-	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.render(CreativeInventoryScreen.java:692)
+java.lang.ExceptionInInitializerError
+	at io.github.joppebijlsma.tvstudio.items.ModItemGroup.lambda$static$1(ModItemGroup.java:16)
+	at net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder$1.createIcon(FabricItemGroupBuilder.java:119)
+	at net.minecraft.item.ItemGroup.getIcon(ItemGroup.java:133)
+	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.renderTabIcon(CreativeInventoryScreen.java:850)
+	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.drawBackground(CreativeInventoryScreen.java:744)
+	at net.minecraft.client.gui.screen.ingame.HandledScreen.render(HandledScreen.java:100)
+	at net.minecraft.client.gui.screen.ingame.AbstractInventoryScreen.render(AbstractInventoryScreen.java:27)
+	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.render(CreativeInventoryScreen.java:679)
 	at net.minecraft.client.render.GameRenderer.render(GameRenderer.java:881)
 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1143)
 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:734)
@@ -20,6 +21,11 @@ java.lang.ClassCastException: class net.minecraft.text.TranslatableTextContent c
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+Caused by: java.lang.IllegalStateException: Registry is already frozen
+	at net.minecraft.util.registry.SimpleRegistry.createEntry(SimpleRegistry.java:365)
+	at net.minecraft.item.Item.<init>(Item.java:61)
+	at io.github.joppebijlsma.tvstudio.registries.ModItems.<clinit>(ModItems.java:17)
+	... 16 more
 
 
 A detailed walkthrough of the error, its code path and all known details is as follows:
@@ -28,19 +34,20 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Thread: Render thread
 Stacktrace:
-	at io.github.joppebijlsma.tvstudio.items.WashingTowel.appendTooltip(WashingTowel.java:29)
-	at net.minecraft.item.ItemStack.getTooltip(ItemStack.java:699)
-	at net.minecraft.client.gui.screen.Screen.getTooltipFromItem(Screen.java:182)
-	at net.minecraft.client.gui.screen.Screen.renderTooltip(Screen.java:169)
-	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.renderTooltip(CreativeInventoryScreen.java:731)
-	at net.minecraft.client.gui.screen.ingame.HandledScreen.drawMouseoverTooltip(HandledScreen.java:189)
-	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.render(CreativeInventoryScreen.java:692)
+	at io.github.joppebijlsma.tvstudio.items.ModItemGroup.lambda$static$1(ModItemGroup.java:16)
+	at net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder$1.createIcon(FabricItemGroupBuilder.java:119)
+	at net.minecraft.item.ItemGroup.getIcon(ItemGroup.java:133)
+	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.renderTabIcon(CreativeInventoryScreen.java:850)
+	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.drawBackground(CreativeInventoryScreen.java:744)
+	at net.minecraft.client.gui.screen.ingame.HandledScreen.render(HandledScreen.java:100)
+	at net.minecraft.client.gui.screen.ingame.AbstractInventoryScreen.render(AbstractInventoryScreen.java:27)
+	at net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.render(CreativeInventoryScreen.java:679)
 
 -- Screen render details --
 Details:
 	Screen name: net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen
-	Mouse location: Scaled: (204, 84). Absolute: (816.437744, 337.545044)
-	Screen size: Scaled: (480, 270). Absolute: (1920, 1080). Scale factor of 4.000000
+	Mouse location: Scaled: (253, 50). Absolute: (506.440430, 101.330475)
+	Screen size: Scaled: (427, 240). Absolute: (854, 480). Scale factor of 2.000000
 Stacktrace:
 	at net.minecraft.client.render.GameRenderer.render(GameRenderer.java:881)
 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1143)
@@ -53,11 +60,11 @@ Stacktrace:
 
 -- Affected level --
 Details:
-	All players: 1 total; [ClientPlayerEntity['Player828'/34, l='ClientLevel', x=-34.66, y=-58.49, z=-3.77]]
+	All players: 1 total; [ClientPlayerEntity['Player928'/34, l='ClientLevel', x=-49.25, y=-60.00, z=5.29]]
 	Chunk stats: 361, 210
 	Level dimension: minecraft:overworld
 	Level spawn location: World: (0,-60,0), Section: (at 0,4,0 in 0,-4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
-	Level time: 10866 game time, 10866 day time
+	Level time: 95488 game time, 8506 day time
 	Server brand: fabric
 	Server type: Integrated singleplayer server
 Stacktrace:
@@ -84,7 +91,7 @@ Details:
 	Operating System: Mac OS X (x86_64) version 12.2
 	Java Version: 17.0.2, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
-	Memory: 613189704 bytes (584 MiB) / 1749024768 bytes (1668 MiB) up to 2147483648 bytes (2048 MiB)
+	Memory: 355691008 bytes (339 MiB) / 1671430144 bytes (1594 MiB) up to 2147483648 bytes (2048 MiB)
 	CPUs: 4
 	Processor Vendor: GenuineIntel
 	Processor Name: Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
@@ -105,10 +112,10 @@ Details:
 	Memory slot #1 capacity (MB): 4096,00
 	Memory slot #1 clockSpeed (GHz): 1,60
 	Memory slot #1 type: DDR3
-	Virtual memory max (MB): 15360,00
-	Virtual memory used (MB): 10934,77
-	Swap memory total (MB): 7168,00
-	Swap memory used (MB): 4953,50
+	Virtual memory max (MB): 12288,00
+	Virtual memory used (MB): 9717,28
+	Swap memory total (MB): 4096,00
+	Swap memory used (MB): 3750,50
 	JVM Flags: 0 total; 
 	Fabric Mods: 
 		fabric: Fabric API 0.56.3+1.19
@@ -157,7 +164,7 @@ Details:
 	Launched Version: Fabric
 	Backend library: LWJGL version 3.3.1 SNAPSHOT
 	Backend API: Intel(R) HD Graphics 6000 GL version 4.1 INTEL-18.4.6, Intel Inc.
-	Window size: 1920x1080
+	Window size: 854x480
 	GL Caps: Using framebuffer using OpenGL 3.2
 	GL debug messages: <disabled>
 	Using VBOs: Yes
@@ -168,6 +175,6 @@ Details:
 	Current Language: English (US)
 	CPU: 4x Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
 	Server Running: true
-	Player Count: 1 / 8; [ServerPlayerEntity['Player828'/34, l='ServerLevel[New World]', x=-34.66, y=-58.49, z=-3.77]]
+	Player Count: 1 / 8; [ServerPlayerEntity['Player928'/34, l='ServerLevel[New World]', x=-49.25, y=-60.00, z=5.29]]
 	Data Packs: vanilla, Fabric Mods
 	World Generation: Stable

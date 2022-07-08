@@ -3,30 +3,17 @@ package io.github.joppebijlsma.tvstudio;
 import io.github.joppebijlsma.tvstudio.registries.ModBlocks;
 import io.github.joppebijlsma.tvstudio.registries.ModItems;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.Identifier;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class TvStudio implements ModInitializer {
-	
-	public static final ItemGroup BLOCKS_GROUP = FabricItemGroupBuilder.build(
-			new Identifier("tvstudio", "studio_blocks"),
-			() -> new ItemStack(ModBlocks.TV_CAMERA));
-			
-	public static final ItemGroup ITEMS_GROUP = FabricItemGroupBuilder.build(
-			new Identifier("tvstudio", "studio_items"),
-			() -> new ItemStack(ModItems.LENS));
-	
-	public static final ItemGroup SET_WALL_GROUP = FabricItemGroupBuilder.build(
-			new Identifier("tvstudio", "studio_set_walls"),
-			() -> new ItemStack(ModBlocks.SET_WALL));
-	
+	public static final Logger TVSTUDIO_LOGGER = LoggerFactory.getLogger("tvstudio");
+	public static final String MOD_ID = "tvstudio";
 	
 	@Override
 	public void onInitialize() {
 
-		ModItems.register();
-		ModBlocks.register();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

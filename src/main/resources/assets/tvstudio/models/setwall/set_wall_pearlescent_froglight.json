@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "block/pearlescent_froglight",
+		"0": "block/pearlescent_froglight_side",
 		"1": "tvstudio:blocks/chipboard",
 		"particle": "tvstudio:blocks/chipboard"
 	},

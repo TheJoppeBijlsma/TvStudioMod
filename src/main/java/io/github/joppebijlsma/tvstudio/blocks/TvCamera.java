@@ -1,5 +1,7 @@
 package io.github.joppebijlsma.tvstudio.blocks;
 
+import io.github.joppebijlsma.tvstudio.items.ModItemGroup;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.sound.BlockSoundGroup;
@@ -23,12 +25,11 @@ public class TvCamera extends Block {
 	public static DirectionProperty FACING;
 	 
 	public TvCamera() {
-		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
+		super(FabricBlockSettings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
 	         return 2;}));
 		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
 		   }
-	
-	
+
 	@Override
     public BlockState getPlacementState(ItemPlacementContext context) {
         return this.getDefaultState().with(FACING, context.getPlayerFacing());

@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "block/reinforced_deepslate",
+		"0": "block/reinforced_deepslate_side",
 		"1": "tvstudio:blocks/chipboard",
 		"particle": "tvstudio:blocks/chipboard"
 	},

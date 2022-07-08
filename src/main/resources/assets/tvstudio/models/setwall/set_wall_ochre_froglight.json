@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "block/ochre_froglight",
+		"0": "block/ochre_froglight_side",
 		"1": "tvstudio:blocks/chipboard",
 		"particle": "tvstudio:blocks/chipboard"
 	},
