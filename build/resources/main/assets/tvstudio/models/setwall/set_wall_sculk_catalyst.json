@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "block/sculk_catalyst",
+		"0": "block/sculk_catalyst_side",
 		"1": "tvstudio:blocks/chipboard",
 		"particle": "tvstudio:blocks/chipboard"
 	},
