@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "block/muddy_mangrove_roots",
+		"0": "block/muddy_mangrove_roots_side",
 		"1": "tvstudio:blocks/chipboard",
 		"particle": "tvstudio:blocks/chipboard"
 	},

@@ -9,7 +9,7 @@ import net.minecraft.sound.SoundEvents;
 
 public class ModArmorMaterial implements ArmorMaterial {
 	
-	public static final ArmorMaterial HEADSER_MATERIAL = new ModArmorMaterial();
+	public static final ArmorMaterial HEADSET_MATERIAL = new ModArmorMaterial();
     
 	
 	

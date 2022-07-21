@@ -1,15 +1,9 @@
 package io.github.joppebijlsma.tvstudio.registries;
 
 import io.github.joppebijlsma.tvstudio.TvStudio;
-import io.github.joppebijlsma.tvstudio.blocks.DirectorChair;
-import io.github.joppebijlsma.tvstudio.blocks.SetWall;
-import io.github.joppebijlsma.tvstudio.blocks.SetWallSupport;
-import io.github.joppebijlsma.tvstudio.blocks.StudioBar;
-import io.github.joppebijlsma.tvstudio.blocks.StudioLight;
-import io.github.joppebijlsma.tvstudio.blocks.TvCamera;
-import io.github.joppebijlsma.tvstudio.blocks.TvCameraOnAStand;
-import io.github.joppebijlsma.tvstudio.blocks.TvStand;
+import io.github.joppebijlsma.tvstudio.blocks.*;
 import io.github.joppebijlsma.tvstudio.items.ModItemGroup;
+import io.github.joppebijlsma.tvstudio.items.paintable.PaintableItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -20,9 +14,17 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import static net.minecraft.block.AbstractBlock.Settings.copy;
+
 public class ModBlocks {
 
 //Blocks without BlockItem
+public static final Block PAINTERS_STONE = registerBlock("painters_stone", new PaintableBlock(copy(Blocks.STONE)), ModItemGroup.BLOCKS_GROUP);
+
 
 //Blocks with BlockItem
 	//Screen Blocks
@@ -233,7 +235,7 @@ public class ModBlocks {
 		public static final Block SET_WALL_BASALT_TOP = registerBlock("set_wall_basalt_top", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_POLISHED_BASALT = registerBlock("set_wall_polished_basalt", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_POLISHED_BASALT_TOP = registerBlock("set_wall_polished_basalt_top", new SetWall(), ModItemGroup.SET_WALL_GROUP);
-		public static final Block SET_WALL_GLOWSTONE = registerBlock("set_wall_glowstone", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_GLOWSTONE = registerBlock("set_wall_glowstone", new LitSetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_STONE_BRICKS = registerBlock("set_wall_stone_bricks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_MOSSY_STONE_BRICKS = registerBlock("set_wall_mossy_stone_bricks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_CRACKED_STONE_BRICKS = registerBlock("set_wall_cracked_stone_bricks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
@@ -281,7 +283,7 @@ public class ModBlocks {
 		public static final Block SET_WALL_PRISMARINE = registerBlock("set_wall_prismarine", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_PRISMARINE_BRICKS = registerBlock("set_wall_prismarine_bricks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_DARK_PRISMARINE = registerBlock("set_wall_dark_prismarine", new SetWall(), ModItemGroup.SET_WALL_GROUP);
-		public static final Block SET_WALL_SEA_LANTERN = registerBlock("set_wall_sea_lantern", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_SEA_LANTERN = registerBlock("set_wall_sea_lantern", new LitSetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_RED_SANDSTONE = registerBlock("set_wall_red_sandstone", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_CHISELED_RED_SANDSTONE = registerBlock("set_wall_chiseled_red_sandstone", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_CUT_RED_SANDSTONE = registerBlock("set_wall_cut_red_sandstone", new SetWall(), ModItemGroup.SET_WALL_GROUP);
@@ -338,7 +340,7 @@ public class ModBlocks {
 		public static final Block SET_WALL_COMPOSTER = registerBlock("set_wall_composter", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_SMITHING_TABLE_TOP = registerBlock("set_wall_smithing_table_top", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_SMITHING_TABLE_BOTTOM = registerBlock("set_wall_smithing_table_bottom", new SetWall(), ModItemGroup.SET_WALL_GROUP);
-		public static final Block SET_WALL_SHROOMLIGHT = registerBlock("set_wall_shroomlight", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_SHROOMLIGHT = registerBlock("set_wall_shroomlight", new LitSetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_BEE_NEST = registerBlock("set_wall_bee_nest", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_BEEHIVE = registerBlock("set_wall_beehive", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_HONEYCOMB_BLOCK = registerBlock("set_wall_honeycomb_block", new SetWall(), ModItemGroup.SET_WALL_GROUP);
@@ -415,15 +417,15 @@ public class ModBlocks {
 		public static final Block SET_WALL_MANGROVE_LOG = registerBlock("set_wall_mangrove_log", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_STRIPPED_MANGROVE_LOG = registerBlock("set_wall_stripped_mangrove_log", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_MUD = registerBlock("set_wall_mud", new SetWall(), ModItemGroup.SET_WALL_GROUP);
-		//public static final Block SET_WALL_MUDDY_MANGROVE_ROOTS = registerBlock("set_wall_muddy_mangrove_roots", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_MUDDY_MANGROVE_ROOTS = registerBlock("set_wall_muddy_mangrove_roots", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_PACKED_MUD = registerBlock("set_wall_packed_mud", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_MUD_BRICKS = registerBlock("set_wall_mud_bricks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_REINFORCED_DEEPSLATE = registerBlock("set_wall_reinforced_deepslate", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_SCULK = registerBlock("set_wall_sculk", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_SCULK_CATALYST = registerBlock("set_wall_sculk_catalyst", new SetWall(), ModItemGroup.SET_WALL_GROUP);
-		public static final Block SET_WALL_OCHRE_FROGLIGHT = registerBlock("set_wall_ochre_froglight", new SetWall(), ModItemGroup.SET_WALL_GROUP);
-		public static final Block SET_WALL_VERDANT_FROGLIGHT = registerBlock("set_wall_verdant_froglight", new SetWall(), ModItemGroup.SET_WALL_GROUP);
-		public static final Block SET_WALL_PEARLESCENT_FROGLIGHT = registerBlock("set_wall_pearlescent_froglight", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_OCHRE_FROGLIGHT = registerBlock("set_wall_ochre_froglight", new LitSetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_VERDANT_FROGLIGHT = registerBlock("set_wall_verdant_froglight", new LitSetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_PEARLESCENT_FROGLIGHT = registerBlock("set_wall_pearlescent_froglight", new LitSetWall(), ModItemGroup.SET_WALL_GROUP);
 
 
 	private static Block registerBlockWithoutItem(String name, Block block) {
@@ -438,6 +440,14 @@ public class ModBlocks {
 	private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
 		return Registry.register(Registry.ITEM, new Identifier(TvStudio.MOD_ID, name),
 				new BlockItem(block, new FabricItemSettings().group(tab)));
+	}
+
+	public static final List<Block> ALL_BLOCKS = List.of(
+			PAINTERS_STONE
+	);
+
+	public static Block[] all() {
+		return ALL_BLOCKS.toArray(new Block[0]);
 	}
 
 	public static void registerModBlocks() {
