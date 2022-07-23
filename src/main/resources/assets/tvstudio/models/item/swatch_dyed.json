@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:items/generated",
   "textures": {
-    "layer0": "tvstudio:item/swatch",
-    "layer1": "tvstudio:item/swatch_overlay"
+    "layer0": "tvstudio:items/swatch",
+    "layer1": "tvstudio:items/swatch_overlay"
   }
 }

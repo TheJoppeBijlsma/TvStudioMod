@@ -1,8 +1,6 @@
 package io.github.joppebijlsma.tvstudio;
 
-import io.github.joppebijlsma.tvstudio.registries.ModBlockEntities;
-import io.github.joppebijlsma.tvstudio.registries.ModBlocks;
-import io.github.joppebijlsma.tvstudio.registries.ModItems;
+import io.github.joppebijlsma.tvstudio.registries.*;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
@@ -17,9 +15,10 @@ public class TvStudio implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModBlockEntities.registerModBlockEntities();
+		ModRecipes.registerModRecipes();
+		ModLoot.registerModLoot();
 	}
 }
