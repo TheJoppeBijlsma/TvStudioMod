@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "tvstudio:block/colour_block" }
+    "": {
+      "model": "tvstudio:block/colour_block"
+    }
   }
 }

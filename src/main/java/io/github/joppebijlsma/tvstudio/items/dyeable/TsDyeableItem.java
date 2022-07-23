@@ -62,9 +62,9 @@ public interface TsDyeableItem extends DyeableItem {
 
     @Override
     default void setColor(ItemStack stack, int color) {
-        if(stack.getItem() instanceof DyeableItem) {
+        //if(stack.getItem() instanceof DyeableItem) {
             stack.getOrCreateSubNbt(getColorParentNbtKey()).putInt(getColorNbtKey(), color);
-        }
+        //}
     }
 
     default void appendColorTooltip(ItemStack stack, List<Text> tooltip) {
