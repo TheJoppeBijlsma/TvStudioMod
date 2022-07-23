@@ -1,8 +1,8 @@
 package io.github.joppebijlsma.tvstudio.blocks;
 
 import io.github.joppebijlsma.tvstudio.blocks.entity.PaintableBlockEntity;
-import io.github.joppebijlsma.tvstudio.blocks.entity.TsBlockEntities;
-import io.github.joppebijlsma.tvstudio.items.paintable.TsDyeableItem;
+import io.github.joppebijlsma.tvstudio.items.dyeable.TsDyeableItem;
+import io.github.joppebijlsma.tvstudio.registries.ModBlockEntities;
 import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.BlockWithEntity;
@@ -35,7 +35,7 @@ public class PaintableBlock extends BlockWithEntity {
     @Override
     public ItemStack getPickStack(BlockView world, BlockPos pos, BlockState state) {
         var stack = new ItemStack(this);
-        world.getBlockEntity(pos, TsBlockEntities.PAINTERS_BLOCK)
+        world.getBlockEntity(pos, ModBlockEntities.PAINTERS_BLOCK)
                 .ifPresent(entity -> ((DyeableItem) stack.getItem()).setColor(stack, entity.getColor()));
         return stack;
     }

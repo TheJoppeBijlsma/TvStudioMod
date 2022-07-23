@@ -1,10 +1,4 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/.
- */
-
-package io.github.joppebijlsma.tvstudio.items.paintable;
+package io.github.joppebijlsma.tvstudio.items.dyeable;
 
 import io.github.joppebijlsma.tvstudio.blocks.entity.PaintableBlockEntity;
 import io.github.joppebijlsma.tvstudio.mixin.BlockItemAccessor;
@@ -16,10 +10,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.DyeItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Util;
@@ -28,7 +19,6 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
-
 public class PaintableItem extends BlockItem implements TsDyeableItem {
     static final Int2ObjectMap<Item> DYES_BY_RGB = Util.make(new Int2ObjectOpenHashMap<>(), map -> {
         for (DyeColor color : DyeColor.values()) {

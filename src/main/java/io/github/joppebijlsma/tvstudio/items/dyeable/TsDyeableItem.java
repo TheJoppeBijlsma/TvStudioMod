@@ -1,4 +1,4 @@
-package io.github.joppebijlsma.tvstudio.items.paintable;
+package io.github.joppebijlsma.tvstudio.items.dyeable;
 
 import io.github.joppebijlsma.tvstudio.util.Colors;
 import net.minecraft.item.DyeableItem;
@@ -62,7 +62,9 @@ public interface TsDyeableItem extends DyeableItem {
 
     @Override
     default void setColor(ItemStack stack, int color) {
-        stack.getOrCreateSubNbt(getColorParentNbtKey()).putInt(getColorNbtKey(), color);
+        if(stack.getItem() instanceof DyeableItem) {
+            stack.getOrCreateSubNbt(getColorParentNbtKey()).putInt(getColorNbtKey(), color);
+        }
     }
 
     default void appendColorTooltip(ItemStack stack, List<Text> tooltip) {
@@ -71,11 +73,11 @@ public interface TsDyeableItem extends DyeableItem {
             @Nullable Item dye = PaintableItem.DYES_BY_RGB.get(color);
             String colorStr = Integer.toHexString(color);
             MutableText text = dye != null
-                    ? Text.translatable("tooltip.tvstudio_blocks.dye_color", colorStr, dye.getName())
+                    ? Text.translatable("tooltip.tvstudio.dye_color", colorStr, dye.getName())
                     : Text.translatable("tooltip.tvstudio.color", colorStr);
             tooltip.add(text.styled(style -> style.withColor(color)));
         } else {
-            tooltip.add(Text.translatable("tooltip.painters_blocks.undyed").styled(style -> style.withItalic(true).withColor(Formatting.DARK_GRAY)));
+            tooltip.add(Text.translatable("tooltip.tvstudio.undyed").styled(style -> style.withItalic(true).withColor(Formatting.DARK_GRAY)));
         }
     }
 

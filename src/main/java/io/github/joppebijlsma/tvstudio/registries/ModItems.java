@@ -1,7 +1,5 @@
 package io.github.joppebijlsma.tvstudio.registries;
 
-import com.google.common.collect.BiMap;
-import com.google.common.collect.ImmutableBiMap;
 import com.google.common.collect.ImmutableList;
 import io.github.joppebijlsma.tvstudio.TvStudio;
 import io.github.joppebijlsma.tvstudio.items.ModItemGroup;
@@ -9,7 +7,7 @@ import io.github.joppebijlsma.tvstudio.items.custom.DyeableModArmorItem;
 import io.github.joppebijlsma.tvstudio.items.custom.DyeableModItem;
 import io.github.joppebijlsma.tvstudio.items.custom.ModArmorMaterial;
 import io.github.joppebijlsma.tvstudio.items.custom.WashingTowel;
-import io.github.joppebijlsma.tvstudio.items.paintable.SwatchItem;
+import io.github.joppebijlsma.tvstudio.items.dyeable.SwatchItem;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.cauldron.CauldronBehavior;
@@ -23,8 +21,8 @@ import net.minecraft.util.registry.Registry;
 import java.util.List;
 
 public class ModItems {
-
 	public static final Item SWATCH = registerItem("swatch", new SwatchItem(new FabricItemSettings()));
+
 
 	private static final List<ItemConvertible> ALL_BLOCK_LIKE_ITEMS = ImmutableList.<ItemConvertible>builder()
 			.addAll(ModBlocks.ALL_BLOCKS)
@@ -42,15 +40,7 @@ public class ModItems {
 		return ALL_BLOCK_LIKE_ITEMS.toArray(new ItemConvertible[0]);
 	}
 
-	private static <I extends Item> I register(String id, I item) {
-		return Registry.register(Registry.ITEM, TvStudio.id(id), item);
-	}
 
-	public static void init() {
-		for (Item item : ALL_DYEABLE_ITEMS) {
-			CauldronBehavior.WATER_CAULDRON_BEHAVIOR.put(item, CauldronBehavior.CLEAN_DYEABLE_ITEM);
-		}
-	}
 
 	public static final Item LENS = registerItem("lens",
 			new Item(new FabricItemSettings().group(ModItemGroup.ITEMS_GROUP)));
@@ -84,5 +74,9 @@ public class ModItems {
 	public static void registerModItems() {
 		TvStudio.TVSTUDIO_LOGGER.debug("Registering Mod Items for " + TvStudio.MOD_ID);
 		ColorProviderRegistry.ITEM.register((stack, tintIndex) -> tintIndex > 0 ? -1 : ((DyeableModItem)((Object)stack.getItem())).getColor(stack), HEADSET);
+
+		for (Item item : ALL_DYEABLE_ITEMS) {
+			CauldronBehavior.WATER_CAULDRON_BEHAVIOR.put(item, CauldronBehavior.CLEAN_DYEABLE_ITEM);
+		}
 	}
 }

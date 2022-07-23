@@ -10,8 +10,11 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Material;
 
-public class StudioBar extends Block {
+public final class StudioBar extends Block {
 	
 	public static DirectionProperty FACING;
 	private static final VoxelShape BAR_NORTH_SOUTH;
@@ -72,3 +75,4 @@ public class StudioBar extends Block {
 	        WEST = VoxelShapes.union(BAR_EAST_WEST);
 	    }
 }
+

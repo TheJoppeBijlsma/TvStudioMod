@@ -1,13 +1,9 @@
-/*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/.
- */
-
-package io.github.joppebijlsma.tvstudio.items.paintable;
+package io.github.joppebijlsma.tvstudio.items.dyeable;
 
 import io.github.joppebijlsma.tvstudio.blocks.entity.PaintableBlockEntity;
-import io.github.joppebijlsma.tvstudio.blocks.entity.TsBlockEntities;
+import io.github.joppebijlsma.tvstudio.registries.ModBlockEntities;
+import net.fabricmc.fabric.api.item.v1.FabricItem;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.DyeableItem;
@@ -25,16 +21,16 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class SwatchItem extends Item implements TsDyeableItem {
-    public SwatchItem(Settings settings) {
+    public SwatchItem(FabricItemSettings settings) {
         super(settings);
     }
 
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
-        @Nullable PaintableBlockEntity entity = context.getWorld().getBlockEntity(context.getBlockPos(), TsBlockEntities.PAINTERS_BLOCK).orElse(null);
+        @Nullable PaintableBlockEntity entity = context.getWorld().getBlockEntity(context.getBlockPos(), ModBlockEntities.PAINTERS_BLOCK).orElse(null);
 
         if (entity != null) {
-            return useOnDyeable(context.getWorld(), context.getStack(), entity, context.getPlayer());
+            return useOnDyeable(context.getWorld(), context.getStack(), (DyeTarget) entity, context.getPlayer());
         }
 
         return ActionResult.PASS;

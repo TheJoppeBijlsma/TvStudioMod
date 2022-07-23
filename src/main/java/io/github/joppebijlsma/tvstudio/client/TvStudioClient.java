@@ -2,8 +2,8 @@ package io.github.joppebijlsma.tvstudio.client;
 
 import io.github.joppebijlsma.tvstudio.TvStudio;
 import io.github.joppebijlsma.tvstudio.blocks.entity.PaintableBlockEntity;
-import io.github.joppebijlsma.tvstudio.blocks.entity.TsBlockEntities;
-import io.github.joppebijlsma.tvstudio.items.paintable.SwatchItem;
+import io.github.joppebijlsma.tvstudio.items.dyeable.SwatchItem;
+import io.github.joppebijlsma.tvstudio.registries.ModBlockEntities;
 import io.github.joppebijlsma.tvstudio.registries.ModBlocks;
 import io.github.joppebijlsma.tvstudio.registries.ModItems;
 import net.fabricmc.api.ClientModInitializer;
@@ -17,7 +17,7 @@ public class TvStudioClient implements ClientModInitializer {
     public void onInitializeClient() {
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
             if (tintIndex == 0 && world != null) {
-                @Nullable PaintableBlockEntity entity = world.getBlockEntity(pos, TsBlockEntities.PAINTERS_BLOCK).orElse(null);
+                @Nullable PaintableBlockEntity entity = world.getBlockEntity(pos, ModBlockEntities.PAINTERS_BLOCK).orElse(null);
 
                 if (entity != null) {
                     return entity.getColor();

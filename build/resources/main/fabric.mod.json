@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "io.github.joppebijlsma.tvstudio.TvStudio"
+    ],
+    "client": [
+      "io.github.joppebijlsma.tvstudio.client.TvStudioClient"
     ]
   },
   "mixins": [

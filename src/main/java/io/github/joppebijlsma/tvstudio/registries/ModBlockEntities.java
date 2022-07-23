@@ -1,7 +1,7 @@
-package io.github.joppebijlsma.tvstudio.blocks.entity;
+package io.github.joppebijlsma.tvstudio.registries;
 
 import io.github.joppebijlsma.tvstudio.TvStudio;
-import io.github.joppebijlsma.tvstudio.registries.ModBlocks;
+import io.github.joppebijlsma.tvstudio.blocks.entity.PaintableBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -9,17 +9,18 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 
-public class TsBlockEntities  {
+public class ModBlockEntities {
     public static final BlockEntityType<PaintableBlockEntity> PAINTERS_BLOCK = register("painters_block", FabricBlockEntityTypeBuilder.create(PaintableBlockEntity::new, ModBlocks.all()).build());
 
     private static <T extends BlockEntityType<?>> T register(String id, T type) {
         return Registry.register(Registry.BLOCK_ENTITY_TYPE, TvStudio.id(id), type);
     }
 
-    public static void init() {
+    public static void registerModBlockEntities() {
+        TvStudio.TVSTUDIO_LOGGER.debug("Registering ModBlockEntities for " + TvStudio.MOD_ID);
     }
 
-    static void sync(BlockEntity entity) {
+    public static void sync(BlockEntity entity) {
         World world = entity.getWorld();
 
         if (world instanceof ServerWorld sw) {
@@ -29,3 +30,4 @@ public class TsBlockEntities  {
         }
     }
 }
+

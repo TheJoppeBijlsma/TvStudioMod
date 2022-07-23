@@ -1,6 +1,7 @@
 package io.github.joppebijlsma.tvstudio.blocks.entity;
 
-import io.github.joppebijlsma.tvstudio.items.paintable.SwatchItem;
+import io.github.joppebijlsma.tvstudio.items.dyeable.SwatchItem;
+import io.github.joppebijlsma.tvstudio.registries.ModBlockEntities;
 import io.github.joppebijlsma.tvstudio.util.Colors;
 import io.github.joppebijlsma.tvstudio.util.NbtKeys;
 import net.minecraft.block.Block;
@@ -17,7 +18,7 @@ public class PaintableBlockEntity extends BlockEntity implements SwatchItem.DyeT
     private int color = Colors.STONE_DEFAULT_COLOR;
 
     public PaintableBlockEntity(BlockPos pos, BlockState state) {
-        super(TsBlockEntities.PAINTERS_BLOCK, pos, state);
+        super(ModBlockEntities.PAINTERS_BLOCK, pos, state);
     }
 
     @Override
@@ -33,7 +34,7 @@ public class PaintableBlockEntity extends BlockEntity implements SwatchItem.DyeT
     @Override
     public void setColorAndSync(int color) {
         setColor(color);
-        TsBlockEntities.sync(this);
+        ModBlockEntities.sync(this);
     }
 
     @Override
