@@ -1,47 +1,19 @@
 package io.github.joppebijlsma.tvstudio.registries;
 
-import com.google.common.collect.ImmutableList;
 import io.github.joppebijlsma.tvstudio.TvStudio;
 import io.github.joppebijlsma.tvstudio.items.ModItemGroup;
 import io.github.joppebijlsma.tvstudio.items.custom.DyeableModArmorItem;
 import io.github.joppebijlsma.tvstudio.items.custom.DyeableModItem;
 import io.github.joppebijlsma.tvstudio.items.custom.ModArmorMaterial;
 import io.github.joppebijlsma.tvstudio.items.custom.WashingTowel;
-import io.github.joppebijlsma.tvstudio.items.dyeable.SwatchItem;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.block.cauldron.CauldronBehavior;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemConvertible;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Util;
 import net.minecraft.util.registry.Registry;
 
-import java.util.List;
-
 public class ModItems {
-	public static final Item SWATCH = registerItem("swatch", new SwatchItem(new FabricItemSettings()));
-
-
-	private static final List<ItemConvertible> ALL_BLOCK_LIKE_ITEMS = ImmutableList.<ItemConvertible>builder()
-			.addAll(ModBlocks.ALL_BLOCKS)
-			.build();
-
-	public static final List<Item> ALL_DYEABLE_ITEMS = Util.make(ImmutableList.<Item>builder(), builder -> {
-		for (ItemConvertible item : ALL_BLOCK_LIKE_ITEMS) {
-			builder.add(item.asItem());
-		}
-
-		builder.add(SWATCH);
-	}).build();
-
-	public static ItemConvertible[] blockLikeItems() {
-		return ALL_BLOCK_LIKE_ITEMS.toArray(new ItemConvertible[0]);
-	}
-
-
-
 	public static final Item LENS = registerItem("lens",
 			new Item(new FabricItemSettings().group(ModItemGroup.ITEMS_GROUP)));
 	public static final Item CLAPBOARD = registerItem("clapboard",
@@ -73,10 +45,6 @@ public class ModItems {
 
 	public static void registerModItems() {
 		TvStudio.TVSTUDIO_LOGGER.debug("Registering Mod Items for " + TvStudio.MOD_ID);
-		ColorProviderRegistry.ITEM.register((stack, tintIndex) -> tintIndex > 0 ? -1 : ((DyeableModItem)((Object)stack.getItem())).getColor(stack), HEADSET);
-
-		for (Item item : ALL_DYEABLE_ITEMS) {
-			CauldronBehavior.WATER_CAULDRON_BEHAVIOR.put(item, CauldronBehavior.CLEAN_DYEABLE_ITEM);
-		}
+		ColorProviderRegistry.ITEM.register((stack, tintIndex) -> tintIndex > 0 ? -1 : ((DyeableModItem) ((Object) stack.getItem())).getColor(stack), HEADSET);
 	}
 }

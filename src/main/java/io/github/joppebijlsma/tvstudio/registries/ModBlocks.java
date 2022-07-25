@@ -3,7 +3,6 @@ package io.github.joppebijlsma.tvstudio.registries;
 import io.github.joppebijlsma.tvstudio.TvStudio;
 import io.github.joppebijlsma.tvstudio.blocks.*;
 import io.github.joppebijlsma.tvstudio.items.ModItemGroup;
-import io.github.joppebijlsma.tvstudio.items.dyeable.PaintableItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -14,29 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import java.util.List;
-import java.util.function.BiFunction;
-
-import static net.minecraft.block.AbstractBlock.Settings.copy;
-
 public class ModBlocks {
-
-//new colouring system
-public static final Block COLOUR_BLOCK = registerColorBlock("colour_block", new PaintableBlock(copy(Blocks.STONE)), PaintableItem::new);
-
-	public static final List<Block> ALL_BLOCKS = List.of(
-			COLOUR_BLOCK
-	);
-	public static Block[] all() {
-		return ALL_BLOCKS.toArray(new Block[0]);
-	}
-
-	private static Block registerColorBlock(String id, Block block, BiFunction<Block, Item.Settings, Item> item) {
-		Registry.register(Registry.BLOCK, TvStudio.id(id), block);
-		Registry.register(Registry.ITEM, TvStudio.id(id), item.apply(block, new Item.Settings().group(ModItemGroup.BLOCKS_GROUP)));
-		return block;
-	}
-
 //Blocks without BlockItem
 
 
