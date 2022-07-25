@@ -48,3 +48,6 @@
 [12:48:56] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
 [12:48:56] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
 [12:48:56] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[12:49:02] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
+[12:49:02] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[12:49:28] [main/INFO] (Minecraft) Building optimized datafixer

@@ -4,8 +4,6 @@
   "package": "io.github.joppebijlsma.tvstudio.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "BlockItemAccessor",
-    "ItemStackMixin"
   ],
   "client": [
   ],
