@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "tvstudio:setwall/set_wall_magenta_concrete" },
-    "facing=south": { "model": "tvstudio:setwall/set_wall_magenta_concrete", "y":  180},
-    "facing=west": { "model": "tvstudio:setwall/set_wall_magenta_concrete", "y":  270},
-    "facing=east": { "model": "tvstudio:setwall/set_wall_magenta_concrete", "y":  90}
-  }
-}

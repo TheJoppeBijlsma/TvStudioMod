@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "tvstudio:setwall/set_wall_basalt_top" },
-    "facing=south": { "model": "tvstudio:setwall/set_wall_basalt_top", "y":  180},
-    "facing=west": { "model": "tvstudio:setwall/set_wall_basalt_top", "y":  270},
-    "facing=east": { "model": "tvstudio:setwall/set_wall_basalt_top", "y":  90}
-  }
-}

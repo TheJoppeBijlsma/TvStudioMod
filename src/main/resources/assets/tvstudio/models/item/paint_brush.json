@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tvstudio:items/paint_brush_overlay",
+    "layer1": "tvstudio:items/paint_brush_tip"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "tvstudio:dyed": 1
+      },
+      "model": "tvstudio:item/paint_brush_dyed"
+    }
+  ]
+}

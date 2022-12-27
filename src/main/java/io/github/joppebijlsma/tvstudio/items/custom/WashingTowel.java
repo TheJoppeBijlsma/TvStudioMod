@@ -2,24 +2,23 @@ package io.github.joppebijlsma.tvstudio.items.custom;
 
 
 import java.util.List;
-import java.util.Optional;
 
+import io.github.joppebijlsma.tvstudio.blocks.entity.PaintableBlockEntity;
+import io.github.joppebijlsma.tvstudio.items.PaintBrushItem;
+import io.github.joppebijlsma.tvstudio.items.TsDyeableItem;
+import io.github.joppebijlsma.tvstudio.registries.ModBlockEntities;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.Instrument;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.text.MutableText;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.*;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableTextContent;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Formatting;
-import net.minecraft.util.Util;
-import net.minecraft.util.registry.RegistryEntry;
-import net.minecraft.util.registry.RegistryKey;
+import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
-public class WashingTowel extends Item {
+public class WashingTowel extends Item implements TsDyeableItem {
 
 	public WashingTowel(Settings settings) {
 		super(settings);

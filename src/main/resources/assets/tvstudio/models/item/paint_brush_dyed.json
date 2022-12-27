@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tvstudio:items/paint_brush_overlay",
+    "layer1": "tvstudio:items/paint_brush_paint"
+  }
+}

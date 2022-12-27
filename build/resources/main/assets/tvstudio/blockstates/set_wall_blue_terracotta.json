@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "tvstudio:setwall/set_wall_blue_terracotta" },
-    "facing=south": { "model": "tvstudio:setwall/set_wall_blue_terracotta", "y":  180},
-    "facing=west": { "model": "tvstudio:setwall/set_wall_blue_terracotta", "y":  270},
-    "facing=east": { "model": "tvstudio:setwall/set_wall_blue_terracotta", "y":  90}
-  }
-}

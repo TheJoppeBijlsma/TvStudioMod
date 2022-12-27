@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "tvstudio:block/tv_camera" },
-    "facing=south": { "model": "tvstudio:block/tv_camera", "y":  180},
-    "facing=west": { "model": "tvstudio:block/tv_camera", "y":  270},
-    "facing=east": { "model": "tvstudio:block/tv_camera", "y":  90}
-  }
-}

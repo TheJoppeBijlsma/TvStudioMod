@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "tvstudio:block/light_gray_tv_stand" },
-    "facing=south": { "model": "tvstudio:block/light_gray_tv_stand", "y":  180},
-    "facing=west": { "model": "tvstudio:block/light_gray_tv_stand", "y":  270},
-    "facing=east": { "model": "tvstudio:block/light_gray_tv_stand", "y":  90}
-  }
-}

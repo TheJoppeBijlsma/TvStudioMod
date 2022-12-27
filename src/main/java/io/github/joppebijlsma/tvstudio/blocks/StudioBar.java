@@ -14,7 +14,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Material;
 
-public final class StudioBar extends Block {
+public final class StudioBar extends PaintableBlock {
 	
 	public static DirectionProperty FACING;
 	private static final VoxelShape BAR_NORTH_SOUTH;
@@ -24,8 +24,8 @@ public final class StudioBar extends Block {
     private static final VoxelShape SOUTH;
     private static final VoxelShape WEST;
 
-	public StudioBar() {
-		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
+	public StudioBar(Settings settings) {
+		super(Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
 	         return 2;}));
 		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
 		   }

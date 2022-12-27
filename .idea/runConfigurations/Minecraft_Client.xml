@@ -3,10 +3,14 @@
     <option name="MAIN_CLASS_NAME" value="net.fabricmc.devlaunchinjector.Main" />
     <module name="TvStudioMod.main" />
     <option name="PROGRAM_PARAMETERS" value="" />
-    <option name="VM_PARAMETERS" value="&quot;-Dfabric.dli.config=/Users/joppebijlsma/IdeaProjects/TvStudioMod/.gradle/loom-cache/launch.cfg&quot; &quot;-Dfabric.dli.env=client&quot; &quot;-XstartOnFirstThread&quot; &quot;-Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient&quot;" />
+    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=/Users/joppebijlsma/Documents/GitHub/TvStudioMod/.gradle/loom-cache/launch.cfg -Dfabric.dli.env=client -XstartOnFirstThread -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run/" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
+    <envs>
+      
+    </envs>
+    <shortenClasspath name="ARGS_FILE" />
   </configuration>
 </component>

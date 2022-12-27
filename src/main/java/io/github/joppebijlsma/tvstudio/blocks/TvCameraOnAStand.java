@@ -11,7 +11,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class TvCameraOnAStand extends Block {
+public class TvCameraOnAStand extends PaintableBlock {
 	
     private static final VoxelShape STAND_NORTH;
     private static final VoxelShape STAND_SOUTH;
@@ -27,7 +27,7 @@ public class TvCameraOnAStand extends Block {
     private static final VoxelShape WEST;
 	public static DirectionProperty FACING;
 
-	public TvCameraOnAStand() {
+	public TvCameraOnAStand(Settings settings) {
 		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
 	         return 2;}));
 		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));

@@ -11,7 +11,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class DirectorChair extends Block {
+public class DirectorChair extends PaintableBlock {
 	
 	public static DirectionProperty FACING;
 	private static final VoxelShape CHAIR_NORTH;
@@ -23,7 +23,7 @@ public class DirectorChair extends Block {
     private static final VoxelShape SOUTH;
     private static final VoxelShape WEST;
 
-	public DirectorChair() {
+	public DirectorChair(Settings settings) {
 		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> 2));
 		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
 		   }

@@ -3,6 +3,7 @@ package io.github.joppebijlsma.tvstudio.registries;
 import io.github.joppebijlsma.tvstudio.TvStudio;
 import io.github.joppebijlsma.tvstudio.blocks.*;
 import io.github.joppebijlsma.tvstudio.items.ModItemGroup;
+import io.github.joppebijlsma.tvstudio.items.PaintableItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -12,6 +13,11 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+
+import java.util.List;
+import java.util.function.BiFunction;
+
+import static net.minecraft.block.AbstractBlock.Settings.copy;
 
 public class ModBlocks {
 //Blocks without BlockItem
@@ -28,104 +34,20 @@ public class ModBlocks {
 	public static final Block GREEN_SCREEN_WALL = registerBlock("green_screen_wall",
 			new WallBlock(FabricBlockSettings.of(Material.WOOL).breakInstantly().sounds(BlockSoundGroup.METAL)), ModItemGroup.BLOCKS_GROUP);
 
-	//Non-Coloured
-	public static final Block TV_CAMERA = registerBlock("tv_camera",
-			new TvCamera(), ModItemGroup.BLOCKS_GROUP);
-	public static final Block CHIPBOARD_BLOCK = registerBlock("chipboard_block",
-			new Block(FabricBlockSettings.of(Material.WOOD).strength(3f, 3f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.BLOCKS_GROUP);
-	public static final Block SET_WALL_SUPPORT = registerBlock("set_wall_support",
-			new SetWallSupport(), ModItemGroup.BLOCKS_GROUP);
-
 	//Coloured
-		//TV Camera On A Stand
-		public static final Block WHITE_TV_CAMERA_ON_STAND = registerBlock("white_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block ORANGE_TV_CAMERA_ON_STAND = registerBlock("orange_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block MAGENTA_TV_CAMERA_ON_STAND = registerBlock("magenta_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_BLUE_TV_CAMERA_ON_STAND = registerBlock("light_blue_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block YELLOW_TV_CAMERA_ON_STAND = registerBlock("yellow_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIME_TV_CAMERA_ON_STAND = registerBlock("lime_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PINK_TV_CAMERA_ON_STAND = registerBlock("pink_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GRAY_TV_CAMERA_ON_STAND = registerBlock("gray_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_GRAY_TV_CAMERA_ON_STAND = registerBlock("light_gray_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block CYAN_TV_CAMERA_ON_STAND = registerBlock("cyan_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PURPLE_TV_CAMERA_ON_STAND = registerBlock("purple_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLUE_TV_CAMERA_ON_STAND = registerBlock("blue_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BROWN_TV_CAMERA_ON_STAND = registerBlock("brown_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GREEN_TV_CAMERA_ON_STAND = registerBlock("green_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block RED_TV_CAMERA_ON_STAND = registerBlock("red_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLACK_TV_CAMERA_ON_STAND = registerBlock("black_tv_camera_on_stand", new TvCameraOnAStand(), ModItemGroup.BLOCKS_GROUP);
-		
-		//Tv Stand
-		public static final Block WHITE_TV_STAND = registerBlock("white_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block ORANGE_TV_STAND = registerBlock("orange_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block MAGENTA_TV_STAND = registerBlock("magenta_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_BLUE_TV_STAND = registerBlock("light_blue_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block YELLOW_TV_STAND = registerBlock("yellow_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIME_TV_STAND = registerBlock("lime_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PINK_TV_STAND = registerBlock("pink_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GRAY_TV_STAND = registerBlock("gray_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_GRAY_TV_STAND = registerBlock("light_gray_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block CYAN_TV_STAND = registerBlock("cyan_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PURPLE_TV_STAND = registerBlock("purple_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLUE_TV_STAND = registerBlock("blue_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BROWN_TV_STAND = registerBlock("brown_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GREEN_TV_STAND = registerBlock("green_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block RED_TV_STAND = registerBlock("red_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLACK_TV_STAND = registerBlock("black_tv_stand", new TvStand(), ModItemGroup.BLOCKS_GROUP);
-		
-		//Studio Light
-		public static final Block WHITE_STUDIO_LIGHT = registerBlock("white_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block ORANGE_STUDIO_LIGHT = registerBlock("orange_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block MAGENTA_STUDIO_LIGHT = registerBlock("magenta_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_BLUE_STUDIO_LIGHT = registerBlock("light_blue_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block YELLOW_STUDIO_LIGHT = registerBlock("yellow_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIME_STUDIO_LIGHT = registerBlock("lime_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PINK_STUDIO_LIGHT = registerBlock("pink_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GRAY_STUDIO_LIGHT = registerBlock("gray_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_GRAY_STUDIO_LIGHT = registerBlock("light_gray_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block CYAN_STUDIO_LIGHT = registerBlock("cyan_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PURPLE_STUDIO_LIGHT = registerBlock("purple_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLUE_STUDIO_LIGHT = registerBlock("blue_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BROWN_STUDIO_LIGHT = registerBlock("brown_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GREEN_STUDIO_LIGHT = registerBlock("green_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block RED_STUDIO_LIGHT = registerBlock("red_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLACK_STUDIO_LIGHT = registerBlock("black_studio_light", new StudioLight(), ModItemGroup.BLOCKS_GROUP);
-		
-		//Studio Bar
-		public static final Block WHITE_STUDIO_BAR = registerBlock("white_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block ORANGE_STUDIO_BAR = registerBlock("orange_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block MAGENTA_STUDIO_BAR = registerBlock("magenta_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_BLUE_STUDIO_BAR = registerBlock("light_blue_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block YELLOW_STUDIO_BAR = registerBlock("yellow_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIME_STUDIO_BAR = registerBlock("lime_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PINK_STUDIO_BAR = registerBlock("pink_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GRAY_STUDIO_BAR = registerBlock("gray_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_GRAY_STUDIO_BAR = registerBlock("light_gray_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block CYAN_STUDIO_BAR = registerBlock("cyan_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PURPLE_STUDIO_BAR = registerBlock("purple_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLUE_STUDIO_BAR = registerBlock("blue_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BROWN_STUDIO_BAR = registerBlock("brown_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GREEN_STUDIO_BAR = registerBlock("green_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block RED_STUDIO_BAR = registerBlock("red_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLACK_STUDIO_BAR = registerBlock("black_studio_bar", new StudioBar(), ModItemGroup.BLOCKS_GROUP);
-		
-		//Director Chair
-		public static final Block WHITE_DIRECTOR_CHAIR = registerBlock("white_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block ORANGE_DIRECTOR_CHAIR = registerBlock("orange_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block MAGENTA_DIRECTOR_CHAIR = registerBlock("magenta_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_BLUE_DIRECTOR_CHAIR = registerBlock("light_blue_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block YELLOW_DIRECTOR_CHAIR = registerBlock("yellow_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIME_DIRECTOR_CHAIR = registerBlock("lime_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PINK_DIRECTOR_CHAIR = registerBlock("pink_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GRAY_DIRECTOR_CHAIR = registerBlock("gray_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block LIGHT_GRAY_DIRECTOR_CHAIR = registerBlock("light_gray_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block CYAN_DIRECTOR_CHAIR = registerBlock("cyan_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block PURPLE_DIRECTOR_CHAIR = registerBlock("purple_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLUE_DIRECTOR_CHAIR = registerBlock("blue_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BROWN_DIRECTOR_CHAIR = registerBlock("brown_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block GREEN_DIRECTOR_CHAIR = registerBlock("green_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block RED_DIRECTOR_CHAIR = registerBlock("red_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
-		public static final Block BLACK_DIRECTOR_CHAIR = registerBlock("black_director_chair", new DirectorChair(), ModItemGroup.BLOCKS_GROUP);
+		public static final Block TV_CAMERA_ON_STAND = registerColouredBlock("tv_camera_on_stand", new TvCameraOnAStand(copy(Blocks.STONE)), PaintableItem::new);
+		public static final Block TV_STAND = registerColouredBlock("tv_stand", new TvStand(copy(Blocks.STONE)), PaintableItem::new);
+		public static final Block STUDIO_LIGHT = registerColouredBlock("studio_light", new StudioLight(copy(Blocks.STONE)), PaintableItem::new);
+		public static final Block STUDIO_BAR = registerColouredBlock("studio_bar", new StudioBar(copy(Blocks.STONE)), PaintableItem::new);
+		public static final Block DIRECTOR_CHAIR = registerColouredBlock("director_chair", new DirectorChair(copy(Blocks.STONE)), PaintableItem::new);
+
+	//Non-Coloured
+		public static final Block TV_CAMERA = registerBlock("tv_camera",
+			new TvCamera(), ModItemGroup.BLOCKS_GROUP);
+		public static final Block CHIPBOARD_BLOCK = registerBlock("chipboard_block",
+			new Block(FabricBlockSettings.of(Material.WOOD).strength(3f, 3f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.BLOCKS_GROUP);
+		public static final Block SET_WALL_SUPPORT = registerBlock("set_wall_support",
+			new SetWallSupport(), ModItemGroup.BLOCKS_GROUP);
 
 		//Set Wall
 		public static final Block SET_WALL = registerBlock("set_wall", new SetWall(), ModItemGroup.SET_WALL_GROUP);
@@ -431,6 +353,24 @@ public class ModBlocks {
 	private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
 		return Registry.register(Registry.ITEM, new Identifier(TvStudio.MOD_ID, name),
 				new BlockItem(block, new FabricItemSettings().group(tab)));
+	}
+
+	public static final List<Block> ALL_BLOCKS = List.of(
+			STUDIO_BAR,
+			DIRECTOR_CHAIR,
+			TV_STAND,
+			TV_CAMERA_ON_STAND,
+			STUDIO_LIGHT
+	);
+
+	private static Block registerColouredBlock(String id, Block block, BiFunction<Block, Item.Settings, Item> item) {
+		Registry.register(Registry.BLOCK, TvStudio.id(id), block);
+		Registry.register(Registry.ITEM, TvStudio.id(id), item.apply(block, new Item.Settings().group(ModItemGroup.BLOCKS_GROUP)));
+		return block;
+	}
+
+	public static Block[] all() {
+		return ALL_BLOCKS.toArray(new Block[0]);
 	}
 
 	public static void registerModBlocks() {

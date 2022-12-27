@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "tvstudio:setwall/set_wall_gravel" },
-    "facing=south": { "model": "tvstudio:setwall/set_wall_gravel", "y":  180},
-    "facing=west": { "model": "tvstudio:setwall/set_wall_gravel", "y":  270},
-    "facing=east": { "model": "tvstudio:setwall/set_wall_gravel", "y":  90}
-  }
-}
