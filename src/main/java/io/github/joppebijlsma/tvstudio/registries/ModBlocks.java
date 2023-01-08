@@ -10,9 +10,11 @@ import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+
 
 import java.util.List;
 import java.util.function.BiFunction;
@@ -342,17 +344,17 @@ public class ModBlocks {
 
 
 	private static Block registerBlockWithoutItem(String name, Block block) {
-		return Registry.register(Registry.BLOCK, new Identifier(TvStudio.MOD_ID, name), block);
+		return Registry.register(Registries.BLOCK, new Identifier(TvStudio.MOD_ID, name), block);
 	}
 
 	private static Block registerBlock(String name, Block block, ItemGroup tab) {
 		registerBlockItem(name, block, tab);
-		return Registry.register(Registry.BLOCK, new Identifier(TvStudio.MOD_ID, name), block);
+		return Registry.register(Registries.BLOCK, new Identifier(TvStudio.MOD_ID, name), block);
 	}
 
 	private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
-		return Registry.register(Registry.ITEM, new Identifier(TvStudio.MOD_ID, name),
-				new BlockItem(block, new FabricItemSettings().group(tab)));
+		return Registry.register(Registries.ITEM, new Identifier(TvStudio.MOD_ID, name),
+				new BlockItem(block, new FabricItemSettings()));
 	}
 
 	public static final List<Block> ALL_BLOCKS = List.of(
@@ -364,8 +366,8 @@ public class ModBlocks {
 	);
 
 	private static Block registerColouredBlock(String id, Block block, BiFunction<Block, Item.Settings, Item> item) {
-		Registry.register(Registry.BLOCK, TvStudio.id(id), block);
-		Registry.register(Registry.ITEM, TvStudio.id(id), item.apply(block, new Item.Settings().group(ModItemGroup.BLOCKS_GROUP)));
+		Registry.register(Registries.BLOCK, TvStudio.id(id), block);
+		Registry.register(Registries.ITEM, TvStudio.id(id), item.apply(block, new Item.Settings()));
 		return block;
 	}
 

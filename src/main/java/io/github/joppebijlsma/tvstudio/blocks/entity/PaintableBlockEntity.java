@@ -58,7 +58,7 @@ public class PaintableBlockEntity extends BlockEntity implements PaintBrushItem.
     @Override
     public void writeNbt(NbtCompound nbt) {
         super.writeNbt(nbt);
-        nbt.remove(NbtKeys.COLOR);
+        nbt.putInt(NbtKeys.COLOR, color);
     }
 
     @Override

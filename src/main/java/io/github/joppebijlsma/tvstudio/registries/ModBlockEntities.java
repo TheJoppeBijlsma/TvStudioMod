@@ -11,15 +11,17 @@ import io.github.joppebijlsma.tvstudio.blocks.entity.PaintableBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.registry.Registries;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
 import net.minecraft.world.World;
 
 public final class ModBlockEntities {
-    public static final BlockEntityType<PaintableBlockEntity> PAINTABLE_BLOCK = register("paintable_block", FabricBlockEntityTypeBuilder.create(PaintableBlockEntity::new, ModBlocks.all()).build());
+    public static final BlockEntityType<PaintableBlockEntity> PAINTABLE_BLOCK = register("paintable_block",
+            FabricBlockEntityTypeBuilder.create(PaintableBlockEntity::new, ModBlocks.all()).build());
 
     private static <T extends BlockEntityType<?>> T register(String id, T type) {
-        return Registry.register(Registry.BLOCK_ENTITY_TYPE, TvStudio.id(id), type);
+        return Registry.register(Registries.BLOCK_ENTITY_TYPE, TvStudio.id(id), type);
     }
 
     public static void init() {
@@ -31,7 +33,7 @@ public final class ModBlockEntities {
         if (world instanceof ServerWorld sw) {
             sw.getChunkManager().markForUpdate(entity.getPos());
         } else {
-            throw new UnsupportedOperationException("[Painter's Blocks] Trying to sync from the client thread. Please report thi");
+            throw new UnsupportedOperationException("[TvStudio] Trying to sync from the client thread. Please report thi");
         }
     }
 }

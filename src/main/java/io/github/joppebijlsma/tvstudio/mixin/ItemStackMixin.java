@@ -25,9 +25,9 @@ abstract class ItemStackMixin {
 
     // would use an inject but isSectionVisible is static...
     @Redirect(
-        method = "getTooltip",
-        at = @At(value = "INVOKE", target = "Lnet/minecraft/item/ItemStack;isSectionVisible(ILnet/minecraft/item/ItemStack$TooltipSection;)Z", ordinal = 0),
-        slice = @Slice(from = @At(value = "FIELD", target = "Lnet/minecraft/item/ItemStack$TooltipSection;DYE:Lnet/minecraft/item/ItemStack$TooltipSection;"))
+            method = "getTooltip",
+            at = @At(value = "INVOKE", target = "Lnet/minecraft/item/ItemStack;isSectionVisible(ILnet/minecraft/item/ItemStack$TooltipSection;)Z", ordinal = 0),
+            slice = @Slice(from = @At(value = "FIELD", target = "Lnet/minecraft/item/ItemStack$TooltipSection;DYE:Lnet/minecraft/item/ItemStack$TooltipSection;"))
     )
     private boolean hideDyeSectionForSwatches(int flags, ItemStack.TooltipSection section) {
         if (getItem() instanceof TsDyeableItem) {

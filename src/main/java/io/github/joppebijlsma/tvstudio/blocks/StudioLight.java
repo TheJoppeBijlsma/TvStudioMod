@@ -40,17 +40,18 @@ public class StudioLight extends PaintableBlock {
         return this.getDefaultState().with(FACING, context.getPlayerFacing()).with(LIT, context.getWorld().isReceivingRedstonePower(context.getBlockPos()));
     }
 
+	@Override
 	public void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, BlockPos sourcePos, boolean notify) {
-		if (!world.isClient) {
-			boolean bl = (Boolean)state.get(LIT);
-			if (bl != world.isReceivingRedstonePower(pos)) {
-				if (bl) {
-					world.createAndScheduleBlockTick(pos, this, 4);
-				} else {
-					world.setBlockState(pos, (BlockState)state.cycle(LIT), 2);
-				}
+		if (world.isClient) {
+			return;
+		}
+		boolean bl = state.get(LIT);
+		if (bl != world.isReceivingRedstonePower(pos)) {
+			if (bl) {
+				world.scheduleBlockTick(pos, this, 4);
+			} else {
+				world.setBlockState(pos, (BlockState)state.cycle(LIT), Block.NOTIFY_LISTENERS);
 			}
-
 		}
 	}
 

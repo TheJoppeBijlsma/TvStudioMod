@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tvstudio:block/director_chair" },
+    "facing=south": { "model": "tvstudio:block/director_chair", "y":  180},
+    "facing=west": { "model": "tvstudio:block/director_chair", "y":  270},
+    "facing=east": { "model": "tvstudio:block/director_chair", "y":  90}
+  }
+}

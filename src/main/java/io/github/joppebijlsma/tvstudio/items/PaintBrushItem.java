@@ -10,11 +10,7 @@ import io.github.joppebijlsma.tvstudio.blocks.entity.PaintableBlockEntity;
 import io.github.joppebijlsma.tvstudio.registries.ModBlockEntities;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.DyeableItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUsageContext;
+import net.minecraft.item.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Formatting;
@@ -28,6 +24,7 @@ public class PaintBrushItem extends Item implements TsDyeableItem {
     public PaintBrushItem(Settings settings) {
         super(settings);
     }
+
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
         @Nullable PaintableBlockEntity entity = context.getWorld().getBlockEntity(context.getBlockPos(), ModBlockEntities.PAINTABLE_BLOCK).orElse(null);
@@ -42,13 +39,6 @@ public class PaintBrushItem extends Item implements TsDyeableItem {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         appendColorTooltip(stack, tooltip);
-    }
-
-    @Override
-    public void appendStacks(ItemGroup group, DefaultedList<ItemStack> stacks) {
-        if (isIn(group)) {
-            TsDyeableItem.appendStacks(this, stacks);
-        }
     }
 
     public int getColor(ItemStack stack, int tintIndex) {

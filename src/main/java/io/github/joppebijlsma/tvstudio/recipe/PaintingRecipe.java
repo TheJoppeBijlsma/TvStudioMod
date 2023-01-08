@@ -15,13 +15,16 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.RecipeSerializer;
 import net.minecraft.recipe.SpecialCraftingRecipe;
+import net.minecraft.recipe.book.CraftingRecipeCategory;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
+import java.awt.*;
+
 public class PaintingRecipe extends SpecialCraftingRecipe {
-    public PaintingRecipe(Identifier id) {
-        super(id);
+    public PaintingRecipe(Identifier id, CraftingRecipeCategory category) {
+        super(id, category);
     }
 
     @Nullable
@@ -38,10 +41,10 @@ public class PaintingRecipe extends SpecialCraftingRecipe {
             PaintBrushItem swatch = (PaintBrushItem) item;
 
             if (swatch.hasColor(stack)) {
-                if (!dyed.isEmpty()) return null; // duplicate dyed swatch
+                if (!dyed.isEmpty()) return null; // duplicate dyed paintbrush
                 dyed = stack;
             } else {
-                if (!clean.isEmpty()) return null; // duplicate clean swatch
+                if (!clean.isEmpty()) return null; // duplicate clean paintbrush
                 clean = stack;
             }
         }
@@ -71,7 +74,7 @@ public class PaintingRecipe extends SpecialCraftingRecipe {
 
     @Override
     public RecipeSerializer<?> getSerializer() {
-        return ModRecipes.SWATCHING;
+        return ModRecipes.PAINTING;
     }
 
     private record Inputs(ItemStack clean, ItemStack dyed) {}

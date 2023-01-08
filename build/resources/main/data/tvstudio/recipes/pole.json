@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "tvstudio:iron_stick"
+    }
+  ],
+  "result":
+  {
+    "item": "tvstudio:pole",
+    "count": 1
+  }
+}

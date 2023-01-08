@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "setwall",
+  "ingredients": [
+    {
+      "item": "tvstudio:set_wall"
+    },
+    {
+      "item": "minecraft:green_concrete"
+    }
+  ],
+  "result": {
+    "item": "tvstudio:set_wall_green_concrete"
+  }
+}

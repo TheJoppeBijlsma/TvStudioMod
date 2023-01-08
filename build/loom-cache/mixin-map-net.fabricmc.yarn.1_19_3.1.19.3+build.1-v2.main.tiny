@@ -1,0 +1,3 @@
+v1	named	intermediary
+METHOD	io/github/joppebijlsma/tvstudio/mixin/ItemStackMixin	()Lnet/minecraft/item/Item;	getItem	method_7909
+METHOD	io/github/joppebijlsma/tvstudio/mixin/ItemStackMixin	(ILnet/minecraft/item/ItemStack$TooltipSection;)Z	isSectionVisible	method_30267

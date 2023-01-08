@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "tvstudio",
+  "version": "1.13.1",
+
+  "name": "Tv Studio",
+  "description": "The Tv Studio 1.19 1.13.1 contains: - Tv Camera - Tv Stand - Tv Camera On A Stand - Studio Bar - Studio Light - Director Chair - Boompole Microphone - Green and Blue Screen Block - Green and Blue Screen Wall - Set Walls - Microphone Headset",
+  "authors": [
+    "JoppeBijlsma"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/tv-studio",
+    "sources": "https://github.com/TheJoppeBijlsma/TvStudioMod"
+  },
+
+  "license": "All Rights Reserved",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.github.joppebijlsma.tvstudio.TvStudio"],
+    "client": ["io.github.joppebijlsma.tvstudio.client.ColourTestClient"]
+  },
+  "mixins": [
+    "tvstudio.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

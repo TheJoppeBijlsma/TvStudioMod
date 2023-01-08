@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " 1 ",
+    " 2 ",
+    "222"
+  ],
+  "key":
+  {
+    "1":
+    {
+      "item": "tvstudio:tv_stand_head"
+    },
+    "2":
+    {
+      "item": "minecraft:white_concrete"
+    }
+},
+  "result":
+  {
+    "item": "tvstudio:tv_stand",
+    "count": 1
+  }
+}
