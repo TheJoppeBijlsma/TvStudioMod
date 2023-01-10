@@ -323,9 +323,11 @@
   "item.tvstudio.paint_brush": "Paint Brush",
   
   "tooltip.tvstudio.washing_towel.hold.shift": "\u00A73Hold\u00A7e \u00A7lShift \u00A73For More Information.",
-  "tooltip.tvstudio.washing_towel.line1": "\u00A7cCombine in a\u00A73 \u00A7lcrafting table \u00A7r\u00A7cwith a coloured ",
-  "tooltip.tvstudio.washing_towel.line2": "\u00A7r\u00A7cblock from\u00A73 \u00A7lthe Tv Studio Mod \u00A7r\u00A7cto wash of its colour.",
+  "tooltip.tvstudio.washing_towel.line1": "§3§lright click §r§ca coloured block from",
+  "tooltip.tvstudio.washing_towel.line2": "§3§lthe Tv Studio Mod §r§cto wash of its colour.",
   "tooltip.tvstudio.color": "[#%s]",
   "tooltip.tvstudio.dye_color": "[#%s] (%s)",
-  "tooltip.tvstudio.undyed": "Undyed"
+  "tooltip.tvstudio.undyed": "Undyed",
+  "tooltip.tvstudio.washed": "§3§lWashed off colour",
+  "tooltip.tvstudio.nocolour": "§4§lBlock has no colour"
   }

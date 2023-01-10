@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tvstudio:items/set_wall_support"
+    "layer0": "tvstudio:item/set_wall_support"
   }
 }

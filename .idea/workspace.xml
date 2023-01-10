@@ -5,501 +5,165 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6594f77d-c7f8-4293-a7d4-0caed5d13c1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-12-27_19.05.28-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-12-27_19.11.32-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-01-07_23.37.52-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-01-07_23.40.01-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/data/fabricDefaultResourcePacks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-12-27-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-12-27-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-12-27-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-12-27-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-12-27-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-12-27-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-07-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-07-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-07-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-07-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-08-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/1e3c9076-6029-36c6-8475-dd38d2030d5f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/3b4c06df-8aac-35fe-b01d-5804351603ec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/3d66a28d-6934-3ed5-8300-c1ada16fe77b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/3f18158e-f2c1-3129-a134-25632e6b98da.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/49b06ace-053b-361b-9d2b-2481cac53c1e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/5947c5d8-1403-3ff7-8914-5758d49fdc29.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/5bf9c219-9b9d-3293-9d0d-11b90d104d35.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/6ae8fe40-3ccb-3755-8fd2-c5445728b386.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/6ecd1629-dee4-373d-9457-481bd36b0826.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/80db04bb-566c-3ad4-b0e2-8e4330dc410b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/aefde92f-3149-3d2f-9be8-de193376d23c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/e93afb92-bc6e-34ce-b382-da5f2dd619b2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/1e3c9076-6029-36c6-8475-dd38d2030d5f.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3b4c06df-8aac-35fe-b01d-5804351603ec.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3b4c06df-8aac-35fe-b01d-5804351603ec.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3d66a28d-6934-3ed5-8300-c1ada16fe77b.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3d66a28d-6934-3ed5-8300-c1ada16fe77b.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3f18158e-f2c1-3129-a134-25632e6b98da.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3f18158e-f2c1-3129-a134-25632e6b98da.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/49b06ace-053b-361b-9d2b-2481cac53c1e.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/5947c5d8-1403-3ff7-8914-5758d49fdc29.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/5947c5d8-1403-3ff7-8914-5758d49fdc29.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/5bf9c219-9b9d-3293-9d0d-11b90d104d35.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/5bf9c219-9b9d-3293-9d0d-11b90d104d35.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/6ae8fe40-3ccb-3755-8fd2-c5445728b386.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/6ae8fe40-3ccb-3755-8fd2-c5445728b386.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/6ecd1629-dee4-373d-9457-481bd36b0826.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/80db04bb-566c-3ad4-b0e2-8e4330dc410b.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/80db04bb-566c-3ad4-b0e2-8e4330dc410b.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/aefde92f-3149-3d2f-9be8-de193376d23c.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/e93afb92-bc6e-34ce-b382-da5f2dd619b2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/e93afb92-bc6e-34ce-b382-da5f2dd619b2.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/1e3c9076-6029-36c6-8475-dd38d2030d5f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/3b4c06df-8aac-35fe-b01d-5804351603ec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/3d66a28d-6934-3ed5-8300-c1ada16fe77b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/3f18158e-f2c1-3129-a134-25632e6b98da.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/49b06ace-053b-361b-9d2b-2481cac53c1e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/5947c5d8-1403-3ff7-8914-5758d49fdc29.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/5bf9c219-9b9d-3293-9d0d-11b90d104d35.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/6ae8fe40-3ccb-3755-8fd2-c5445728b386.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/6ecd1629-dee4-373d-9457-481bd36b0826.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/80db04bb-566c-3ad4-b0e2-8e4330dc410b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/aefde92f-3149-3d2f-9be8-de193376d23c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/e93afb92-bc6e-34ce-b382-da5f2dd619b2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-01-08_01.23.44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-08-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-08-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-08-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-08-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-08-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-08-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-09-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-09-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-09-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-09-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/043cbf82-02a9-3180-968e-af73411af080.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/08e49200-0644-3742-931a-94fcbb560d07.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/0de21b13-73b3-37ba-84f2-92c78b6712c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/181bbcbe-77b5-3b29-b98c-87ba0992cbd8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/21aef119-186c-31d8-89d6-c507e23ea041.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/3c0b2b93-1042-3a3d-b6b2-a97839f06c80.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/492dc575-b72e-3d83-b2fd-33ab63727150.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/56194db1-2459-3533-bada-8561030dd064.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/79588fdd-6216-324d-ac44-68b387fcfb5c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/7dc80f62-93ab-31a4-97b1-46f4b80402c9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/7de0b911-1474-3b51-bbfc-d3e0a184ff98.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/7e94e5c9-1ae4-352e-9cf6-8305e5b127c7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/827abf77-9106-32af-9a7f-8bc101f4b837.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/82eab9c5-ed04-3a17-8da6-2923b8b4dcf8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/9437feb6-e095-39c6-ab98-841789b04719.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/a08e137b-04fa-3fce-96cc-517c7a87690d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/b17d2796-eeb1-3028-a752-0764d6d5550d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/ca200422-e977-3e4c-ad0b-8fd2f35df23f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/fef5996a-ff47-30bf-9025-1401c61fa24d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/043cbf82-02a9-3180-968e-af73411af080.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/043cbf82-02a9-3180-968e-af73411af080.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/08e49200-0644-3742-931a-94fcbb560d07.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/08e49200-0644-3742-931a-94fcbb560d07.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/0de21b13-73b3-37ba-84f2-92c78b6712c2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/0de21b13-73b3-37ba-84f2-92c78b6712c2.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/181bbcbe-77b5-3b29-b98c-87ba0992cbd8.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/181bbcbe-77b5-3b29-b98c-87ba0992cbd8.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/21aef119-186c-31d8-89d6-c507e23ea041.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/21aef119-186c-31d8-89d6-c507e23ea041.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3c0b2b93-1042-3a3d-b6b2-a97839f06c80.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3c0b2b93-1042-3a3d-b6b2-a97839f06c80.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/492dc575-b72e-3d83-b2fd-33ab63727150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/492dc575-b72e-3d83-b2fd-33ab63727150.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/56194db1-2459-3533-bada-8561030dd064.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/56194db1-2459-3533-bada-8561030dd064.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/79588fdd-6216-324d-ac44-68b387fcfb5c.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/7dc80f62-93ab-31a4-97b1-46f4b80402c9.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/7dc80f62-93ab-31a4-97b1-46f4b80402c9.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/7de0b911-1474-3b51-bbfc-d3e0a184ff98.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/7de0b911-1474-3b51-bbfc-d3e0a184ff98.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/7e94e5c9-1ae4-352e-9cf6-8305e5b127c7.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/7e94e5c9-1ae4-352e-9cf6-8305e5b127c7.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/827abf77-9106-32af-9a7f-8bc101f4b837.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/827abf77-9106-32af-9a7f-8bc101f4b837.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/82eab9c5-ed04-3a17-8da6-2923b8b4dcf8.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/82eab9c5-ed04-3a17-8da6-2923b8b4dcf8.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/9437feb6-e095-39c6-ab98-841789b04719.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/9437feb6-e095-39c6-ab98-841789b04719.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/a08e137b-04fa-3fce-96cc-517c7a87690d.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/a08e137b-04fa-3fce-96cc-517c7a87690d.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/b17d2796-eeb1-3028-a752-0764d6d5550d.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/b17d2796-eeb1-3028-a752-0764d6d5550d.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/ca200422-e977-3e4c-ad0b-8fd2f35df23f.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/ca200422-e977-3e4c-ad0b-8fd2f35df23f.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/fef5996a-ff47-30bf-9025-1401c61fa24d.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/fef5996a-ff47-30bf-9025-1401c61fa24d.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/043cbf82-02a9-3180-968e-af73411af080.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/08e49200-0644-3742-931a-94fcbb560d07.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/0de21b13-73b3-37ba-84f2-92c78b6712c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/181bbcbe-77b5-3b29-b98c-87ba0992cbd8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/21aef119-186c-31d8-89d6-c507e23ea041.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/3c0b2b93-1042-3a3d-b6b2-a97839f06c80.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/492dc575-b72e-3d83-b2fd-33ab63727150.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/56194db1-2459-3533-bada-8561030dd064.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/79588fdd-6216-324d-ac44-68b387fcfb5c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/7dc80f62-93ab-31a4-97b1-46f4b80402c9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/7de0b911-1474-3b51-bbfc-d3e0a184ff98.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/7e94e5c9-1ae4-352e-9cf6-8305e5b127c7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/827abf77-9106-32af-9a7f-8bc101f4b837.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/82eab9c5-ed04-3a17-8da6-2923b8b4dcf8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/9437feb6-e095-39c6-ab98-841789b04719.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/a08e137b-04fa-3fce-96cc-517c7a87690d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/b17d2796-eeb1-3028-a752-0764d6d5550d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/ca200422-e977-3e4c-ad0b-8fd2f35df23f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/fef5996a-ff47-30bf-9025-1401c61fa24d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-01-09_23.48.31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-01-09_23.48.45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/blue_screen_wall.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/green_screen_wall.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/1.19.3/net.fabricmc.yarn.1_19_3.1.19.3+build.1-v2/minecraft-project-@-merged-named-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/1.19.3/net.fabricmc.yarn.1_19_3.1.19.3+build.1-v2/minecraft-project-@-merged-named-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/1.19.3/net.fabricmc.yarn.1_19_3.1.19.3+build.1-v2/minecraft-project-@-merged-named.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/1.19.3/net.fabricmc.yarn.1_19_3.1.19.3+build.1-v2/minecraft-project-@-merged-named.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TvStudioMod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TvStudioMod.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TvStudioMod.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TvStudioMod.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioLight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/items/ModItemGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/items/ModItemGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/items/custom/WashingTowel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/items/custom/WashingTowel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/tv_camera.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/tv_camera.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/set_wall_support.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/set_wall_support.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/item/washing_towel.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/item/washing_towel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/PaintableBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/PaintableBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-01-08-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-01-08-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/entity/PaintableBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/entity/PaintableBlockEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/client/ColourTestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/client/ColourTestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/ModItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/ModItemGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/PaintBrushItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/PaintBrushItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/PaintableItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/PaintableItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/TsDyeableItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/TsDyeableItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/loot/RemoveDefaultColorLootFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/loot/RemoveDefaultColorLootFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/mixin/BlockItemAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/mixin/BlockItemAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/mixin/ItemStackMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/mixin/ItemStackMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/recipe/PaintingRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/recipe/PaintingRecipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlockEntities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/custom/WashingTowel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/custom/WashingTowel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModLoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModLoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModRecipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModRecipes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/util/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/util/Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_wall_post.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_wall_post.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_wall_side.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_wall_side.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_wall_side_tall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_wall_side_tall.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/chipboard_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/chipboard_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/director_chair.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/director_chair.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_wall_post.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_wall_post.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_wall_side.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_wall_side.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_wall_side_tall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_wall_side_tall.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/pole.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/pole.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/set_wall_support.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/set_wall_support.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_bar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_light.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_light.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_light_powered.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_light_powered.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_camera.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_camera.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_camera_on_stand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_camera_on_stand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_stand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_stand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_stand_head.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_stand_head.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/blue_neon_orb.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/blue_neon_orb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/blue_screen_dye.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/blue_screen_dye.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/blue_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/blue_screen_wall.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/boompole_microphone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/boompole_microphone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/clapboard.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/clapboard.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/green_neon_orb.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/green_neon_orb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/green_screen_dye.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/green_screen_dye.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/green_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/green_screen_wall.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/headset.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/headset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/iron_stick.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/iron_stick.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/leather_helmet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/lens.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/lens.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/paint_brush.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/paint_brush.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/paint_brush_dyed.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/paint_brush_dyed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/washing_towel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/washing_towel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_acacia_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_acacia_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_acacia_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_acacia_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_amethyst_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_amethyst_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_ancient_debris.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_ancient_debris.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_andesite.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_andesite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_azalea.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_azalea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_basalt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_basalt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_basalt_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_basalt_top.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bedrock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bedrock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bee_nest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bee_nest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_beehive.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_beehive.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_birch_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_birch_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_birch_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_birch_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_black_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blackstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blackstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_ice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_ice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_blue_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bone_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bone_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bookshelf.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bookshelf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brain_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brain_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_mushroom_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_mushroom_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_brown_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bubble_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bubble_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_budding_amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_budding_amethyst.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_calcite.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_calcite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_carved_pumpkin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_carved_pumpkin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_polished_blackstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_polished_blackstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_quartz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_quartz_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_stone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_stone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_clay.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_clay.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_coal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_coal_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_coal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_coal_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_coarse_dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_coarse_dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cobbled_deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cobbled_deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cobblestone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cobblestone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_composter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_composter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_copper_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_copper_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_copper_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_copper_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_deepslate_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_deepslate_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_deepslate_tiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_deepslate_tiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_polished_blackstone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_polished_blackstone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_stone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cracked_stone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_crimson_nylium.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_crimson_nylium.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_crimson_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_crimson_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_crimson_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_crimson_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_crying_obsidian.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_crying_obsidian.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cut_red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cut_red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cut_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cut_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cyan_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dark_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dark_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dark_oak_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dark_oak_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dark_prismarine.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dark_prismarine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_brain_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_brain_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_bubble_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_bubble_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_fire_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_fire_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_horn_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_horn_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_tube_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dead_tube_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_coal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_coal_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_copper_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_copper_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_diamond_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_diamond_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_emerald_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_emerald_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_gold_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_gold_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_iron_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_iron_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_lapis_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_lapis_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_redstone_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_redstone_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_tiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_deepslate_tiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_diamond_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_diamond_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_diamond_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_diamond_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_diorite.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_diorite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dispenser.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dispenser.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dried_kelp_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dried_kelp_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dripstone_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_dripstone_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_emerald_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_emerald_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_emerald_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_emerald_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_end_stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_end_stone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_end_stone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_end_stone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_exposed_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_exposed_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_exposed_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_exposed_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_fire_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_fire_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_flowering_azalea.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_flowering_azalea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gilded_blackstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gilded_blackstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_glowstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_glowstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gold_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gold_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gold_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gold_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_granite.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_granite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gravel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gravel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_gray_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_green_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_hay_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_hay_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_hay_block_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_hay_block_top.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_honeycomb_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_honeycomb_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_horn_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_horn_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_ice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_ice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_iron_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_iron_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_iron_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_iron_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_jukebox.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_jukebox.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_jungle_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_jungle_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_jungle_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_jungle_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lapis_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lapis_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lapis_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lapis_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_blue_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_light_gray_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lime_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lodestone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lodestone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lodestone_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_lodestone_top.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magenta_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magma_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_magma_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mangrove_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mangrove_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mangrove_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mangrove_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_melon.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_melon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_melon_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_melon_top.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_moss_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_moss_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mossy_cobblestone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mossy_cobblestone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mossy_stone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mossy_stone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mud.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mud.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mud_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mud_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_muddy_mangrove_roots.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_muddy_mangrove_roots.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mushroom_inside.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mushroom_inside.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mushroom_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_mushroom_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_nether_gold_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_nether_gold_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_nether_quartz_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_nether_quartz_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_nether_wart_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_nether_wart_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_netherite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_netherite_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_netherrack.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_netherrack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_note_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_note_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_oak_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_oak_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_observer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_observer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_obsidian.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_obsidian.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_ochre_froglight.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_ochre_froglight.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_orange_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_oxidized_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_oxidized_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_oxidized_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_oxidized_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_packed_ice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_packed_ice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_packed_mud.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_packed_mud.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pearlescent_froglight.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pearlescent_froglight.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pink_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_andesite.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_andesite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_basalt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_basalt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_basalt_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_basalt_top.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_blackstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_blackstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_blackstone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_blackstone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_diorite.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_diorite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_granite.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_polished_granite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_powder_snow.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_powder_snow.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_prismarine.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_prismarine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_prismarine_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_prismarine_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pumpkin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_pumpkin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purple_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purpur_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purpur_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purpur_pillar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_purpur_pillar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_quartz_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_quartz_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_quartz_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_quartz_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_quartz_pillar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_quartz_pillar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_raw_copper_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_raw_copper_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_raw_gold_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_raw_gold_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_raw_iron_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_raw_iron_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_mushroom_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_mushroom_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_nether_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_nether_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_sand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_red_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_redstone_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_redstone_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_redstone_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_redstone_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_reinforced_deepslate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_reinforced_deepslate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_rooted_dirt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_rooted_dirt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sculk.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sculk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sculk_catalyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sculk_catalyst.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sea_lantern.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sea_lantern.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_shroomlight.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_shroomlight.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smithing_table_bottom.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smithing_table_bottom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smithing_table_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smithing_table_top.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_basalt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_basalt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_quartz.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_quartz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_red_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_red_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_sandstone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_sandstone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_smooth_stone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_snow_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_snow_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_soul_sand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_soul_sand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_soul_soil.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_soul_soil.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sponge.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_sponge.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_spruce_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_spruce_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_spruce_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_spruce_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stone_bricks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stone_bricks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_acacia_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_acacia_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_birch_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_birch_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_crimson_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_crimson_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_dark_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_dark_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_jungle_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_jungle_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_mangrove_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_mangrove_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_oak_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_oak_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_spruce_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_spruce_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_warped_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_warped_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_target.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_target.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_tnt.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_tnt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_tube_coral_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_tube_coral_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_tuff.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_tuff.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_verdant_froglight.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_verdant_froglight.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_warped_nylium.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_warped_nylium.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_warped_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_warped_planks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_warped_stem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_warped_stem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_warped_wart_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_warped_wart_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_weathered_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_weathered_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_weathered_cut_copper.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_weathered_cut_copper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_wet_sponge.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_wet_sponge.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_white_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_concrete.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_concrete.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_concrete_powder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_concrete_powder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_shulker_box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_shulker_box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_terracotta.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_terracotta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_wool.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_yellow_wool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/blocks/base_colour.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/base_colour.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/blocks/blue_screen_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/blue_screen_block.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/blocks/chipboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/chipboard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/blocks/director_chair.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/director_chair.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/blocks/green_screen_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/green_screen_block.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/blocks/studio_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/studio_light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/blocks/tv_camera.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/tv_camera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/blocks/tv_stand.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/tv_stand.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/blocks/tv_stand_head.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/tv_stand_head.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/brown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/cyan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/light_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/light_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/lime.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/magenta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/colours/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/blue_neon_orb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/blue_neon_orb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/blue_screen_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/blue_screen_dye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/boompole_microphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/boompole_microphone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/boompole_microphone_v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/boompole_microphone_v2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/clapboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/clapboard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/green_neon_orb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/green_neon_orb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/green_screen_dye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/green_screen_dye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/headset.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/headset.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/headset_overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/headset_overlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/iron_stick.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/iron_stick.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/lens.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/lens.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/paint_brush_overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/paint_brush_overlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/paint_brush_paint.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/paint_brush_paint.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/paint_brush_tip.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/paint_brush_tip.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/set_wall_support.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/set_wall_support.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/items/washing_towel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/washing_towel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tvstudio/advancements/recipes/swatch.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/advancements/recipes/paintbrush.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_support.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_support.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/washing_towel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/washing_towel.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -526,14 +190,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/joppebijlsma/Documents/GitHub/TvStudioMod/build.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/joppebijlsma/Documents/GitHub/TvStudioMod/src/main/resources/data/tvstudio/loot_tables/blocks"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Minecraft Client" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

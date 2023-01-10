@@ -20,6 +20,7 @@ public class ModItemGroup {
             .entries((enabledFeatures, entries, operatorEnabled) -> {
 
                 entries.add(ModBlocks.CHIPBOARD_BLOCK);
+                entries.add(ModBlocks.SET_WALL_SUPPORT);
                 entries.add(ModBlocks.GREEN_SCREEN_BLOCK);
                 entries.add(ModBlocks.GREEN_SCREEN_WALL);
                 entries.add(ModBlocks.BLUE_SCREEN_BLOCK);
@@ -48,7 +49,7 @@ public class ModItemGroup {
                 entries.add(ModItems.IRON_STICK);
                 entries.add(ModItems.POLE);
                 entries.add(ModItems.TV_STAND_HEAD);
-                //entries.add(ModItems.WASHING_TOWEL);
+                entries.add(ModItems.WASHING_TOWEL);
                 entries.add(ModItems.BLUE_NEON_ORB);
                 entries.add(ModItems.BLUE_SCREEN_DYE);
                 entries.add(ModItems.GREEN_NEON_ORB);

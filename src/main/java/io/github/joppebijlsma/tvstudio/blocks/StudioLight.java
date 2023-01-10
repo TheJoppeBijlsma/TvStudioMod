@@ -7,6 +7,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.state.property.Property;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -15,6 +16,9 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.function.ToIntFunction;
 
 public class StudioLight extends PaintableBlock {
 	public static final BooleanProperty LIT;
@@ -30,15 +34,15 @@ public class StudioLight extends PaintableBlock {
     private static final VoxelShape WEST;
     
 	public StudioLight(Settings settings) {
-		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
-	         return 15;}));
-		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH).with(LIT, true));
+		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance(StudioLight.createLightLevelFromLitBlockState(15)));
+		this.setDefaultState((BlockState)this.getDefaultState().with(FACING, Direction.NORTH).with(LIT, false));
 		   }
 
 	@Override
-    public BlockState getPlacementState(ItemPlacementContext context) {
-        return this.getDefaultState().with(FACING, context.getPlayerFacing()).with(LIT, context.getWorld().isReceivingRedstonePower(context.getBlockPos()));
-    }
+	@Nullable
+	public BlockState getPlacementState(ItemPlacementContext ctx) {
+		return (BlockState)this.getDefaultState().with(FACING, ctx.getPlayerFacing()).with(LIT, ctx.getWorld().isReceivingRedstonePower(ctx.getBlockPos()));
+	}
 
 	@Override
 	public void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, BlockPos sourcePos, boolean notify) {
@@ -55,17 +59,17 @@ public class StudioLight extends PaintableBlock {
 		}
 	}
 
+	@Override
 	public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-		if ((Boolean)state.get(LIT) && !world.isReceivingRedstonePower(pos)) {
-			world.setBlockState(pos, (BlockState)state.cycle(LIT), 2);
+		if (state.get(LIT).booleanValue() && !world.isReceivingRedstonePower(pos)) {
+			world.setBlockState(pos, (BlockState)state.cycle(LIT), Block.NOTIFY_LISTENERS);
 		}
-
 	}
 
 	 @Override
-	    public void appendProperties(StateManager.Builder<Block, BlockState> builder) {
+	    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
 	        builder.add(FACING);
-		 	builder.add(new Property[]{LIT});
+		 	builder.add(LIT);
 	    }
 
 	    @Override
@@ -91,6 +95,10 @@ public class StudioLight extends PaintableBlock {
 	        } else
 	            return NORTH;
 	    }
+
+	private static ToIntFunction<BlockState> createLightLevelFromLitBlockState(int litLevel) {
+		return state -> state.get(Properties.LIT) != false ? litLevel : 0;
+	}
 	    
 	    static {
 	        FACING = HorizontalFacingBlock.FACING;

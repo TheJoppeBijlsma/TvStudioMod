@@ -29,7 +29,7 @@ public class ModItems {
 	public static final Item BOOMPOLE_MICROPHONE = registerItem("boompole_microphone",
 			new Item(new FabricItemSettings()));
 	public static final Item WASHING_TOWEL = registerItem("washing_towel",
-			new WashingTowel(new FabricItemSettings().maxCount(1)));
+			new WashingTowel(new FabricItemSettings().maxCount(64)));
 	public static final Item GREEN_NEON_ORB = registerItem("green_neon_orb",
 			new Item(new FabricItemSettings()));
 	public static final Item BLUE_NEON_ORB = registerItem("blue_neon_orb",
