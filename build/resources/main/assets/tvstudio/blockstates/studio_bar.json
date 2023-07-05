@@ -1,6 +1,5 @@
 {
 "multipart": [
-  {   "apply": { "model": "minecraft:block/white_concrete" }},
   {   "when": { "north": "true" },
       "apply": { "model": "minecraft:block/red_concrete", "uvlock": false }
   },

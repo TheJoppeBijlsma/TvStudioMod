@@ -2,7 +2,6 @@ package io.github.joppebijlsma.tvstudio.registries;
 
 import io.github.joppebijlsma.tvstudio.TvStudio;
 import io.github.joppebijlsma.tvstudio.blocks.*;
-import io.github.joppebijlsma.tvstudio.items.ModItemGroup;
 import io.github.joppebijlsma.tvstudio.items.PaintableItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -12,6 +11,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
@@ -28,13 +28,13 @@ public class ModBlocks {
 //Blocks with BlockItem
 	//Screen Blocks
 	public static final Block BLUE_SCREEN_BLOCK = registerBlock("blue_screen_block",
-		new Block(FabricBlockSettings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE)), ModItemGroup.BLOCKS_GROUP);
+		new Block(FabricBlockSettings.create().breakInstantly().sounds(BlockSoundGroup.STONE)), ModItemGroup.BLOCKS_GROUP);
 	public static final Block GREEN_SCREEN_BLOCK = registerBlock("green_screen_block",
-			new Block(FabricBlockSettings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE)), ModItemGroup.BLOCKS_GROUP);
+			new Block(FabricBlockSettings.create().breakInstantly().sounds(BlockSoundGroup.STONE)), ModItemGroup.BLOCKS_GROUP);
 	public static final Block BLUE_SCREEN_WALL = registerBlock("blue_screen_wall",
-			new WallBlock(FabricBlockSettings.of(Material.WOOL).breakInstantly().sounds(BlockSoundGroup.METAL)), ModItemGroup.BLOCKS_GROUP);
+			new WallBlock(FabricBlockSettings.create().breakInstantly().sounds(BlockSoundGroup.METAL)), ModItemGroup.BLOCKS_GROUP);
 	public static final Block GREEN_SCREEN_WALL = registerBlock("green_screen_wall",
-			new WallBlock(FabricBlockSettings.of(Material.WOOL).breakInstantly().sounds(BlockSoundGroup.METAL)), ModItemGroup.BLOCKS_GROUP);
+			new WallBlock(FabricBlockSettings.create().breakInstantly().sounds(BlockSoundGroup.METAL)), ModItemGroup.BLOCKS_GROUP);
 
 	//Coloured
 		public static final Block TV_CAMERA_ON_STAND = registerColouredBlock("tv_camera_on_stand", new TvCameraOnAStand(copy(Blocks.STONE)), PaintableItem::new);
@@ -47,7 +47,7 @@ public class ModBlocks {
 		public static final Block TV_CAMERA = registerBlock("tv_camera",
 			new TvCamera(), ModItemGroup.BLOCKS_GROUP);
 		public static final Block CHIPBOARD_BLOCK = registerBlock("chipboard_block",
-			new Block(FabricBlockSettings.of(Material.WOOD).strength(3f, 3f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.BLOCKS_GROUP);
+			new Block(FabricBlockSettings.create().strength(3f, 3f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.BLOCKS_GROUP);
 		public static final Block SET_WALL_SUPPORT = registerBlock("set_wall_support",
 			new SetWallSupport(), ModItemGroup.BLOCKS_GROUP);
 
@@ -73,10 +73,15 @@ public class ModBlocks {
 		public static final Block SET_WALL_DARK_OAK_PLANKS = registerBlock("set_wall_dark_oak_planks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_CRIMSON_PLANKS = registerBlock("set_wall_crimson_planks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_WARPED_PLANKS = registerBlock("set_wall_warped_planks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_CHERRY_PLANKS = registerBlock("set_wall_cherry_planks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_BAMBOO_PLANKS = registerBlock("set_wall_bamboo_planks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_BAMBOO_MOSAIC = registerBlock("set_wall_bamboo_mosaic", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_BEDROCK = registerBlock("set_wall_bedrock", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_SAND = registerBlock("set_wall_sand", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_SUSPICIOUS_SAND = registerBlock("set_wall_suspicious_sand", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_RED_SAND = registerBlock("set_wall_red_sand", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_GRAVEL = registerBlock("set_wall_gravel", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_SUSPICIOUS_GRAVEL = registerBlock("set_wall_suspicious_gravel", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_GOLD_ORE = registerBlock("set_wall_gold_ore", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_IRON_ORE = registerBlock("set_wall_iron_ore", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_COAL_ORE = registerBlock("set_wall_coal_ore", new SetWall(), ModItemGroup.SET_WALL_GROUP);
@@ -89,6 +94,8 @@ public class ModBlocks {
 		public static final Block SET_WALL_DARK_OAK_LOG = registerBlock("set_wall_dark_oak_log", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_CRIMSON_STEM = registerBlock("set_wall_crimson_stem", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_WARPED_STEM = registerBlock("set_wall_warped_stem", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_CHERRY_LOG = registerBlock("set_wall_cherry_log", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_BLOCK_OF_BAMBOO = registerBlock("set_wall_block_of_bamboo", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_STRIPPED_OAK_LOG = registerBlock("set_wall_stripped_oak_log", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_STRIPPED_SPRUCE_LOG = registerBlock("set_wall_stripped_spruce_log", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_STRIPPED_BIRCH_LOG = registerBlock("set_wall_stripped_birch_log", new SetWall(), ModItemGroup.SET_WALL_GROUP);
@@ -97,7 +104,10 @@ public class ModBlocks {
 		public static final Block SET_WALL_STRIPPED_DARK_OAK_LOG = registerBlock("set_wall_stripped_dark_oak_log", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_STRIPPED_CRIMSON_STEM = registerBlock("set_wall_stripped_crimson_stem", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_STRIPPED_WARPED_STEM = registerBlock("set_wall_stripped_warped_stem", new SetWall(), ModItemGroup.SET_WALL_GROUP);
-		public static final Block SET_WALL_SPONGE = registerBlock("set_wall_sponge", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_STRIPPED_CHERRY_LOG = registerBlock("set_wall_stripped_cherry_log", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_BLOCK_OF_STRIPPED_BAMBOO = registerBlock("set_wall_block_of_stripped_bamboo", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+
+	public static final Block SET_WALL_SPONGE = registerBlock("set_wall_sponge", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_WET_SPONGE = registerBlock("set_wall_wet_sponge", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_LAPIS_ORE = registerBlock("set_wall_lapis_ore", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_LAPIS_BLOCK = registerBlock("set_wall_lapis_block", new SetWall(), ModItemGroup.SET_WALL_GROUP);
@@ -131,6 +141,7 @@ public class ModBlocks {
 		public static final Block SET_WALL_BRICKS = registerBlock("set_wall_bricks", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_TNT = registerBlock("set_wall_tnt", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_BOOKSHELF = registerBlock("set_wall_bookshelf", new SetWall(), ModItemGroup.SET_WALL_GROUP);
+		public static final Block SET_WALL_CHISELED_BOOKSHELF = registerBlock("set_wall_chiseled_bookshelf", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_MOSSY_COBBLESTONE = registerBlock("set_wall_mossy_cobblestone", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_OBSIDIAN = registerBlock("set_wall_obsidian", new SetWall(), ModItemGroup.SET_WALL_GROUP);
 		public static final Block SET_WALL_PURPUR_BLOCK = registerBlock("set_wall_purpur_block", new SetWall(), ModItemGroup.SET_WALL_GROUP);
@@ -347,12 +358,12 @@ public class ModBlocks {
 		return Registry.register(Registries.BLOCK, new Identifier(TvStudio.MOD_ID, name), block);
 	}
 
-	private static Block registerBlock(String name, Block block, ItemGroup tab) {
+	private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> tab) {
 		registerBlockItem(name, block, tab);
 		return Registry.register(Registries.BLOCK, new Identifier(TvStudio.MOD_ID, name), block);
 	}
 
-	private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
+	private static Item registerBlockItem(String name, Block block, RegistryKey<ItemGroup> tab) {
 		return Registry.register(Registries.ITEM, new Identifier(TvStudio.MOD_ID, name),
 				new BlockItem(block, new FabricItemSettings()));
 	}

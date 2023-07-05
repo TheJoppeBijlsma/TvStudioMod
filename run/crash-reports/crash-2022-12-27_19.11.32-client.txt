@@ -7,7 +7,7 @@ Description: Unexpected error
 java.lang.IllegalArgumentException: Stack size must be exactly 1
 	at net.minecraft.item.ItemGroup$EntriesImpl.add(ItemGroup.java:134)
 	at net.minecraft.item.ItemGroup$Entries.add(ItemGroup.java:134)
-	at io.github.joppebijlsma.tvstudio.items.ModItemGroup.lambda$static$5(ModItemGroup.java:157)
+	at io.github.joppebijlsma.tvstudio.registries.ModItemGroup.lambda$static$5(ModItemGroup.java:157)
 	at net.minecraft.item.ItemGroup.updateEntries(ItemGroup.java:110)
 	at net.minecraft.item.ItemGroups.method_47338(ItemGroups.java:1556)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
@@ -46,7 +46,7 @@ Thread: Render thread
 Stacktrace:
 	at net.minecraft.item.ItemGroup$EntriesImpl.add(ItemGroup.java:134)
 	at net.minecraft.item.ItemGroup$Entries.add(ItemGroup.java:134)
-	at io.github.joppebijlsma.tvstudio.items.ModItemGroup.lambda$static$5(ModItemGroup.java:157)
+	at io.github.joppebijlsma.tvstudio.registries.ModItemGroup.lambda$static$5(ModItemGroup.java:157)
 	at net.minecraft.item.ItemGroup.updateEntries(ItemGroup.java:110)
 	at net.minecraft.item.ItemGroups.method_47338(ItemGroups.java:1556)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)

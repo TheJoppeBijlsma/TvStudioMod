@@ -4,7 +4,7 @@
   "version": "1.13.2",
 
   "name": "Tv Studio",
-  "description": "The Tv Studio 1.19 1.13.2 contains: - Tv Camera - Tv Stand - Tv Camera On A Stand - Studio Bar - Studio Light - Director Chair - Boompole Microphone - Green and Blue Screen Block - Green and Blue Screen Wall - Set Walls - Microphone Headset",
+  "description": "The Tv Studio v1.13.2 for Minecraft 1.20 contains: adds a new colouring system to the game and contains new item textures",
   "authors": [
     "JoppeBijlsma"
   ],
@@ -25,10 +25,10 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.11",
-    "fabric-api": "*",
-    "minecraft": "~1.19.3",
-    "java": ">=17"
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
   },
   "suggests": {
     "another-mod": "*"

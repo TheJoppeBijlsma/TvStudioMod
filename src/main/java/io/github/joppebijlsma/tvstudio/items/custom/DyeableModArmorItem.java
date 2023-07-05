@@ -5,8 +5,8 @@ import net.minecraft.item.*;
 import net.minecraft.nbt.NbtCompound;
 
 public class DyeableModArmorItem extends ArmorItem implements DyeableModItem {
-    public DyeableModArmorItem(ArmorMaterial armorMaterial, EquipmentSlot equipmentSlot, Item.Settings settings) {
-        super(armorMaterial, equipmentSlot, settings);
+    public DyeableModArmorItem(ArmorMaterial armorMaterial, ArmorItem.Type type, Item.Settings settings) {
+        super(armorMaterial, type, settings);
     }
 
     @Override

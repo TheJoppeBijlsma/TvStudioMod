@@ -24,15 +24,15 @@ public class TvStand extends PaintableBlock {
     private static final VoxelShape WEST;
 
 	public TvStand(Settings settings) {
-		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
+		super(Block.Settings.create().breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
 	         return 2;}));
 		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
 	}
-	
+
 	@Override
-    public BlockState getPlacementState(ItemPlacementContext context) {
-        return this.getDefaultState().with(FACING, context.getPlayerFacing());
-    }
+	public BlockState getPlacementState(ItemPlacementContext context) {
+		return this.getDefaultState().with(HorizontalFacingBlock.FACING, context.getHorizontalPlayerFacing().getOpposite());
+	}
 	
 	 @Override
 	    public void appendProperties(StateManager.Builder<Block, BlockState> builder) {

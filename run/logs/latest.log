@@ -1,84 +1,83 @@
-[17:32:47] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.3 with Fabric Loader 0.14.11
-[17:32:47] [main/INFO] (FabricLoader) Loading 45 mods:
-	- fabric-api 0.68.1+1.19.3
-	- fabric-api-base 0.4.19+8d1895cf72
-	- fabric-api-lookup-api-v1 1.6.18+49abcf7e72
-	- fabric-biome-api-v1 12.0.0+689f5e7172
-	- fabric-block-api-v1 1.0.3+12bfe4ea72
-	- fabric-blockrenderlayer-v1 1.1.28+c6af733c72
-	- fabric-client-tags-api-v1 1.0.9+49abcf7e72
-	- fabric-command-api-v2 2.1.15+49abcf7e72
-	- fabric-content-registries-v0 3.4.11+49abcf7e72
-	- fabric-convention-tags-v1 1.1.9+2894d6df72
-	- fabric-crash-report-info-v1 0.2.12+aeb40ebe72
-	- fabric-data-generation-api-v1 11.0.1+65e415cb72
-	- fabric-dimensions-v1 2.1.39+48349a3f72
-	- fabric-entity-events-v1 1.5.5+b83334a072
-	- fabric-events-interaction-v0 0.4.37+422b77fb72
-	- fabric-game-rule-api-v1 1.0.28+2894d6df72
-	- fabric-gametest-api-v1 1.1.13+12a01b0672
-	- fabric-item-api-v1 2.1.4+fa25da9972
-	- fabric-item-group-api-v1 2.1.6+b7096da872
-	- fabric-key-binding-api-v1 1.0.28+aaaf9d3372
-	- fabric-lifecycle-events-v1 2.2.8+2894d6df72
-	- fabric-loot-api-v2 1.1.17+75e9821172
-	- fabric-message-api-v1 5.0.12+6ede1da972
-	- fabric-mining-level-api-v1 2.1.28+49abcf7e72
-	- fabric-models-v0 0.3.25+11ba9c3b72
-	- fabric-networking-api-v1 1.2.14+d9ac3c3972
-	- fabric-object-builder-api-v1 5.1.6+49abcf7e72
-	- fabric-particles-v1 1.0.18+fbde993d72
-	- fabric-registry-sync-v0 2.0.1+2608564672
-	- fabric-renderer-api-v1 2.1.0+2063beff72
-	- fabric-renderer-indigo 0.6.23+11ba9c3b72
-	- fabric-rendering-data-attachment-v1 0.3.23+48349a3f72
-	- fabric-rendering-fluids-v1 3.0.16+3067f46372
-	- fabric-rendering-v1 1.11.7+49abcf7e72
-	- fabric-resource-conditions-api-v1 2.2.0+280be3ab72
-	- fabric-resource-loader-v0 0.10.2+f6c919d672
-	- fabric-screen-api-v1 1.0.38+8c84281072
-	- fabric-screen-handler-api-v1 1.3.10+689f5e7172
-	- fabric-sound-api-v1 1.0.6+75e9821172
-	- fabric-transfer-api-v1 2.1.11+28ac448f72
-	- fabric-transitive-access-wideners-v1 2.1.0+0efcd39b72
-	- fabricloader 0.14.11
+[21:52:01] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[21:52:01] [main/INFO] (FabricLoader) Loading 46 mods:
+	- fabric-api 0.85.0+1.20.1
+	- fabric-api-base 0.4.29+b04edc7a77
+	- fabric-api-lookup-api-v1 1.6.34+4d8536c977
+	- fabric-biome-api-v1 13.0.10+b3afc78b77
+	- fabric-block-api-v1 1.0.9+e022e5d177
+	- fabric-blockrenderlayer-v1 1.1.39+b3afc78b77
+	- fabric-client-tags-api-v1 1.1.0+97bb207577
+	- fabric-command-api-v2 2.2.11+b3afc78b77
+	- fabric-content-registries-v0 4.0.8+b3afc78b77
+	- fabric-convention-tags-v1 1.5.3+b3afc78b77
+	- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	- fabric-data-generation-api-v1 12.1.12+b3afc78b77
+	- fabric-dimensions-v1 2.1.51+b3afc78b77
+	- fabric-entity-events-v1 1.5.21+b3afc78b77
+	- fabric-events-interaction-v0 0.6.0+b3afc78b77
+	- fabric-game-rule-api-v1 1.0.38+b04edc7a77
+	- fabric-gametest-api-v1 1.2.11+b3afc78b77
+	- fabric-item-api-v1 2.1.26+b3afc78b77
+	- fabric-item-group-api-v1 4.0.8+40e50c4677
+	- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	- fabric-lifecycle-events-v1 2.2.20+b3afc78b77
+	- fabric-loot-api-v2 1.1.38+b3afc78b77
+	- fabric-message-api-v1 5.1.6+b3afc78b77
+	- fabric-mining-level-api-v1 2.1.48+b3afc78b77
+	- fabric-models-v0 0.3.35+b3afc78b77
+	- fabric-networking-api-v1 1.3.8+b3afc78b77
+	- fabric-object-builder-api-v1 11.1.0+6beca84877
+	- fabric-particles-v1 1.1.0+201a23a077
+	- fabric-recipe-api-v1 1.0.18+b3afc78b77
+	- fabric-registry-sync-v0 2.2.6+b3afc78b77
+	- fabric-renderer-api-v1 3.1.0+c154966e77
+	- fabric-renderer-indigo 1.4.0+c154966e77
+	- fabric-rendering-data-attachment-v1 0.3.33+b3afc78b77
+	- fabric-rendering-fluids-v1 3.0.26+b3afc78b77
+	- fabric-rendering-v1 3.0.6+b3afc78b77
+	- fabric-resource-conditions-api-v1 2.3.5+ea08f9d877
+	- fabric-resource-loader-v0 0.11.8+e3d6ed2577
+	- fabric-screen-api-v1 2.0.6+b3afc78b77
+	- fabric-screen-handler-api-v1 1.3.27+b3afc78b77
+	- fabric-sound-api-v1 1.0.12+b3afc78b77
+	- fabric-transfer-api-v1 3.2.3+43a3fedd77
+	- fabric-transitive-access-wideners-v1 4.2.0+b3afc78b77
+	- fabricloader 0.14.21
 	- java 19
-	- minecraft 1.19.3
+	- minecraft 1.20.1
 	- tvstudio 1.13.2
-[17:32:47] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/joppebijlsma/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[17:32:47] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:32:47] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[17:32:47] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[17:32:48] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:/Users/joppebijlsma/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar!/oshi.properties, jar:file:/Users/joppebijlsma/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar!/oshi.properties]
-[17:32:48] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:/Users/joppebijlsma/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar!/oshi.architecture.properties, jar:file:/Users/joppebijlsma/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar!/oshi.architecture.properties]
-[17:32:50] [main/INFO] (Minecraft) Building optimized datafixer
-[17:32:52] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:32:52] [Render thread/ERROR] (fabric-screen-api-v1) Failed to verify authentication
+[21:52:01] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/joppebijlsma/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[21:52:01] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[21:52:01] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[21:52:01] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[21:52:04] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 72 milliseconds
+[21:52:05] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:52:06] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
-	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.16.29.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.16.29.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-3.16.29.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161) ~[authlib-3.16.29.jar:?]
-	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:709) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:504) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:185) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:56) ~[minecraft-project-@-merged-named.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.11.jar:?]
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:718) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:511) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:192) ~[minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
 Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:87) ~[authlib-3.16.29.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.16.29.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.16.29.jar:?]
-	... 10 more
-[17:32:53] [Render thread/INFO] (fabric-screen-api-v1) Setting user: Player459
-[17:32:53] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[17:32:53] [Render thread/INFO] (fabric-screen-api-v1) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[17:32:54] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
-[17:32:54] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, Fabric Mods (Fabric Registry Sync (v0), Fabric Lifecycle Events (v1), Fabric Loader, Fabric Resource Conditions API (v1), Fabric Mining Level API (v1), Fabric Rendering (v1), Fabric Particles (v1), Fabric Command API (v2), Fabric Game Test API (v1), Fabric Renderer - Indigo, Fabric Resource Loader (v0), Fabric Client Tags, Fabric Sound API (v1), Fabric Item API (v1), Fabric Loot API (v2), Fabric Screen API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Message API (v1), Fabric Object Builder API (v1), Fabric Game Rule API (v1), Fabric Biome API (v1), Fabric Dimensions API (v1), Fabric Renderer API (v1), Fabric Rendering Fluids (v1), Fabric Events Interaction (v0), Fabric Entity Events (v1), Fabric Transitive Access Wideners (v1), Fabric Screen Handler API (v1), Fabric Item Group API (v1), Fabric API Lookup API (v1), Fabric Data Generation API (v1), Fabric API Base, Fabric Key Binding API (v1), Fabric Rendering Data Attachment (v1), Fabric Content Registries (v0), Fabric Networking API (v1), Fabric Transfer API (v1), Fabric Models (v0), Fabric Convention Tags, Fabric API, Fabric Crash Report Info (v1), Tv Studio)
-[17:32:55] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[17:32:56] [Worker-Main-14/WARN] (Minecraft) Exception evaluating model definition: 'tvstudio:studio_bar#'
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 9 more
+[21:52:06] [Render thread/INFO] (Minecraft) Setting user: Player596
+[21:52:06] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[21:52:06] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[21:52:06] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[21:52:07] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-api-base, fabric-api, fabric-loot-api-v2, fabric-item-api-v1, fabric-renderer-api-v1, fabric-object-builder-api-v1, fabric-rendering-fluids-v1, fabric-message-api-v1, fabric-content-registries-v0, fabric-models-v0, fabric-renderer-indigo, fabric-game-rule-api-v1, fabric-item-group-api-v1, fabric-blockrenderlayer-v1, fabric-rendering-v1, fabric-registry-sync-v0, fabric-crash-report-info-v1, fabricloader, fabric-particles-v1, tvstudio, fabric-api-lookup-api-v1, fabric-entity-events-v1, fabric-client-tags-api-v1, fabric-command-api-v2, fabric-recipe-api-v1, fabric-screen-handler-api-v1, fabric-transitive-access-wideners-v1, fabric-transfer-api-v1, fabric-dimensions-v1, fabric-mining-level-api-v1, fabric-lifecycle-events-v1, fabric-convention-tags-v1, fabric-block-api-v1, fabric-networking-api-v1, fabric-gametest-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-biome-api-v1, fabric-sound-api-v1, fabric-events-interaction-v0, fabric-rendering-data-attachment-v1, fabric-resource-conditions-api-v1, fabric-key-binding-api-v1, fabric-data-generation-api-v1)
+[21:52:07] [Worker-Main-6/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[21:52:07] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Exception evaluating model definition: 'tvstudio:studio_bar#facing=west'
 java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_bar}'
 	at net.minecraft.client.render.model.json.SimpleMultipartModelSelector.getPredicate(SimpleMultipartModelSelector.java:43) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.render.model.json.MultipartModelComponent.getPredicate(MultipartModelComponent.java:52) ~[minecraft-project-@-merged-named.jar:?]
@@ -109,27 +108,125 @@ java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_b
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) ~[?:?]
-[17:32:56] [Worker-Main-14/WARN] (Minecraft) Exception loading blockstate definition: 'tvstudio:blockstates/set_wall_netherrack.json' missing model for variant: 'tvstudio:set_wall_netherrack#facing=west'
-[17:32:56] [Worker-Main-14/WARN] (Minecraft) Exception loading blockstate definition: 'tvstudio:blockstates/set_wall_netherrack.json' missing model for variant: 'tvstudio:set_wall_netherrack#facing=south'
-[17:32:56] [Worker-Main-14/WARN] (Minecraft) Exception loading blockstate definition: 'tvstudio:blockstates/set_wall_netherrack.json' missing model for variant: 'tvstudio:set_wall_netherrack#facing=east'
-[17:32:56] [Worker-Main-14/WARN] (Minecraft) Exception loading blockstate definition: 'tvstudio:blockstates/set_wall_netherrack.json' missing model for variant: 'tvstudio:set_wall_netherrack#facing=north'
-[17:32:56] [Worker-Main-14/WARN] (Minecraft) Unable to bake model: 'tvstudio:studio_bar#': java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_bar}'
-[17:32:56] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[17:32:56] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[17:32:56] [Render thread/INFO] (Minecraft) OpenAL initialized on device CoreAudio Default
-[17:32:56] [Render thread/INFO] (Minecraft) Sound engine started
-[17:32:56] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[17:32:56] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
-[17:32:56] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:32:56] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:32:56] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[17:32:56] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:32:56] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[17:32:57] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[17:32:57] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:32:57] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17:32:57] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[17:33:07] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:swatching
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Exception evaluating model definition: 'tvstudio:studio_bar#facing=east'
+java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_bar}'
+	at net.minecraft.client.render.model.json.SimpleMultipartModelSelector.getPredicate(SimpleMultipartModelSelector.java:43) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.json.MultipartModelComponent.getPredicate(MultipartModelComponent.java:52) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader$ModelDefinition.method_21610(ModelLoader.java:388) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraft.client.render.model.ModelLoader$ModelDefinition.create(ModelLoader.java:388) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.method_21599(ModelLoader.java:279) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.method_21604(ModelLoader.java:316) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.client.render.model.ModelLoader.loadModel(ModelLoader.java:308) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.getOrLoadModel(ModelLoader.java:223) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.addModel(ModelLoader.java:345) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.method_4716(ModelLoader.java:142) ~[minecraft-project-@-merged-named.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.<init>(ModelLoader.java:142) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.BakedModelManager.method_45884(BakedModelManager.java:88) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) ~[?:?]
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Exception evaluating model definition: 'tvstudio:studio_bar#facing=south'
+java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_bar}'
+	at net.minecraft.client.render.model.json.SimpleMultipartModelSelector.getPredicate(SimpleMultipartModelSelector.java:43) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.json.MultipartModelComponent.getPredicate(MultipartModelComponent.java:52) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader$ModelDefinition.method_21610(ModelLoader.java:388) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraft.client.render.model.ModelLoader$ModelDefinition.create(ModelLoader.java:388) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.method_21599(ModelLoader.java:279) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.method_21604(ModelLoader.java:316) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.client.render.model.ModelLoader.loadModel(ModelLoader.java:308) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.getOrLoadModel(ModelLoader.java:223) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.addModel(ModelLoader.java:345) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.method_4716(ModelLoader.java:142) ~[minecraft-project-@-merged-named.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.<init>(ModelLoader.java:142) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.BakedModelManager.method_45884(BakedModelManager.java:88) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) ~[?:?]
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Exception evaluating model definition: 'tvstudio:studio_bar#facing=north'
+java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_bar}'
+	at net.minecraft.client.render.model.json.SimpleMultipartModelSelector.getPredicate(SimpleMultipartModelSelector.java:43) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.json.MultipartModelComponent.getPredicate(MultipartModelComponent.java:52) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader$ModelDefinition.method_21610(ModelLoader.java:388) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraft.client.render.model.ModelLoader$ModelDefinition.create(ModelLoader.java:388) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.method_21599(ModelLoader.java:279) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.method_21604(ModelLoader.java:316) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.client.render.model.ModelLoader.loadModel(ModelLoader.java:308) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.getOrLoadModel(ModelLoader.java:223) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.addModel(ModelLoader.java:345) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.method_4716(ModelLoader.java:142) ~[minecraft-project-@-merged-named.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.client.render.model.ModelLoader.<init>(ModelLoader.java:142) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.render.model.BakedModelManager.method_45884(BakedModelManager.java:88) ~[minecraft-project-@-merged-named.jar:?]
+	at java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1311) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1280) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) ~[?:?]
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Exception loading blockstate definition: 'tvstudio:blockstates/set_wall_netherrack.json' missing model for variant: 'tvstudio:set_wall_netherrack#facing=west'
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Exception loading blockstate definition: 'tvstudio:blockstates/set_wall_netherrack.json' missing model for variant: 'tvstudio:set_wall_netherrack#facing=south'
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Exception loading blockstate definition: 'tvstudio:blockstates/set_wall_netherrack.json' missing model for variant: 'tvstudio:set_wall_netherrack#facing=east'
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Exception loading blockstate definition: 'tvstudio:blockstates/set_wall_netherrack.json' missing model for variant: 'tvstudio:set_wall_netherrack#facing=north'
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Unable to bake model: 'tvstudio:studio_bar#facing=west': java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_bar}'
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Unable to bake model: 'tvstudio:studio_bar#facing=north': java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_bar}'
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Unable to bake model: 'tvstudio:studio_bar#facing=east': java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_bar}'
+[21:52:08] [Worker-Main-4/WARN] (Minecraft) Unable to bake model: 'tvstudio:studio_bar#facing=south': java.lang.RuntimeException: Unknown property 'north' on 'Block{tvstudio:studio_bar}'
+[21:52:08] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[21:52:08] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[21:52:09] [Render thread/INFO] (Minecraft) OpenAL initialized on device CoreAudio Default
+[21:52:09] [Render thread/INFO] (Minecraft) Sound engine started
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:52:09] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:52:09] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:52:43] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:swatching
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tvstudio:crafting_special_swatching'
 	at net.minecraft.recipe.RecipeManager.method_17875(RecipeManager.java:238) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -144,44 +241,44 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tvstudi
 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:29) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:126) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:134) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:161) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:114) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:174) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:69) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:347) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:41) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_1611(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:500) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22686(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:169) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:122) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:182) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:72) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:308) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:50) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:452) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:101) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22684(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:156) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:322) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1137) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:760) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:220) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:56) ~[minecraft-project-@-merged-named.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.11.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:180) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:276) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:781) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:227) ~[minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:33:07] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:set_wall_support
+[21:52:43] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:set_wall_support
 com.google.gson.JsonSyntaxException: Unknown item 'tvstudio:chipboard'
-	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:283) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:295) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:283) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.Ingredient.entryFromJson(Ingredient.java:153) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.Ingredient.fromJson(Ingredient.java:136) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapedRecipe.readSymbols(ShapedRecipe.java:262) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:286) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:286) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:295) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.Ingredient.entryFromJson(Ingredient.java:162) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.Ingredient.fromJson(Ingredient.java:145) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.readSymbols(ShapedRecipe.java:274) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:238) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:58) ~[minecraft-project-@-merged-named.jar:?]
@@ -193,42 +290,42 @@ com.google.gson.JsonSyntaxException: Unknown item 'tvstudio:chipboard'
 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:29) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:126) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:134) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:161) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:114) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:174) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:69) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:347) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:41) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_1611(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:500) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22686(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:169) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:122) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:182) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:72) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:308) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:50) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:452) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:101) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22684(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:156) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:322) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1137) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:760) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:220) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:56) ~[minecraft-project-@-merged-named.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.11.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:180) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:276) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:781) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:227) ~[minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:33:07] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:swatch
+[21:52:43] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:swatch
 com.google.gson.JsonSyntaxException: Unknown item 'tvstudio:swatch'
-	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:283) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:295) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:283) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapedRecipe.outputFromJson(ShapedRecipe.java:269) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:286) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:286) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:295) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.outputFromJson(ShapedRecipe.java:281) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe$Serializer.read(ShapedRecipe.java:298) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:238) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:58) ~[minecraft-project-@-merged-named.jar:?]
@@ -240,44 +337,44 @@ com.google.gson.JsonSyntaxException: Unknown item 'tvstudio:swatch'
 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:29) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:126) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:134) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:161) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:114) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:174) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:69) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:347) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:41) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_1611(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:500) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22686(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:169) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:122) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:182) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:72) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:308) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:50) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:452) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:101) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22684(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:156) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:322) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1137) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:760) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:220) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:56) ~[minecraft-project-@-merged-named.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.11.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:180) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:276) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:781) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:227) ~[minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:33:07] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:set_wall_powder_snow
+[21:52:43] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:set_wall_powder_snow
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:powder_snow'
-	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:283) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:295) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:283) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.Ingredient.entryFromJson(Ingredient.java:153) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.Ingredient.fromJson(Ingredient.java:136) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapelessRecipe$Serializer.getIngredients(ShapelessRecipe.java:90) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:90) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:90) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:295) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.Ingredient.entryFromJson(Ingredient.java:162) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.Ingredient.fromJson(Ingredient.java:145) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapelessRecipe$Serializer.getIngredients(ShapelessRecipe.java:91) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:91) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:91) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:238) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:58) ~[minecraft-project-@-merged-named.jar:?]
@@ -289,42 +386,42 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:powder_snow'
 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:29) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:126) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:134) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:161) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:114) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:174) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:69) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:347) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:41) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_1611(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:500) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22686(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:169) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:122) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:182) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:72) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:308) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:50) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:452) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:101) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22684(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:156) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:322) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1137) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:760) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:220) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:56) ~[minecraft-project-@-merged-named.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.11.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:180) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:276) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:781) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:227) ~[minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:33:07] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:set_wall_packed_mud
+[21:52:43] [Render thread/ERROR] (Minecraft) Parsing error loading recipe tvstudio:set_wall_packed_mud
 com.google.gson.JsonSyntaxException: Unknown item 'tvstudio:set_wall_packed_mod'
-	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:283) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.method_17878(ShapedRecipe.java:295) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:283) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapedRecipe.outputFromJson(ShapedRecipe.java:269) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:90) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.recipe.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:90) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.getItem(ShapedRecipe.java:295) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapedRecipe.outputFromJson(ShapedRecipe.java:281) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:91) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.recipe.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:91) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:238) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:58) ~[minecraft-project-@-merged-named.jar:?]
@@ -336,73 +433,71 @@ com.google.gson.JsonSyntaxException: Unknown item 'tvstudio:set_wall_packed_mod'
 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:29) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:126) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:134) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:161) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:114) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:174) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:69) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:231) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:347) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:41) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_1611(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:500) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:89) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22686(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:169) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:122) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:182) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:72) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:239) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:308) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:50) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:452) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:93) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:101) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Mouse.method_22684(Mouse.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:171) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
 	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:156) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.util.Window.swapBuffers(Window.java:322) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1137) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:760) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:220) ~[minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:56) ~[minecraft-project-@-merged-named.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.11.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:167) ~[minecraft-project-@-merged-named.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:180) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.util.Window.swapBuffers(Window.java:276) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1157) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:781) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:227) ~[minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[17:33:07] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[17:33:07] [Render thread/INFO] (Minecraft) Loaded 1180 advancements
-[17:33:07] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 720.6 μs
-[17:33:07] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.3
-[17:33:07] [Server thread/INFO] (Minecraft) Generating keypair
-[17:33:09] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[17:33:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:33:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:33:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:33:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:33:11] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:33:12] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:33:12] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:33:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[17:33:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 15%
-[17:33:16] [Render thread/INFO] (Minecraft) Time elapsed: 6546 ms
-[17:33:16] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[17:33:16] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[17:33:16] [Server thread/INFO] (Minecraft) Player459[local:E:2e34d36f] logged in with entity id 82 at (-58.33996112948603, 66.49390748022948, -118.88524213322303)
-[17:33:16] [Server thread/INFO] (Minecraft) Player459 joined the game
-[17:33:17] [Render thread/INFO] (Minecraft) Loaded 41 advancements
-[17:33:17] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.cod.ambient
-[17:33:19] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
-[17:33:22] [Worker-Bootstrap-1/INFO] (Minecraft) 4445 Datafixer optimizations took 32439 milliseconds
-[17:33:44] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[17:33:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[17:33:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[17:33:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[17:33:45] [Server thread/INFO] (Minecraft) Player459 lost connection: Disconnected
-[17:33:45] [Server thread/INFO] (Minecraft) Player459 left the game
-[17:33:45] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[17:33:45] [Server thread/INFO] (Minecraft) Stopping server
-[17:33:45] [Server thread/INFO] (Minecraft) Saving players
-[17:33:45] [Server thread/INFO] (Minecraft) Saving worlds
-[17:33:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[17:33:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[17:33:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[17:33:45] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[17:33:45] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:33:45] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:33:45] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[17:33:46] [Render thread/INFO] (fabric-screen-api-v1) Stopping!
+[21:52:43] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[21:52:43] [Render thread/INFO] (Minecraft) Loaded 1272 advancements
+[21:52:43] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.901 ms
+[21:52:43] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[21:52:43] [Server thread/INFO] (Minecraft) Generating keypair
+[21:52:45] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[21:52:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:52:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:52:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:52:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:52:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:52:48] [Render thread/INFO] (Minecraft) Time elapsed: 2480 ms
+[21:52:48] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[21:52:48] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[21:52:48] [Server thread/INFO] (Minecraft) Player596[local:E:b37383f9] logged in with entity id 253 at (48.30973751453534, 76.40083330111182, 54.51779705227187)
+[21:52:48] [Server thread/INFO] (Minecraft) Player596 joined the game
+[21:52:49] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[21:52:49] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[21:52:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:52:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:54:57] [Render thread/INFO] (Minecraft) Loaded 3 advancements
+[22:27:41] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:27:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:27:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:27:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:27:42] [Server thread/INFO] (Minecraft) Player596 lost connection: Disconnected
+[22:27:42] [Server thread/INFO] (Minecraft) Player596 left the game
+[22:27:42] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[22:27:42] [Server thread/INFO] (Minecraft) Stopping server
+[22:27:42] [Server thread/INFO] (Minecraft) Saving players
+[22:27:42] [Server thread/INFO] (Minecraft) Saving worlds
+[22:27:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:27:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:27:42] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:27:42] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[22:27:42] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:27:42] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:27:42] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[22:27:44] [Render thread/INFO] (Minecraft) Stopping!

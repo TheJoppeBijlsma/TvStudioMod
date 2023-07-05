@@ -5,6 +5,8 @@ import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.util.BlockMirror;
+import net.minecraft.util.BlockRotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
@@ -24,15 +26,15 @@ public class DirectorChair extends PaintableBlock {
     private static final VoxelShape WEST;
 
 	public DirectorChair(Settings settings) {
-		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> 2));
+		super(Block.Settings.create().breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> 2));
 		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
 		   }
 
 	@Override
     public BlockState getPlacementState(ItemPlacementContext context) {
-        return this.getDefaultState().with(FACING, context.getPlayerFacing().getOpposite());
+        return this.getDefaultState().with(HorizontalFacingBlock.FACING, context.getHorizontalPlayerFacing().getOpposite());
     }
-	
+
 	 @Override
 	    public void appendProperties(StateManager.Builder<Block, BlockState> builder) {
 	        builder.add(FACING);

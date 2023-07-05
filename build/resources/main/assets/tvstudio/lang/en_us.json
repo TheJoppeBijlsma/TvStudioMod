@@ -306,6 +306,17 @@
   "block.tvstudio.set_wall_verdant_froglight": "Set Wall Verdant Froglight",
   "block.tvstudio.set_wall_pearlescent_froglight": "Set Wall Pearlescent Froglight",
 
+  "block.tvstudio.set_wall_cherry_log": "Set Wall Cherry Log",
+  "block.tvstudio.set_wall_stripped_cherry_log": "Set Wall Stripped Cherry Log",
+  "block.tvstudio.set_wall_cherry_planks": "Set Wall Cherry Planks",
+  "block.tvstudio.set_wall_block_of_bamboo": "Set Wall Block Of Bamboo",
+  "block.tvstudio.set_wall_block_of_stripped_bamboo": "Set Wall Block Of Stripped Bamboo",
+  "block.tvstudio.set_wall_bamboo_planks": "Set Wall Bamboo Planks",
+  "block.tvstudio.set_wall_bamboo_mosaic": "Set Wall Bamboo Mosaic",
+  "block.tvstudio.set_wall_chiseled_bookshelf": "Set Wall Chiseled Bookshelf",
+  "block.tvstudio.set_wall_suspicious_sand": "Set Wall Suspicious Sand",
+  "block.tvstudio.set_wall_suspicious_gravel": "Set Wall Suspicious Gravel",
+
   "item.tvstudio.boompole_microphone": "Boompole Microphone",
   "item.tvstudio.blue_neon_orb": "Blue Neon Orb",
   "item.tvstudio.green_neon_orb": "Green Neon Orb",

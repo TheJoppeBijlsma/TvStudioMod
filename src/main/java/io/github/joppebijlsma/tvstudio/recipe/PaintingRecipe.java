@@ -11,11 +11,15 @@ import io.github.joppebijlsma.tvstudio.items.TsDyeableItem;
 import io.github.joppebijlsma.tvstudio.registries.ModItems;
 import io.github.joppebijlsma.tvstudio.registries.ModRecipes;
 import net.minecraft.inventory.CraftingInventory;
+import net.minecraft.inventory.Inventory;
+import net.minecraft.inventory.RecipeInputInventory;
+import net.minecraft.item.BrushItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.RecipeSerializer;
 import net.minecraft.recipe.SpecialCraftingRecipe;
 import net.minecraft.recipe.book.CraftingRecipeCategory;
+import net.minecraft.registry.DynamicRegistryManager;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
@@ -26,9 +30,8 @@ public class PaintingRecipe extends SpecialCraftingRecipe {
     public PaintingRecipe(Identifier id, CraftingRecipeCategory category) {
         super(id, category);
     }
-
     @Nullable
-    private Inputs findInputs(CraftingInventory inventory) {
+    private Inputs findInputs(Inventory inventory) {
         ItemStack clean = ItemStack.EMPTY;
         ItemStack dyed = ItemStack.EMPTY;
 
@@ -38,13 +41,13 @@ public class PaintingRecipe extends SpecialCraftingRecipe {
 
             Item item = stack.getItem();
             if (item != ModItems.PAINT_BRUSH) return null; // invalid item
-            PaintBrushItem swatch = (PaintBrushItem) item;
+            PaintBrushItem brush = (PaintBrushItem) item;
 
-            if (swatch.hasColor(stack)) {
-                if (!dyed.isEmpty()) return null; // duplicate dyed paintbrush
+            if (brush.hasColor(stack)) {
+                if (!dyed.isEmpty()) return null; // duplicate dyed swatch
                 dyed = stack;
             } else {
-                if (!clean.isEmpty()) return null; // duplicate clean paintbrush
+                if (!clean.isEmpty()) return null; // duplicate clean swatch
                 clean = stack;
             }
         }
@@ -53,12 +56,12 @@ public class PaintingRecipe extends SpecialCraftingRecipe {
     }
 
     @Override
-    public boolean matches(CraftingInventory inventory, World world) {
+    public boolean matches(RecipeInputInventory inventory, World world) {
         return findInputs(inventory) != null;
     }
 
     @Override
-    public ItemStack craft(CraftingInventory inventory) {
+    public ItemStack craft(RecipeInputInventory inventory, DynamicRegistryManager registryManager) {
         @Nullable Inputs inputs = findInputs(inventory);
         if (inputs == null) return ItemStack.EMPTY;
 

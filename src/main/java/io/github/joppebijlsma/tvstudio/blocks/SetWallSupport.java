@@ -25,15 +25,15 @@ public class SetWallSupport extends Block {
     private static final VoxelShape COLLISION_WEST;
 
 	public SetWallSupport() {
-		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).solidBlock(SetWallSupport::never).nonOpaque().luminance((state) -> {
+		super(Block.Settings.create().breakInstantly().sounds(BlockSoundGroup.STONE).solidBlock(SetWallSupport::never).nonOpaque().luminance((state) -> {
 	         return 2;}));
 		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
 		   }
 
 	@Override
-    public BlockState getPlacementState(ItemPlacementContext context) {
-        return this.getDefaultState().with(FACING, context.getPlayerFacing());
-    }
+	public BlockState getPlacementState(ItemPlacementContext context) {
+		return this.getDefaultState().with(HorizontalFacingBlock.FACING, context.getHorizontalPlayerFacing().getOpposite());
+	}
 	
 	 @Override
 	    public void appendProperties(StateManager.Builder<Block, BlockState> builder) {

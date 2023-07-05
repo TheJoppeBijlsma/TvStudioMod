@@ -24,15 +24,15 @@ public class LitSetWall extends Block {
     private static final VoxelShape WEST;
 
 	public LitSetWall() {
-		super(Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
+		super(Settings.create().breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
 	         return 15;}));
 		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
 		   }
 
 	@Override
-    public BlockState getPlacementState(ItemPlacementContext context) {
-        return this.getDefaultState().with(FACING, context.getPlayerFacing().getOpposite());
-    }
+	public BlockState getPlacementState(ItemPlacementContext context) {
+		return this.getDefaultState().with(HorizontalFacingBlock.FACING, context.getHorizontalPlayerFacing().getOpposite());
+	}
 	
 	 @Override
 	    public void appendProperties(StateManager.Builder<Block, BlockState> builder) {

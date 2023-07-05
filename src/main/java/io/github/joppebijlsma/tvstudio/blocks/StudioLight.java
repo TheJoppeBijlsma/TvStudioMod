@@ -8,7 +8,6 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.state.property.Property;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
@@ -34,14 +33,14 @@ public class StudioLight extends PaintableBlock {
     private static final VoxelShape WEST;
     
 	public StudioLight(Settings settings) {
-		super(Block.Settings.of(Material.STONE).breakInstantly().sounds(BlockSoundGroup.STONE).luminance(StudioLight.createLightLevelFromLitBlockState(15)));
+		super(Block.Settings.create().breakInstantly().sounds(BlockSoundGroup.STONE).luminance(StudioLight.createLightLevelFromLitBlockState(15)));
 		this.setDefaultState((BlockState)this.getDefaultState().with(FACING, Direction.NORTH).with(LIT, false));
 		   }
 
 	@Override
 	@Nullable
 	public BlockState getPlacementState(ItemPlacementContext ctx) {
-		return (BlockState)this.getDefaultState().with(FACING, ctx.getPlayerFacing()).with(LIT, ctx.getWorld().isReceivingRedstonePower(ctx.getBlockPos()));
+		return (BlockState)this.getDefaultState().with(HorizontalFacingBlock.FACING, ctx.getHorizontalPlayerFacing()).with(LIT, ctx.getWorld().isReceivingRedstonePower(ctx.getBlockPos()));
 	}
 
 	@Override

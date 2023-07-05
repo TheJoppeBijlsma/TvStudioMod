@@ -2,7 +2,6 @@ package io.github.joppebijlsma.tvstudio.registries;
 
 import com.google.common.collect.ImmutableList;
 import io.github.joppebijlsma.tvstudio.TvStudio;
-import io.github.joppebijlsma.tvstudio.items.ModItemGroup;
 import io.github.joppebijlsma.tvstudio.items.PaintBrushItem;
 import io.github.joppebijlsma.tvstudio.items.custom.DyeableModArmorItem;
 import io.github.joppebijlsma.tvstudio.items.custom.DyeableModItem;
@@ -11,7 +10,7 @@ import io.github.joppebijlsma.tvstudio.items.custom.WashingTowel;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.cauldron.CauldronBehavior;
-import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.registry.Registries;
@@ -45,7 +44,8 @@ public class ModItems {
 	public static final Item TV_STAND_HEAD = registerItem("tv_stand_head",
 			new Item(new FabricItemSettings()));
 	public static final Item HEADSET = registerItem("headset",
-			new DyeableModArmorItem(ModArmorMaterial.HEADSET_MATERIAL, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1)));
+			new DyeableModArmorItem(ModArmorMaterial.HEADSET_MATERIAL, net.minecraft.item.ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
+
 	public static final Item PAINT_BRUSH = register("paint_brush", new PaintBrushItem(new Item.Settings()));
 
 	private static Item registerItem(String name, Item item) {

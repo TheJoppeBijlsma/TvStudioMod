@@ -26,7 +26,7 @@ Caused by: java.lang.ExceptionInInitializerError
 Caused by: java.lang.IllegalStateException: Duplicate item group: tvstudio:group
 	at net.fabricmc.fabric.impl.itemgroup.ItemGroupHelper.appendItemGroup(ItemGroupHelper.java:42)
 	at net.fabricmc.fabric.impl.itemgroup.FabricItemGroupBuilderImpl.build(FabricItemGroupBuilderImpl.java:41)
-	at io.github.joppebijlsma.tvstudio.items.ModItemGroup.<clinit>(ModItemGroup.java:61)
+	at io.github.joppebijlsma.tvstudio.registries.ModItemGroup.<clinit>(ModItemGroup.java:61)
 	... 13 more
 
 
