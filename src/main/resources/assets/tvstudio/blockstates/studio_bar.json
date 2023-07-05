@@ -1,8 +1,22 @@
 {
-  "variants": {
-    "facing=north": { "model": "tvstudio:block/studio_bar" },
-    "facing=south": { "model": "tvstudio:block/studio_bar", "y":  180},
-    "facing=west": { "model": "tvstudio:block/studio_bar", "y":  270},
-    "facing=east": { "model": "tvstudio:block/studio_bar", "y":  90}
+"multipart": [
+  {   "when": { "north": "true" },
+      "apply": { "model": "minecraft:block/red_concrete", "uvlock": false }
+  },
+  {   "when": { "east": "true" },
+      "apply": { "model": "minecraft:block/blue_concrete", "y": 90, "uvlock": false }
+  },
+  {   "when": { "south": "true" },
+      "apply": { "model": "minecraft:block/green_concrete", "y": 180, "uvlock": false }
+  },
+  {   "when": { "west": "true" },
+      "apply": { "model": "minecraft:block/brown_concrete", "y": 270, "uvlock": false }
+  },
+  {   "when": { "up": "true" },
+      "apply": { "model": "minecraft:block/orange_concrete", "x": 270, "uvlock": false }
+  },
+  {   "when": { "down": "true" },
+      "apply": { "model": "minecraft:block/pink_concrete", "x": 90, "uvlock": false }
   }
+]
 }

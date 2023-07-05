@@ -1,3 +1,6 @@
 {
-"parent": "tvstudio:block/tv_stand_head"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tvstudio:item/tv_stand_head"
+  }
 }
