@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "212",
+    "212",
+    "212"
+  ],
+  "key":
+  {
+    "1":
+    {
+      "item": "tvstudio:iron_stick"
+    },
+    "2":
+    {
+      "item": "minecraft:white_concrete"
+    }
+},
+  "result":
+  {
+    "item": "tvstudio:studio_pillar",
+    "count": 6
+  }
+}

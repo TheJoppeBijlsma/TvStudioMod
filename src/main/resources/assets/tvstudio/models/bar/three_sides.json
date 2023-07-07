@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "tvstudio:block/three_sides",
+		"particle": "tvstudio:block/three_sides"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 4],
+			"to": [16, 8, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 4], "texture": "#0"},
+				"east": {"uv": [0, 12, 4, 16], "texture": "#0"},
+				"south": {"uv": [0, 4, 8, 8], "texture": "#0"},
+				"west": {"uv": [4, 12, 8, 16], "texture": "#0"},
+				"up": {"uv": [8, 12, 0, 8], "texture": "#0"},
+				"down": {"uv": [16, 0, 8, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 12],
+			"to": [12, 8, 16],
+			"faces": {
+				"north": {"uv": [8, 4, 12, 8], "texture": "#0"},
+				"east": {"uv": [12, 4, 14, 8], "texture": "#0"},
+				"south": {"uv": [8, 8, 12, 12], "texture": "#0"},
+				"west": {"uv": [8, 12, 10, 16], "texture": "#0"},
+				"up": {"uv": [16, 10, 12, 8], "texture": "#0"},
+				"down": {"uv": [14, 12, 10, 14], "texture": "#0"}
+			}
+		}
+	]
+}

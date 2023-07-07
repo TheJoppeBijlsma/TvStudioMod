@@ -1,22 +1,188 @@
 {
-"multipart": [
-  {   "when": { "north": "true" },
-      "apply": { "model": "minecraft:block/red_concrete", "uvlock": false }
-  },
-  {   "when": { "east": "true" },
-      "apply": { "model": "minecraft:block/blue_concrete", "y": 90, "uvlock": false }
-  },
-  {   "when": { "south": "true" },
-      "apply": { "model": "minecraft:block/green_concrete", "y": 180, "uvlock": false }
-  },
-  {   "when": { "west": "true" },
-      "apply": { "model": "minecraft:block/brown_concrete", "y": 270, "uvlock": false }
-  },
-  {   "when": { "up": "true" },
-      "apply": { "model": "minecraft:block/orange_concrete", "x": 270, "uvlock": false }
-  },
-  {   "when": { "down": "true" },
-      "apply": { "model": "minecraft:block/pink_concrete", "x": 90, "uvlock": false }
-  }
-]
+  "multipart": [
+    {
+      "apply": {
+        "model": "tvstudio:bar/base"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/north"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/east"
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/south"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/west"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "tvstudio:bar/north_south"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/east_west"
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "tvstudio:bar/east_south"
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/south_west"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/north_west"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/north_east"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "tvstudio:bar/east_south_west"
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/north_south_west"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/north_east_west"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:bar/north_east_south"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "west": "false"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "tvstudio:bar/north_east_south_west"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "west": "true"
+      }
+    }
+  ]
 }

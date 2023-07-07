@@ -41,7 +41,9 @@ public class ModBlocks {
 		public static final Block TV_STAND = registerColouredBlock("tv_stand", new TvStand(copy(Blocks.STONE)), PaintableItem::new);
 		public static final Block STUDIO_LIGHT = registerColouredBlock("studio_light", new StudioLight(copy(Blocks.STONE)), PaintableItem::new);
 		public static final Block STUDIO_BAR = registerColouredBlock("studio_bar", new StudioBar(copy(Blocks.STONE)), PaintableItem::new);
-		public static final Block DIRECTOR_CHAIR = registerColouredBlock("director_chair", new DirectorChair(copy(Blocks.STONE)), PaintableItem::new);
+		public static final Block STUDIO_PILLAR = registerColouredBlock("studio_pillar", new StudioPillar(copy(Blocks.STONE)), PaintableItem::new);
+
+	public static final Block DIRECTOR_CHAIR = registerColouredBlock("director_chair", new DirectorChair(copy(Blocks.STONE)), PaintableItem::new);
 
 	//Non-Coloured
 		public static final Block TV_CAMERA = registerBlock("tv_camera",
@@ -369,11 +371,12 @@ public class ModBlocks {
 	}
 
 	public static final List<Block> ALL_BLOCKS = List.of(
-			STUDIO_BAR,
 			DIRECTOR_CHAIR,
 			TV_STAND,
 			TV_CAMERA_ON_STAND,
-			STUDIO_LIGHT
+			STUDIO_LIGHT,
+			STUDIO_BAR,
+			STUDIO_PILLAR
 	);
 
 	private static Block registerColouredBlock(String id, Block block, BiFunction<Block, Item.Settings, Item> item) {

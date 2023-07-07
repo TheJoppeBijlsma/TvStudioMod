@@ -11,6 +11,7 @@
   "block.tvstudio.tv_stand": "Tv Stand",
   "block.tvstudio.tv_camera_on_stand": "Tv Camera On A Stand",
   "block.tvstudio.studio_bar": "Studio Bar",
+  "block.tvstudio.studio_pillar": "Studio Pillar",
   "block.tvstudio.director_chair": "Director Chair",
   "block.tvstudio.studio_light": "Studio Light",
   "block.tvstudio.chipboard_block": "Chipboard Block",
@@ -305,7 +306,6 @@
   "block.tvstudio.set_wall_ochre_froglight": "Set Wall Ochre Froglight",
   "block.tvstudio.set_wall_verdant_froglight": "Set Wall Verdant Froglight",
   "block.tvstudio.set_wall_pearlescent_froglight": "Set Wall Pearlescent Froglight",
-
   "block.tvstudio.set_wall_cherry_log": "Set Wall Cherry Log",
   "block.tvstudio.set_wall_stripped_cherry_log": "Set Wall Stripped Cherry Log",
   "block.tvstudio.set_wall_cherry_planks": "Set Wall Cherry Planks",

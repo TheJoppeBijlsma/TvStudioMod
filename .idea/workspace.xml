@@ -5,192 +5,311 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6594f77d-c7f8-4293-a7d4-0caed5d13c1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/TvStudio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/DirectorChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/LitSetWall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/PaintableBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/PaintablePillarBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/SetWall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/SetWallSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/StudioBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/StudioLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/TvCamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/TvCameraOnAStand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/TvStand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/blocks/entity/PaintableBlockEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/client/ColourTestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/items/PaintBrushItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/items/PaintableItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/items/TsDyeableItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/items/custom/DyeableModArmorItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/items/custom/DyeableModItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/items/custom/ModArmorMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/items/custom/WashingTowel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/loot/RemoveDefaultColorLootFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/mixin/BlockItemAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/mixin/ItemStackMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/recipe/PaintingRecipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/registries/ModBlockEntities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/registries/ModBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/registries/ModItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/registries/ModLoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/registries/ModRecipes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/util/Colors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/util/NbtKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-04_20.02.09-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-04_20.13.35-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-04_20.22.05-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-04_21.31.51-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-04_21.33.03-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-01-18-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-04-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-04-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-04-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-04-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-04-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-04-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-04-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/25b11e49-a7c5-3d9c-8271-d4f68f211051.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/29c791a6-b421-3f40-ad2b-613924f9b1c3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/3ca144f4-1ff8-3e11-b846-ee12cf77a543.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/494e218c-ed3e-3c18-87a9-972128e58cab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/533168cf-a4ab-3aac-8306-f7a8b71689a4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/99c5cfd7-706e-3304-b77d-748a9e6aeb44.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/a358f576-55e4-36d3-950a-a39f1875bc3b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/af41db55-779a-3c41-8791-5bbf8bb38fd0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/d944aee7-2684-33ce-b4ec-6dde00bdf73f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/efc72414-2867-3716-86bc-fef5a53d913b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/random_sequences.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/25b11e49-a7c5-3d9c-8271-d4f68f211051.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/25b11e49-a7c5-3d9c-8271-d4f68f211051.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/29c791a6-b421-3f40-ad2b-613924f9b1c3.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/29c791a6-b421-3f40-ad2b-613924f9b1c3.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/3ca144f4-1ff8-3e11-b846-ee12cf77a543.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/3ca144f4-1ff8-3e11-b846-ee12cf77a543.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/494e218c-ed3e-3c18-87a9-972128e58cab.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/494e218c-ed3e-3c18-87a9-972128e58cab.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/533168cf-a4ab-3aac-8306-f7a8b71689a4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/533168cf-a4ab-3aac-8306-f7a8b71689a4.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/99c5cfd7-706e-3304-b77d-748a9e6aeb44.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/99c5cfd7-706e-3304-b77d-748a9e6aeb44.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a358f576-55e4-36d3-950a-a39f1875bc3b.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a358f576-55e4-36d3-950a-a39f1875bc3b.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/af41db55-779a-3c41-8791-5bbf8bb38fd0.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/af41db55-779a-3c41-8791-5bbf8bb38fd0.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d944aee7-2684-33ce-b4ec-6dde00bdf73f.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d944aee7-2684-33ce-b4ec-6dde00bdf73f.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/efc72414-2867-3716-86bc-fef5a53d913b.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/25b11e49-a7c5-3d9c-8271-d4f68f211051.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/29c791a6-b421-3f40-ad2b-613924f9b1c3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/3ca144f4-1ff8-3e11-b846-ee12cf77a543.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/494e218c-ed3e-3c18-87a9-972128e58cab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/533168cf-a4ab-3aac-8306-f7a8b71689a4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/99c5cfd7-706e-3304-b77d-748a9e6aeb44.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/a358f576-55e4-36d3-950a-a39f1875bc3b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/af41db55-779a-3c41-8791-5bbf8bb38fd0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/d944aee7-2684-33ce-b4ec-6dde00bdf73f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/efc72414-2867-3716-86bc-fef5a53d913b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/advancements/533168cf-a4ab-3aac-8306-f7a8b71689a4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/advancements/c03da6a3-8a6c-3375-a85a-97a8fae94902.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/data/random_sequences.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/entities/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/entities/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/entities/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/entities/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/playerdata/533168cf-a4ab-3aac-8306-f7a8b71689a4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/playerdata/533168cf-a4ab-3aac-8306-f7a8b71689a4.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/playerdata/c03da6a3-8a6c-3375-a85a-97a8fae94902.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/playerdata/c03da6a3-8a6c-3375-a85a-97a8fae94902.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/poi/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/poi/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/poi/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/poi/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/stats/533168cf-a4ab-3aac-8306-f7a8b71689a4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (2)/stats/c03da6a3-8a6c-3375-a85a-97a8fae94902.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModItemGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_bamboo_mosaic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_bamboo_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_block_of_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_block_of_stripped_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_cherry_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_chiseled_bookshelf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_stripped_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_suspicious_gravel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/set_wall_suspicious_sand.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_bamboo_mosaic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_bamboo_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_block_of_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_block_of_stripped_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_cherry_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_chiseled_bookshelf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_stripped_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_suspicious_gravel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/set_wall_suspicious_sand.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bamboo_mosaic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_bamboo_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_block_of_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_block_of_stripped_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_cherry_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_chiseled_bookshelf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_stripped_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_suspicious_gravel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall/set_wall_suspicious_sand.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_bamboo_mosaic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_bamboo_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_block_of_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_block_of_stripped_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_cherry_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_chiseled_bookshelf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_stripped_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_suspicious_gravel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/set_wall_suspicious_sand.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_bamboo_mosaic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_bamboo_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_block_of_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_block_of_stripped_bamboo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_cherry_planks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_chiseled_bookshelf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_stripped_cherry_log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_suspicious_gravel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/set_wall_suspicious_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-05_15.37.54-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-06_13.16.32-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-06_13.18.02-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-05-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-05-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/157dadc9-e980-331f-9b9a-60b0f155ef62.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/16deb2db-fd20-3caa-97b8-af2729ef2158.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/17b67947-156d-3518-9500-f7e04df5e64d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/1c38adbd-952c-3cbe-9338-7d9a41f64a2f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/2dd1d9e7-57ae-36c4-8b90-c235b1bdb90f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/355b2127-0f2e-3f20-b6c2-8997b4abcafb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/4a5060c2-513d-3571-8c5d-062b588e69ca.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/68d62d0c-b648-358d-9849-8d64b49bd6dc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6a12f6e4-e9d6-38e2-bb44-10484bb75cf2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6ac40561-f0e1-3533-ae6f-ce769a09b7f1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6ae8fe40-3ccb-3755-8fd2-c5445728b386.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6d917d12-8c99-3a68-96a3-2ce5d15924c0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6f3f457a-8ce3-3a45-8767-61c2dfd0e70f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/777409db-46bf-31bf-844f-6d600c083d6c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/7d246c97-157b-31d3-a8fc-0b0f5f437b63.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/8c6477df-589c-387e-8235-e07170c95726.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/92939c63-a7e1-358c-986e-33e314619bde.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/9e4b41fd-b698-3086-96f0-585499a2673a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/a5b59a7c-81e3-3a21-8ced-54dbec246e12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/b89d12f3-1740-34c6-919e-a2949a3e81fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/c1b94a42-98fc-3354-947f-44f786fd56fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/c97b21a8-25e6-37ce-8a04-8d5bcf6f4c4d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/d1a76729-1ccb-3de3-b2b3-c7efa54f7c6f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/d31b2f98-898c-3f1b-b785-db56ff276dc2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/dbac8158-8d79-3f57-906a-4939f5c379cd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/edb8d6a3-e33d-3ebb-8b42-fbfd789b2d20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/eed40018-eacf-3358-87a4-2d80ad7eb0d1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/fe4bc08c-19e6-3b63-ba18-653e7a90e84a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/ffa08e0b-3fc0-345a-85a2-3e167f6ec55b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.39.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.40.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-2.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-2.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-2.39.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-2.40.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.1.36.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.2.36.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/157dadc9-e980-331f-9b9a-60b0f155ef62.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/157dadc9-e980-331f-9b9a-60b0f155ef62.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/16deb2db-fd20-3caa-97b8-af2729ef2158.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/16deb2db-fd20-3caa-97b8-af2729ef2158.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/17b67947-156d-3518-9500-f7e04df5e64d.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/17b67947-156d-3518-9500-f7e04df5e64d.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/1c38adbd-952c-3cbe-9338-7d9a41f64a2f.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/1c38adbd-952c-3cbe-9338-7d9a41f64a2f.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/27fc360e-fa24-3dff-9bfe-79a065a3b88e.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/2dd1d9e7-57ae-36c4-8b90-c235b1bdb90f.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/2dd1d9e7-57ae-36c4-8b90-c235b1bdb90f.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/355b2127-0f2e-3f20-b6c2-8997b4abcafb.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/355b2127-0f2e-3f20-b6c2-8997b4abcafb.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/68d62d0c-b648-358d-9849-8d64b49bd6dc.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/68d62d0c-b648-358d-9849-8d64b49bd6dc.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6a12f6e4-e9d6-38e2-bb44-10484bb75cf2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6a12f6e4-e9d6-38e2-bb44-10484bb75cf2.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6ac40561-f0e1-3533-ae6f-ce769a09b7f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6ac40561-f0e1-3533-ae6f-ce769a09b7f1.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6ae8fe40-3ccb-3755-8fd2-c5445728b386.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6ae8fe40-3ccb-3755-8fd2-c5445728b386.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6d917d12-8c99-3a68-96a3-2ce5d15924c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6d917d12-8c99-3a68-96a3-2ce5d15924c0.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6f3f457a-8ce3-3a45-8767-61c2dfd0e70f.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6f3f457a-8ce3-3a45-8767-61c2dfd0e70f.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/777409db-46bf-31bf-844f-6d600c083d6c.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/777409db-46bf-31bf-844f-6d600c083d6c.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/7d246c97-157b-31d3-a8fc-0b0f5f437b63.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/7d246c97-157b-31d3-a8fc-0b0f5f437b63.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/8c6477df-589c-387e-8235-e07170c95726.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/8c6477df-589c-387e-8235-e07170c95726.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/92939c63-a7e1-358c-986e-33e314619bde.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/92939c63-a7e1-358c-986e-33e314619bde.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/9e4b41fd-b698-3086-96f0-585499a2673a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/9e4b41fd-b698-3086-96f0-585499a2673a.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a5b59a7c-81e3-3a21-8ced-54dbec246e12.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a5b59a7c-81e3-3a21-8ced-54dbec246e12.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/b89d12f3-1740-34c6-919e-a2949a3e81fe.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/b89d12f3-1740-34c6-919e-a2949a3e81fe.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c1b94a42-98fc-3354-947f-44f786fd56fa.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c1b94a42-98fc-3354-947f-44f786fd56fa.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c97b21a8-25e6-37ce-8a04-8d5bcf6f4c4d.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c97b21a8-25e6-37ce-8a04-8d5bcf6f4c4d.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d1a76729-1ccb-3de3-b2b3-c7efa54f7c6f.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d1a76729-1ccb-3de3-b2b3-c7efa54f7c6f.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d31b2f98-898c-3f1b-b785-db56ff276dc2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d31b2f98-898c-3f1b-b785-db56ff276dc2.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/dbac8158-8d79-3f57-906a-4939f5c379cd.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/dbac8158-8d79-3f57-906a-4939f5c379cd.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/edb8d6a3-e33d-3ebb-8b42-fbfd789b2d20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/edb8d6a3-e33d-3ebb-8b42-fbfd789b2d20.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/eed40018-eacf-3358-87a4-2d80ad7eb0d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/eed40018-eacf-3358-87a4-2d80ad7eb0d1.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/fe4bc08c-19e6-3b63-ba18-653e7a90e84a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/ffa08e0b-3fc0-345a-85a2-3e167f6ec55b.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/ffa08e0b-3fc0-345a-85a2-3e167f6ec55b.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-2.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-2.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.1.36.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.39.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.40.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.39.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.40.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.35.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.36.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.37.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.2.35.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.2.36.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.2.37.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/157dadc9-e980-331f-9b9a-60b0f155ef62.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/16deb2db-fd20-3caa-97b8-af2729ef2158.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/17b67947-156d-3518-9500-f7e04df5e64d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/1c38adbd-952c-3cbe-9338-7d9a41f64a2f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/2dd1d9e7-57ae-36c4-8b90-c235b1bdb90f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/355b2127-0f2e-3f20-b6c2-8997b4abcafb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/4a5060c2-513d-3571-8c5d-062b588e69ca.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/68d62d0c-b648-358d-9849-8d64b49bd6dc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6a12f6e4-e9d6-38e2-bb44-10484bb75cf2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6ac40561-f0e1-3533-ae6f-ce769a09b7f1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6ae8fe40-3ccb-3755-8fd2-c5445728b386.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6d917d12-8c99-3a68-96a3-2ce5d15924c0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6f3f457a-8ce3-3a45-8767-61c2dfd0e70f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/777409db-46bf-31bf-844f-6d600c083d6c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/7d246c97-157b-31d3-a8fc-0b0f5f437b63.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/8c6477df-589c-387e-8235-e07170c95726.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/92939c63-a7e1-358c-986e-33e314619bde.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/9e4b41fd-b698-3086-96f0-585499a2673a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/a5b59a7c-81e3-3a21-8ced-54dbec246e12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/b89d12f3-1740-34c6-919e-a2949a3e81fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/c1b94a42-98fc-3354-947f-44f786fd56fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/c97b21a8-25e6-37ce-8a04-8d5bcf6f4c4d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/d1a76729-1ccb-3de3-b2b3-c7efa54f7c6f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/d31b2f98-898c-3f1b-b785-db56ff276dc2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/dbac8158-8d79-3f57-906a-4939f5c379cd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/edb8d6a3-e33d-3ebb-8b42-fbfd789b2d20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/eed40018-eacf-3358-87a4-2d80ad7eb0d1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/fe4bc08c-19e6-3b63-ba18-653e7a90e84a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/ffa08e0b-3fc0-345a-85a2-3e167f6ec55b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/DIM-1/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/DIM1/data/raids_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/a5b59a7c-81e3-3a21-8ced-54dbec246e12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/data/random_sequences.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-1.2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-6.11.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-6.12.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-6.1964.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-6.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-7.11.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-7.12.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-7.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.0.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.0.2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/a5b59a7c-81e3-3a21-8ced-54dbec246e12.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/a5b59a7c-81e3-3a21-8ced-54dbec246e12.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-15.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-17.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-17.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-6.11.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-6.12.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-6.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-7.12.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.11.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.12.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.13.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.1964.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.11.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.12.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.13.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.1964.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.11.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.12.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.13.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.1964.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.1.2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/a5b59a7c-81e3-3a21-8ced-54dbec246e12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.31.38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.31.46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.31.50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.31.54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/PaintableConnectingBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioPillar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/studio_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/east.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/east_south.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/east_south_west.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/east_west.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/four_sides.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_east.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_east_south.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_east_south_west.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_east_west.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_south_west.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_west.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/south.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/south_west.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/three_sides.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/two_sides_corner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/west.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/studio_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/base_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/four_sides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/four_sides_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/one_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/one_side_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/three_sides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/three_sides_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides_corner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides_corner_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/studio_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/studio_pillar.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
@@ -199,48 +318,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/launch.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/launch.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapClasspath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapClasspath.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TvStudioMod.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TvStudioMod.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TvStudioMod.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TvStudioMod.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/TvStudio.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/TvStudio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/DirectorChair.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/DirectorChair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/LitSetWall.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/LitSetWall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/SetWall.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/SetWall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/SetWallSupport.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/SetWallSupport.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioBarNew$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioBarNew.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioLight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/TvCamera.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/TvCamera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/TvCameraOnAStand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/TvCameraOnAStand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/TvStand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/TvStand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/entity/PaintableBlockEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/entity/PaintableBlockEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/items/ModItemGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/items/custom/DyeableModArmorItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/items/custom/DyeableModArmorItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/items/custom/ModArmorMaterial.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/items/custom/ModArmorMaterial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/recipe/PaintingRecipe$Inputs.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/recipe/PaintingRecipe$Inputs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/recipe/PaintingRecipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/recipe/PaintingRecipe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModBlocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/tv-studio-fabric-refmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/tv-studio-fabric-refmap.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/blockstates/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/blockstates/studio_bar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/blockstates/tv_stand_head.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/tv_camera_on_stand.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/tv_camera_on_stand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/tv_stand.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/tv_stand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/tv_stand_head.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/studio_bar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/studio_bar.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-12-27_19.05.28-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-12-27_19.05.28-client.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-12-27_19.11.32-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-12-27_19.11.32-client.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2023-01-07_23.37.52-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-01-07_23.37.52-client.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2023-01-07_23.40.01-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-01-07_23.40.01-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-04_20.02.09-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-04_20.02.09-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-7.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -249,37 +346,30 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/random_sequences.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/TvStudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/TvStudio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/DirectorChair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/DirectorChair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/LitSetWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/LitSetWall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/SetWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/SetWall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/SetWallSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/SetWallSupport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/TvCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/TvCamera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/TvCameraOnAStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/TvCameraOnAStand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/TvStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/TvStand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/entity/PaintableBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/entity/PaintableBlockEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/ModItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/remappedSrc/io/github/joppebijlsma/tvstudio/items/ModItemGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/custom/DyeableModArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/custom/DyeableModArmorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/custom/ModArmorMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/items/custom/ModArmorMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/recipe/PaintingRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/recipe/PaintingRecipe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/studio_bar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/tv_stand_head.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_camera_on_stand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_camera_on_stand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_stand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_stand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/tv_stand_head.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/boompole_microphone.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/boompole_microphone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/pole.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/pole.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/tv_stand_head.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/tv_stand_head.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/boompole_microphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/boompole_microphone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/boompole_microphone_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/clapboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/clapboard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/lens.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/lens.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_south.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/studio_bar.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -318,24 +408,24 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/joppebijlsma/Documents/GitHub/TvStudioMod/src/main/resources/data/tvstudio/e",
+    "last_opened_file_path": "/Users/joppebijlsma/Documents/GitHub/TvStudioMod/src/main/resources/data/tvstudio/recipes",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/e" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/e" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/e" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/e" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/setwall" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.github.joppebijlsma.tvstudio.blocks" />

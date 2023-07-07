@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "tvstudio",
-  "version": "1.13.2",
+  "version": "1.14.0-SNAPSHOT-1_fabric-1.20",
 
   "name": "Tv Studio",
-  "description": "The Tv Studio v1.13.2 for Minecraft 1.20 contains: adds a new colouring system to the game and contains new item textures",
+  "description": "The Tv Studio v1.14.0-SNAPSHOT-1 for Minecraft 1.20 contains: adds a new connection system for the studio bar.",
   "authors": [
     "JoppeBijlsma"
   ],

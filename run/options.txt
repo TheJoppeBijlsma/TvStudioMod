@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:12
+renderDistance:22
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:0
@@ -75,7 +75,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:false
 showAutosaveIndicator:true

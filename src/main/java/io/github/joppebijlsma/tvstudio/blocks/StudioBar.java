@@ -1,77 +1,74 @@
 package io.github.joppebijlsma.tvstudio.blocks;
 
 import net.minecraft.block.*;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.StateManager;
-import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.state.property.Property;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
+import net.minecraft.world.WorldAccess;
 
-public final class StudioBar extends PaintableBlock {
-	
-	public static DirectionProperty FACING;
-	private static final VoxelShape BAR_NORTH_SOUTH;
-    private static final VoxelShape BAR_EAST_WEST;
-    private static final VoxelShape NORTH;
-    private static final VoxelShape EAST;
-    private static final VoxelShape SOUTH;
-    private static final VoxelShape WEST;
+public final class StudioBar extends PaintableConnectingBlock {
 
 	public StudioBar(Settings settings) {
-		super(Settings.create().breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
-	         return 2;}));
-		setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH));
-		   }
-
-	@Override
-	public BlockState getPlacementState(ItemPlacementContext context) {
-		return this.getDefaultState().with(HorizontalFacingBlock.FACING, context.getHorizontalPlayerFacing().getOpposite());
+		super(4.0F, 4.0F, 8.0F, 8.0F, 8.0F, Settings.create().breakInstantly().sounds(BlockSoundGroup.STONE).luminance((state) -> {
+			return 2;}));
+		this.setDefaultState((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(NORTH, false)).with(EAST, false)).with(SOUTH, false)).with(WEST, false)).with(WATERLOGGED, false));
 	}
-	
-	 @Override
-	    public void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-	        builder.add(FACING);
-	    }
 
-	    @Override
-	    public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-	        return this.getShape(state);
-	    }
+	public BlockState getPlacementState(ItemPlacementContext ctx) {
+		BlockView blockView = ctx.getWorld();
+		BlockPos blockPos = ctx.getBlockPos();
+		FluidState fluidState = ctx.getWorld().getFluidState(ctx.getBlockPos());
+		BlockPos blockPos2 = blockPos.north();
+		BlockPos blockPos3 = blockPos.south();
+		BlockPos blockPos4 = blockPos.west();
+		BlockPos blockPos5 = blockPos.east();
+		BlockState blockState = blockView.getBlockState(blockPos2);
+		BlockState blockState2 = blockView.getBlockState(blockPos3);
+		BlockState blockState3 = blockView.getBlockState(blockPos4);
+		BlockState blockState4 = blockView.getBlockState(blockPos5);
+		return (BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.getDefaultState().with(NORTH, this.connectsTo(blockState, blockState.isSideSolidFullSquare(blockView, blockPos2, Direction.SOUTH)))).with(SOUTH, this.connectsTo(blockState2, blockState2.isSideSolidFullSquare(blockView, blockPos3, Direction.NORTH)))).with(WEST, this.connectsTo(blockState3, blockState3.isSideSolidFullSquare(blockView, blockPos4, Direction.EAST)))).with(EAST, this.connectsTo(blockState4, blockState4.isSideSolidFullSquare(blockView, blockPos5, Direction.WEST)))).with(WATERLOGGED, fluidState.getFluid() == Fluids.WATER);
+	}
 
-	    @Override
-	    public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-	        return this.getShape(state);
-	    }
-	    
-	    private VoxelShape getShape(BlockState state) {
-	        Direction direction = (Direction) state.get(FACING);
-	        if (direction == Direction.NORTH) {
-	            return NORTH;
-	        } else if (direction == Direction.EAST) {
-	            return EAST;
-	        } else if (direction == Direction.SOUTH) {
-	            return SOUTH;
-	        } else if (direction == Direction.WEST) {
-	            return WEST;
-	        } else
-	            return NORTH;
-	    }
-	    
-	    static {
-	        FACING = HorizontalFacingBlock.FACING;
-	        BAR_NORTH_SOUTH = Block.createCuboidShape(4, 0, 0, 12, 8, 16);
-	        BAR_EAST_WEST = Block.createCuboidShape(0, 0, 4, 16, 8, 12);
-	       
-	        NORTH = VoxelShapes.union(BAR_NORTH_SOUTH);
-	        EAST = VoxelShapes.union(BAR_EAST_WEST);
-	        SOUTH = VoxelShapes.union(BAR_NORTH_SOUTH);
-	        WEST = VoxelShapes.union(BAR_EAST_WEST);
-	    }
+	public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
+		if ((Boolean)state.get(WATERLOGGED)) {
+			world.scheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+		}
+
+		return direction.getAxis().isHorizontal() ? (BlockState)state.with((Property)FACING_PROPERTIES.get(direction), this.connectsTo(neighborState, neighborState.isSideSolidFullSquare(world, neighborPos, direction.getOpposite()))) : super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
+	}
+
+	public VoxelShape getCameraCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+		return VoxelShapes.empty();
+	}
+
+	public boolean isSideInvisible(BlockState state, BlockState stateFrom, Direction direction) {
+		if (stateFrom.isOf(this)) {
+			if (!direction.getAxis().isHorizontal()) {
+				return true;
+			}
+
+			if ((Boolean)state.get((Property)FACING_PROPERTIES.get(direction)) && (Boolean)stateFrom.get((Property)FACING_PROPERTIES.get(direction.getOpposite()))) {
+				return true;
+			}
+		}
+
+		return super.isSideInvisible(state, stateFrom, direction);
+	}
+
+	public final boolean connectsTo(BlockState state, boolean sideSolidFullSquare) {
+		return !cannotConnect(state) && sideSolidFullSquare || state.getBlock() instanceof StudioBar;
+	}
+
+	protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
+		builder.add(new Property[]{NORTH, EAST, WEST, SOUTH, WATERLOGGED});
+	}
 }
 
