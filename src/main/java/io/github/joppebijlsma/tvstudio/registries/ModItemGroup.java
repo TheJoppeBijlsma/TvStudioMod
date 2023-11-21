@@ -39,9 +39,7 @@ public class ModItemGroup {
                             entries.add(ModBlocks.CHIPBOARD_BLOCK);
                             entries.add(ModBlocks.SET_WALL_SUPPORT);
                             entries.add(ModBlocks.GREEN_SCREEN_BLOCK);
-                            entries.add(ModBlocks.GREEN_SCREEN_WALL);
                             entries.add(ModBlocks.BLUE_SCREEN_BLOCK);
-                            entries.add(ModBlocks.BLUE_SCREEN_WALL);
                             entries.add(ModBlocks.TV_CAMERA);
 
                             for (Item item : ALL_DYEABLE_BLOCKS) {

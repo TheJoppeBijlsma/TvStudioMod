@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "tvstudio:block/green_screen_block",
+		"particle": "tvstudio:block/green_screen_block"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 7.5],
+			"to": [16, 16, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15]},
+			"faces": {
+				"north": {"uv": [0, 0, 10, 13], "texture": "#0"},
+				"east": {"uv": [0, 0, 10, 13], "texture": "#0"},
+				"south": {"uv": [0, 0, 10, 13], "texture": "#0"},
+				"west": {"uv": [0, 0, 10, 13], "texture": "#0"},
+				"up": {"uv": [0, 0, 10, 13], "texture": "#0"},
+				"down": {"uv": [0, 0, 10, 13], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "greenscreen",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0]
+		}
+	]
+}

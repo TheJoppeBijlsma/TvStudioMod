@@ -1,89 +1,197 @@
 {
   "multipart": [
     {
-      "when": {
-        "up": "true"
-      },
       "apply": {
-        "model": "tvstudio:block/blue_screen_wall_post"
+        "model": "tvstudio:screen/blue_screen_post"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false"
       }
     },
     {
-      "when": {
-        "north": "low"
-      },
       "apply": {
-        "model": "tvstudio:block/blue_screen_wall_side",
-        "uvlock": true
+        "model": "tvstudio:screen/blue_screen_end"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "west": "false"
       }
     },
     {
-      "when": {
-        "east": "low"
-      },
       "apply": {
-        "model": "tvstudio:block/blue_screen_wall_side",
-        "y": 90,
-        "uvlock": true
+        "model": "tvstudio:screen/blue_screen_end",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "west": "false"
       }
     },
     {
-      "when": {
-        "south": "low"
-      },
       "apply": {
-        "model": "tvstudio:block/blue_screen_wall_side",
-        "y": 180,
-        "uvlock": true
+        "model": "tvstudio:screen/blue_screen_end",
+        "y": 180
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "west": "false"
       }
     },
     {
-      "when": {
-        "west": "low"
-      },
       "apply": {
-        "model": "tvstudio:block/blue_screen_wall_side",
-        "y": 270,
-        "uvlock": true
+        "model": "tvstudio:screen/blue_screen_end",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "tvstudio:screen/blue_screen_straight",
+        "y": 90
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "west": "false"
       }
     },
     {
-      "when": {
-        "north": "tall"
-      },
       "apply": {
-        "model": "tvstudio:block/blue_screen_wall_side_tall",
-        "uvlock": true
+        "model": "tvstudio:screen/blue_screen_straight"
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "tvstudio:screen/blue_screen_corner",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "west": "false"
       }
     },
     {
-      "when": {
-        "east": "tall"
-      },
       "apply": {
-        "model": "tvstudio:block/blue_screen_wall_side_tall",
-        "y": 90,
-        "uvlock": true
+        "model": "tvstudio:screen/blue_screen_corner",
+        "y": 180
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "west": "true"
       }
     },
     {
-      "when": {
-        "south": "tall"
-      },
       "apply": {
-        "model": "tvstudio:block/blue_screen_wall_side_tall",
-        "y": 180,
-        "uvlock": true
+        "model": "tvstudio:screen/blue_screen_corner",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "west": "true"
       }
     },
     {
-      "when": {
-        "west": "tall"
-      },
       "apply": {
-        "model": "tvstudio:block/blue_screen_wall_side_tall",
-        "y": 270,
-        "uvlock": true
+        "model": "tvstudio:screen/blue_screen_corner"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "tvstudio:screen/blue_screen_t_corner",
+        "y": 180
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:screen/blue_screen_t_corner",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:screen/blue_screen_t_corner"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "tvstudio:screen/blue_screen_t_corner",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "west": "false"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "tvstudio:screen/blue_screen_x_corner"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "west": "true"
       }
     }
   ]

@@ -66,18 +66,14 @@ public class DirectorChair extends PaintableBlock {
 	    
 	    static {
 	        FACING = HorizontalFacingBlock.FACING;
-	        CHAIR_NORTH = VoxelShapes.union(Block.createCuboidShape(0, 15, 1.5, 1, 15.5, 12.5),
-	        		Block.createCuboidShape(15, 15, 1.5, 16, 15.5, 12.5),
-	        		Block.createCuboidShape(15, 18.25, 3, 16, 19.5, 11.25),
-	        		Block.createCuboidShape(0, 18.25, 3, 1, 19.5, 11.25),
-	        		Block.createCuboidShape(15, 15.5, 11.25, 16, 26.5, 12.5),
-	        		Block.createCuboidShape(14.75, 19.5, 11, 16.25, 25.5, 12.75),
-	        		Block.createCuboidShape(-0.25, 19.5, 11, 1.25, 25.5, 12.75),
-	        		Block.createCuboidShape(1.25, 19.5, 11.75, 14.75, 25.5, 12.25),
-	        		Block.createCuboidShape(0, 15.5, 11.25, 1, 26.5, 12.5),
-	        		Block.createCuboidShape(0.25, 15.5, 3.5, 0.75, 18.25, 5.5),
-	        		Block.createCuboidShape(15.25, 15.5, 3.5, 15.75, 18.25, 5.5),
-	        		Block.createCuboidShape(0, 0, 1.5, 16, 15, 12.5));
+	        CHAIR_NORTH = VoxelShapes.union(Block.createCuboidShape(3.75, 0, 5, 16.25, 10.625, 15),
+					Block.createCuboidShape(2.5, 11.875, 1.875, 8.75, 6.5625, 7.5),
+					Block.createCuboidShape(2.5, 10.625, 5, 8.75, 5.9375, 7.5),
+					Block.createCuboidShape(2.5, 13.125, 1.875, 1.875, 8.4375, 7.5),
+					Block.createCuboidShape(16.25, 13.125, 1.875, 8.75, 8.4375, 7.5),
+					Block.createCuboidShape(3.75, 18.125, 6.875, 8.125, 12.1875, 7.5),
+					Block.createCuboidShape(16.25, 16.875, 6.875, 8.75, 12.8125, 7.5),
+					Block.createCuboidShape(2.5, 16.875, 6.875, 1.875, 12.8125, 7.5));
 	        CHAIR_SOUTH = VoxelShapes.union(Block.createCuboidShape(15, 15, 3.5, 16, 15.5, 14.5),
 	        		Block.createCuboidShape(0, 15, 3.5, 1, 15.5, 14.5),
 	        		Block.createCuboidShape(0, 18.25, 4.75, 1, 19.5, 13),

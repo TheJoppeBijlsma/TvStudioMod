@@ -5,310 +5,500 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6594f77d-c7f8-4293-a7d4-0caed5d13c1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-05_15.37.54-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-06_13.16.32-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-06_13.18.02-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-05-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-05-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-06-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-07-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/157dadc9-e980-331f-9b9a-60b0f155ef62.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/16deb2db-fd20-3caa-97b8-af2729ef2158.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/17b67947-156d-3518-9500-f7e04df5e64d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/1c38adbd-952c-3cbe-9338-7d9a41f64a2f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/2dd1d9e7-57ae-36c4-8b90-c235b1bdb90f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/355b2127-0f2e-3f20-b6c2-8997b4abcafb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/4a5060c2-513d-3571-8c5d-062b588e69ca.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/68d62d0c-b648-358d-9849-8d64b49bd6dc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6a12f6e4-e9d6-38e2-bb44-10484bb75cf2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6ac40561-f0e1-3533-ae6f-ce769a09b7f1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6ae8fe40-3ccb-3755-8fd2-c5445728b386.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6d917d12-8c99-3a68-96a3-2ce5d15924c0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/6f3f457a-8ce3-3a45-8767-61c2dfd0e70f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/777409db-46bf-31bf-844f-6d600c083d6c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/7d246c97-157b-31d3-a8fc-0b0f5f437b63.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/8c6477df-589c-387e-8235-e07170c95726.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/92939c63-a7e1-358c-986e-33e314619bde.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/9e4b41fd-b698-3086-96f0-585499a2673a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/a5b59a7c-81e3-3a21-8ced-54dbec246e12.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/b89d12f3-1740-34c6-919e-a2949a3e81fe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/c1b94a42-98fc-3354-947f-44f786fd56fa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/c97b21a8-25e6-37ce-8a04-8d5bcf6f4c4d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/d1a76729-1ccb-3de3-b2b3-c7efa54f7c6f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/d31b2f98-898c-3f1b-b785-db56ff276dc2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/dbac8158-8d79-3f57-906a-4939f5c379cd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/edb8d6a3-e33d-3ebb-8b42-fbfd789b2d20.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/eed40018-eacf-3358-87a4-2d80ad7eb0d1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/fe4bc08c-19e6-3b63-ba18-653e7a90e84a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/ffa08e0b-3fc0-345a-85a2-3e167f6ec55b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.39.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.40.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-2.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-2.39.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-2.40.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.1.36.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.2.36.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/157dadc9-e980-331f-9b9a-60b0f155ef62.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/157dadc9-e980-331f-9b9a-60b0f155ef62.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/16deb2db-fd20-3caa-97b8-af2729ef2158.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/16deb2db-fd20-3caa-97b8-af2729ef2158.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/17b67947-156d-3518-9500-f7e04df5e64d.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/17b67947-156d-3518-9500-f7e04df5e64d.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/1c38adbd-952c-3cbe-9338-7d9a41f64a2f.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/1c38adbd-952c-3cbe-9338-7d9a41f64a2f.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/27fc360e-fa24-3dff-9bfe-79a065a3b88e.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/2dd1d9e7-57ae-36c4-8b90-c235b1bdb90f.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/2dd1d9e7-57ae-36c4-8b90-c235b1bdb90f.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/355b2127-0f2e-3f20-b6c2-8997b4abcafb.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/355b2127-0f2e-3f20-b6c2-8997b4abcafb.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/68d62d0c-b648-358d-9849-8d64b49bd6dc.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/68d62d0c-b648-358d-9849-8d64b49bd6dc.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6a12f6e4-e9d6-38e2-bb44-10484bb75cf2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6a12f6e4-e9d6-38e2-bb44-10484bb75cf2.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6ac40561-f0e1-3533-ae6f-ce769a09b7f1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6ac40561-f0e1-3533-ae6f-ce769a09b7f1.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6ae8fe40-3ccb-3755-8fd2-c5445728b386.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6ae8fe40-3ccb-3755-8fd2-c5445728b386.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6d917d12-8c99-3a68-96a3-2ce5d15924c0.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6d917d12-8c99-3a68-96a3-2ce5d15924c0.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6f3f457a-8ce3-3a45-8767-61c2dfd0e70f.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/6f3f457a-8ce3-3a45-8767-61c2dfd0e70f.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/777409db-46bf-31bf-844f-6d600c083d6c.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/777409db-46bf-31bf-844f-6d600c083d6c.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/7d246c97-157b-31d3-a8fc-0b0f5f437b63.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/7d246c97-157b-31d3-a8fc-0b0f5f437b63.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/8c6477df-589c-387e-8235-e07170c95726.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/8c6477df-589c-387e-8235-e07170c95726.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/92939c63-a7e1-358c-986e-33e314619bde.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/92939c63-a7e1-358c-986e-33e314619bde.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/9e4b41fd-b698-3086-96f0-585499a2673a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/9e4b41fd-b698-3086-96f0-585499a2673a.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a5b59a7c-81e3-3a21-8ced-54dbec246e12.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/a5b59a7c-81e3-3a21-8ced-54dbec246e12.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/b89d12f3-1740-34c6-919e-a2949a3e81fe.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/b89d12f3-1740-34c6-919e-a2949a3e81fe.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c1b94a42-98fc-3354-947f-44f786fd56fa.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c1b94a42-98fc-3354-947f-44f786fd56fa.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c97b21a8-25e6-37ce-8a04-8d5bcf6f4c4d.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/c97b21a8-25e6-37ce-8a04-8d5bcf6f4c4d.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d1a76729-1ccb-3de3-b2b3-c7efa54f7c6f.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d1a76729-1ccb-3de3-b2b3-c7efa54f7c6f.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d31b2f98-898c-3f1b-b785-db56ff276dc2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/d31b2f98-898c-3f1b-b785-db56ff276dc2.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/dbac8158-8d79-3f57-906a-4939f5c379cd.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/dbac8158-8d79-3f57-906a-4939f5c379cd.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/edb8d6a3-e33d-3ebb-8b42-fbfd789b2d20.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/edb8d6a3-e33d-3ebb-8b42-fbfd789b2d20.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/eed40018-eacf-3358-87a4-2d80ad7eb0d1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/eed40018-eacf-3358-87a4-2d80ad7eb0d1.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/fe4bc08c-19e6-3b63-ba18-653e7a90e84a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/ffa08e0b-3fc0-345a-85a2-3e167f6ec55b.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/ffa08e0b-3fc0-345a-85a2-3e167f6ec55b.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-2.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.1.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.1.36.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.39.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.40.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.39.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-2.40.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.35.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.36.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.1.37.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.2.35.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.2.36.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.2.37.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/157dadc9-e980-331f-9b9a-60b0f155ef62.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/16deb2db-fd20-3caa-97b8-af2729ef2158.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/17b67947-156d-3518-9500-f7e04df5e64d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/1c38adbd-952c-3cbe-9338-7d9a41f64a2f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/2dd1d9e7-57ae-36c4-8b90-c235b1bdb90f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/355b2127-0f2e-3f20-b6c2-8997b4abcafb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/4a5060c2-513d-3571-8c5d-062b588e69ca.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/68d62d0c-b648-358d-9849-8d64b49bd6dc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6a12f6e4-e9d6-38e2-bb44-10484bb75cf2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6ac40561-f0e1-3533-ae6f-ce769a09b7f1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6ae8fe40-3ccb-3755-8fd2-c5445728b386.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6d917d12-8c99-3a68-96a3-2ce5d15924c0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/6f3f457a-8ce3-3a45-8767-61c2dfd0e70f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/777409db-46bf-31bf-844f-6d600c083d6c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/7d246c97-157b-31d3-a8fc-0b0f5f437b63.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/8c6477df-589c-387e-8235-e07170c95726.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/92939c63-a7e1-358c-986e-33e314619bde.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/9e4b41fd-b698-3086-96f0-585499a2673a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/a3e9b8a3-e2e8-36c0-9ede-9b37b0300850.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/a5b59a7c-81e3-3a21-8ced-54dbec246e12.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/b89d12f3-1740-34c6-919e-a2949a3e81fe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/c1b94a42-98fc-3354-947f-44f786fd56fa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/c97b21a8-25e6-37ce-8a04-8d5bcf6f4c4d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/d1a76729-1ccb-3de3-b2b3-c7efa54f7c6f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/d31b2f98-898c-3f1b-b785-db56ff276dc2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/dbac8158-8d79-3f57-906a-4939f5c379cd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/edb8d6a3-e33d-3ebb-8b42-fbfd789b2d20.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/eed40018-eacf-3358-87a4-2d80ad7eb0d1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/fe4bc08c-19e6-3b63-ba18-653e7a90e84a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/ffa08e0b-3fc0-345a-85a2-3e167f6ec55b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/a5b59a7c-81e3-3a21-8ced-54dbec246e12.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/data/random_sequences.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-1.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-1.2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1972.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1973.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1974.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1972.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1973.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1974.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1972.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1973.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1974.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-6.11.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-6.12.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-6.1964.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-6.1965.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-7.11.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-7.12.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-7.1965.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.0.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.0.2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/a5b59a7c-81e3-3a21-8ced-54dbec246e12.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/a5b59a7c-81e3-3a21-8ced-54dbec246e12.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-15.1973.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1972.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1973.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1974.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-17.1972.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-17.1973.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-6.11.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-6.12.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-6.1965.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-7.12.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1972.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1973.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1974.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1972.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1973.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1974.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1972.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1973.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1974.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.11.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.12.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.13.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.1964.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.1965.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-5.1966.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.11.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.12.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.13.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.1964.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.1965.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-6.1966.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.11.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.12.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.13.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.1964.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.1965.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-7.1966.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.1.1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.1.2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/a5b59a7c-81e3-3a21-8ced-54dbec246e12.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.31.38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.31.46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.31.50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.31.54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-07_12.32.54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/PaintableConnectingBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioPillar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/studio_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/base.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/east.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/east_south.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/east_south_west.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/east_west.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/four_sides.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_east.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_east_south.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_east_south_west.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_east_west.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_south_west.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_west.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/south.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/south_west.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/three_sides.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/two_sides_corner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/west.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/studio_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/base_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/four_sides.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/four_sides_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/one_side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/one_side_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/three_sides.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/three_sides_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides_corner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides_corner_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks/studio_pillar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes/studio_pillar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-12_15.03.40-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-08-21_16.31.53-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-08-21_16.32.03-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-08-21_16.32.17-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/hs_err_pid12022.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-09-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-09-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-12-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-12-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-12-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-12-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-07-12-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-08-21-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-08-21-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-08-21-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-08-21-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-08-21-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-08-21-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2023-08-21-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/resourcepacks/Bare+Bones+1.20.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/08e49200-0644-3742-931a-94fcbb560d07.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/13e3d50f-de22-3147-8516-e5bdfb7eb52c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/18b3a035-3e67-34ed-889e-932160306e4f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/200cfba7-fcb9-3815-8a48-1783dd9d1668.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/3db42575-2d30-381e-b767-ea78178345ae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/53335878-3f56-39c8-893b-77b74c9ca2e1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/56a259bf-cc44-38c1-8061-dd05953c60e0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/6c583257-c0f3-36ee-8f7b-120dd0b255f7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/857939d7-cfd3-33df-b811-954d0fb8ea8e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/advancements/fb4c6c18-26a1-3d95-a13f-9a47871171a2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-18.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-18.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-26.1984.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-26.1985.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-27.1984.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-27.1985.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-28.1984.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-28.1985.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/08e49200-0644-3742-931a-94fcbb560d07.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/08e49200-0644-3742-931a-94fcbb560d07.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/13e3d50f-de22-3147-8516-e5bdfb7eb52c.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/13e3d50f-de22-3147-8516-e5bdfb7eb52c.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/18b3a035-3e67-34ed-889e-932160306e4f.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/18b3a035-3e67-34ed-889e-932160306e4f.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/200cfba7-fcb9-3815-8a48-1783dd9d1668.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/200cfba7-fcb9-3815-8a48-1783dd9d1668.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/3db42575-2d30-381e-b767-ea78178345ae.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/3db42575-2d30-381e-b767-ea78178345ae.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/53335878-3f56-39c8-893b-77b74c9ca2e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/53335878-3f56-39c8-893b-77b74c9ca2e1.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/56a259bf-cc44-38c1-8061-dd05953c60e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/56a259bf-cc44-38c1-8061-dd05953c60e0.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/6c583257-c0f3-36ee-8f7b-120dd0b255f7.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/857939d7-cfd3-33df-b811-954d0fb8ea8e.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/857939d7-cfd3-33df-b811-954d0fb8ea8e.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/fb4c6c18-26a1-3d95-a13f-9a47871171a2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/playerdata/fb4c6c18-26a1-3d95-a13f-9a47871171a2.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-1.2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-14.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-14.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-15.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-15.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-15.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-15.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-17.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-17.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-18.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-18.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-26.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-26.1984.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-26.1985.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-27.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-27.1984.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-27.1985.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-28.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-28.1984.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-28.1985.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.0.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.0.2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-10.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-11.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-12.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-13.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-14.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-18.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-19.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-20.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-21.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-22.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-23.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-24.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-25.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1984.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-26.1985.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1964.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1984.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-27.1985.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-28.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-28.1984.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-28.1985.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-8.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1965.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1966.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1967.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1968.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1969.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1970.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1971.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1972.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1973.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1974.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1975.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1976.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1977.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1978.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1979.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1980.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1981.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1982.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-9.1983.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/08e49200-0644-3742-931a-94fcbb560d07.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/13e3d50f-de22-3147-8516-e5bdfb7eb52c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/18b3a035-3e67-34ed-889e-932160306e4f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/200cfba7-fcb9-3815-8a48-1783dd9d1668.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/3db42575-2d30-381e-b767-ea78178345ae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/53335878-3f56-39c8-893b-77b74c9ca2e1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/56a259bf-cc44-38c1-8061-dd05953c60e0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/6c583257-c0f3-36ee-8f7b-120dd0b255f7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/857939d7-cfd3-33df-b811-954d0fb8ea8e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (3)/stats/fb4c6c18-26a1-3d95-a13f-9a47871171a2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-01-08_01.23.44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/screenshots/2023-07-12_15.14.19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/ScreenWallBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/blue_screen_corner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/blue_screen_end.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/blue_screen_post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/blue_screen_straight.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/blue_screen_t_corner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/blue_screen_x_corner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/green_screen_corner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/green_screen_end.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/green_screen_post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/green_screen_straight.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/green_screen_t_corner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/green_screen_x_corner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/screen_corner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/screen_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/screen_pole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/item/screen_item_texture.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
@@ -319,25 +509,45 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/StudioLight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/DirectorChair.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/blocks/DirectorChair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/client/ColourTestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModBlockEntities.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModBlockEntities.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModBlocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/blockstates/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/blockstates/studio_bar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/studio_bar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/studio_bar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModItemGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/joppebijlsma/tvstudio/registries/ModItemGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/blockstates/blue_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/blockstates/blue_screen_wall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/blockstates/green_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/blockstates/green_screen_wall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/blue_screen_wall_post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/blue_screen_wall_side.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/blue_screen_wall_side_tall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/director_chair.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/director_chair.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/green_screen_wall_post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/green_screen_wall_side.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/block/green_screen_wall_side_tall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/blue_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/blue_screen_wall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/green_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/models/item/green_screen_wall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/base_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/four_sides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/four_sides_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/one_side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/one_side_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/three_sides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/three_sides_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/two_sides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/two_sides_corner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/two_sides_corner_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tvstudio/textures/block/two_sides_top.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-04_20.02.09-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2023-07-04_20.02.09-client.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-04-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-04-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-07-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-07-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-07-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-07-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-07-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-07-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-07-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-07-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-07-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-07-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-07-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2023-07-07-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2023-07-07-7.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -345,31 +555,68 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/data/random_sequences.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-1.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-1.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-1.2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1972.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1972.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1973.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1973.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1974.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-15.1974.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1972.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1972.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1973.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1973.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1974.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-16.1974.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1972.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1972.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1973.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1973.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1974.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.-17.1974.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.0.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.0.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/entities/r.0.2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1974.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/poi/r.-16.1974.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-1.2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1972.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1972.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1973.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1973.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1974.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-15.1974.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1972.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1972.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1973.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1973.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1974.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-16.1974.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1972.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1972.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1973.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1973.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1974.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.-17.1974.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (3)/region/r.0.2.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/StudioLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/DirectorChair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/blocks/DirectorChair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/client/ColourTestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/client/TvStudioClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlockEntities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/studio_bar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar/north_south.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/studio_bar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/studio_bar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModItemGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/registries/ModItemGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/blue_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/blue_screen_wall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/green_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates/green_screen_wall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_wall_post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_wall_side.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/blue_screen_wall_side_tall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/director_chair.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/director_chair.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_wall_post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_wall_side.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/block/green_screen_wall_side_tall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/blue_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/blue_screen_wall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/green_screen_wall.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item/green_screen_wall.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/base_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/four_sides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/four_sides_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/one_side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/one_side_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/three_sides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/three_sides_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides_corner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides_corner_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block/two_sides_top.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,29 +650,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/joppebijlsma/Documents/GitHub/TvStudioMod/src/main/resources/data/tvstudio/recipes",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/joppebijlsma/Documents/GitHub/TvStudioMod/src/main/resources/assets/tvstudio/blockstates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen/d" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/item" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/blockstates" />
-      <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/e" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/screen" />
+      <recent name="$PROJECT_DIR$/src/main/java/io/github/joppebijlsma/tvstudio/client/renderers" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/textures/block" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tvstudio/models/bar" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/recipes" />
-      <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio/loot_tables/blocks" />
-      <recent name="$PROJECT_DIR$/src/main/resources/data/tvstudio" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.github.joppebijlsma.tvstudio.blocks" />

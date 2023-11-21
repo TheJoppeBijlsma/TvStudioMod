@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Tv Studio",
-  "description": "The Tv Studio v1.14.0-SNAPSHOT-1 for Minecraft 1.20 contains: adds a new connection system for the studio bar.",
+  "description": "The Tv Studio v1.14.0-SNAPSHOT-2 for Minecraft 1.20 adds a new connection system for the screen walls and colouring system.",
   "authors": [
     "JoppeBijlsma"
   ],
@@ -18,7 +18,9 @@
   "environment": "*",
   "entrypoints": {
     "main": ["io.github.joppebijlsma.tvstudio.TvStudio"],
-    "client": ["io.github.joppebijlsma.tvstudio.client.ColourTestClient"]
+    "client": [
+      "io.github.joppebijlsma.tvstudio.client.TvStudioClient"
+    ]
   },
   "mixins": [
     "tvstudio.mixins.json"

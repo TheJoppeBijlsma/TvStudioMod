@@ -9,12 +9,17 @@ package io.github.joppebijlsma.tvstudio.registries;
 import io.github.joppebijlsma.tvstudio.TvStudio;
 import io.github.joppebijlsma.tvstudio.blocks.entity.PaintableBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.entity.EntityDimensions;
+import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
+import net.minecraft.entity.EntityType;
 
 public final class ModBlockEntities {
     public static final BlockEntityType<PaintableBlockEntity> PAINTABLE_BLOCK = register("paintable_block",
@@ -24,7 +29,10 @@ public final class ModBlockEntities {
         return Registry.register(Registries.BLOCK_ENTITY_TYPE, TvStudio.id(id), type);
     }
 
+
+
     public static void init() {
+
     }
 
     public static void sync(BlockEntity entity) {

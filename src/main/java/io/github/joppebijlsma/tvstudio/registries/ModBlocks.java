@@ -31,10 +31,6 @@ public class ModBlocks {
 		new Block(FabricBlockSettings.create().breakInstantly().sounds(BlockSoundGroup.STONE)), ModItemGroup.BLOCKS_GROUP);
 	public static final Block GREEN_SCREEN_BLOCK = registerBlock("green_screen_block",
 			new Block(FabricBlockSettings.create().breakInstantly().sounds(BlockSoundGroup.STONE)), ModItemGroup.BLOCKS_GROUP);
-	public static final Block BLUE_SCREEN_WALL = registerBlock("blue_screen_wall",
-			new WallBlock(FabricBlockSettings.create().breakInstantly().sounds(BlockSoundGroup.METAL)), ModItemGroup.BLOCKS_GROUP);
-	public static final Block GREEN_SCREEN_WALL = registerBlock("green_screen_wall",
-			new WallBlock(FabricBlockSettings.create().breakInstantly().sounds(BlockSoundGroup.METAL)), ModItemGroup.BLOCKS_GROUP);
 
 	//Coloured
 		public static final Block TV_CAMERA_ON_STAND = registerColouredBlock("tv_camera_on_stand", new TvCameraOnAStand(copy(Blocks.STONE)), PaintableItem::new);
@@ -42,8 +38,9 @@ public class ModBlocks {
 		public static final Block STUDIO_LIGHT = registerColouredBlock("studio_light", new StudioLight(copy(Blocks.STONE)), PaintableItem::new);
 		public static final Block STUDIO_BAR = registerColouredBlock("studio_bar", new StudioBar(copy(Blocks.STONE)), PaintableItem::new);
 		public static final Block STUDIO_PILLAR = registerColouredBlock("studio_pillar", new StudioPillar(copy(Blocks.STONE)), PaintableItem::new);
-
-	public static final Block DIRECTOR_CHAIR = registerColouredBlock("director_chair", new DirectorChair(copy(Blocks.STONE)), PaintableItem::new);
+		public static final Block DIRECTOR_CHAIR = registerColouredBlock("director_chair", new DirectorChair(copy(Blocks.STONE)), PaintableItem::new);
+		public static final Block BLUE_SCREEN_WALL = registerColouredBlock("blue_screen_wall", new ScreenWallBlock(copy(Blocks.STONE)), PaintableItem::new);
+		public static final Block GREEN_SCREEN_WALL = registerColouredBlock("green_screen_wall", new ScreenWallBlock(copy(Blocks.STONE)), PaintableItem::new);
 
 	//Non-Coloured
 		public static final Block TV_CAMERA = registerBlock("tv_camera",
@@ -376,7 +373,9 @@ public class ModBlocks {
 			TV_CAMERA_ON_STAND,
 			STUDIO_LIGHT,
 			STUDIO_BAR,
-			STUDIO_PILLAR
+			STUDIO_PILLAR,
+			BLUE_SCREEN_WALL,
+			GREEN_SCREEN_WALL
 	);
 
 	private static Block registerColouredBlock(String id, Block block, BiFunction<Block, Item.Settings, Item> item) {
